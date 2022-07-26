@@ -1,0 +1,47 @@
+{
+  "name": "marcacao",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production nodemon server.js"
+  },
+  "dependencies": {
+    "@chakra-ui/icons": "^2.0.0",
+    "@chakra-ui/react": "^1.8.8",
+    "@emotion/react": "11",
+    "@emotion/styled": "11",
+    "axios": "^0.27.2",
+    "connect-timeout": "^1.9.0",
+    "copy-to-clipboard": "^3.3.1",
+    "emailjs-com": "^3.2.0",
+    "firebase": "^9.8.1",
+    "framer-motion": "6",
+    "ismobilejs": "^1.1.1",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.3",
+    "mongoose": "^6.3.3",
+    "next": "12.1.6",
+    "nodemon": "^2.0.18",
+    "react": "17.0.1",
+    "react-alice-carousel": "^2.6.4",
+    "react-dom": "17.0.1",
+    "react-icons": "^4.3.1",
+    "react-input-mask": "^3.0.0-alpha.2",
+    "react-native-flash-message": "^0.2.1",
+    "react-router-dom": "^6.3.0",
+    "react-share": "^4.4.0",
+    "react-slick": "^0.29.0",
+    "react-slideshow-image": "^3.7.5",
+    "redux": "^4.2.0",
+    "serverless-mysql": "^1.5.4",
+    "slick-carousel": "^1.8.1",
+    "sweetalert2": "^11.4.16"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.41",
+    "eslint": "8.15.0",
+    "eslint-config-next": "12.1.6"
+  }
+}

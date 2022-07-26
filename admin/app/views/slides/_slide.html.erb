@@ -1,0 +1,19 @@
+<div id="<%= dom_id slide %>">
+  <p>
+    <strong>Titulo:</strong>
+    <%= slide.titulo %>
+  </p>
+
+  <p>
+    <strong>Descricao:</strong>
+    <%= slide.descricao %>
+  </p>
+
+  <% if slide.url_slide.attached? %>
+    <p>
+      <strong>Imagem:</strong>
+      <%= image_tag(slide.url_slide, style: 'height:auto; width:80%;') %>
+    </p>
+  <% end %>
+
+</div>
