@@ -1,16 +1,17 @@
 import { Flex } from '@chakra-ui/react'
 import React from 'react'
 import { useState } from 'react'
+import FooterSmall from './footer'
 import MainMenu from './menu'
+import NavBar from './navbar'
 import Rodape from './rodape'
 
 function Layout({empresa, children}) {
-  console.log(empresa)
   return (
     <Flex bg={'#ffffff'} direction={'column'} minHeight={'100vh'}>
-        <MainMenu />
+        <NavBar />
         {children}
-        <Rodape empresa={empresa} />
+        <FooterSmall empresa={empresa} />
     </Flex>
   )
 }

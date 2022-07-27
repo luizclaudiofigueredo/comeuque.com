@@ -5,21 +5,19 @@ import {NAVITEMS} from '../lib/constant'
 
 function Rodape({empresa}) {
 
-  console.log(empresa)
-
   const linkColor = useColorModeValue('whiteAlpha.600', 'gray.600')
   const linkHoverColor = useColorModeValue('#FF7A08', 'white')
   
   return (
     <>
-    <Flex justify={'center'} direction={['column','column','column','row']} h={[250, 250, 250, 300, 300]} mt={28} bg={'#825221'}>
-
-      <Flex direction={'column'} justify={'center'}>>
-        <Image src='images/logosite-final.png' h={'90px'} alt="Logo" px={12} />
-      </Flex>
+    <Flex justify={'center'} direction={['column','column','column','row']} h={[350, 350, 350, 300, 300]} mt={28} bg={'#825221'}>
 
       <Flex direction={'column'} justify={'center'}>
-        <Flex mt={6} direction={'row'} w={300}>
+        <Image src='images/logosite-final.png' h={['120px','120px', '120px', '90px']} alt="Logo" px={12} />
+      </Flex>
+
+      <Flex direction={'column'} justify={'center'} px={[10,10,10,0,0]}>
+        <Flex mt={6} direction={'row'} w={[150,150,150,300,300]}>
           <Flex mr={2} mt={1}>
             <FaMapPin color={'#FF7A08'}  />
           </Flex>
@@ -28,13 +26,14 @@ function Rodape({empresa}) {
             <Text color={'whiteAlpha.600'}>{empresa.endereco}</Text>
           </Flex>
         </Flex>
-        <Flex mt={3} direction={'row'} w={300}>
+        <Flex mt={3} direction={'row'} w={[150,150,150,300,300]}>
           <Flex mr={2} mt={1}>
             <FaPhone color={'#FF7A08'} />
           </Flex>
           <Link href={`https://wa.me/55${empresa.telefone.replace(/[^\d.]/g, '')}?text=Ol%C3%A1%2C%20voc%C3%AAs%20podem%20me%20ajudar%3F`}><Text color={'whiteAlpha.800'} fontWeight={'500'}>{empresa.telefone}</Text></Link>
        </Flex>     
-      </Flex>       
+      </Flex>
+            
     </Flex>
 
     <Flex flexFlow={'wrap-reverse'} justify={'center'} h={30} pb={5} bg={'#825221'}>

@@ -1,77 +1,102 @@
+import { Box, Flex, Text, useForceUpdate } from "@chakra-ui/react";
 import React, { Component } from "react";
 import Slider from "react-slick";
+import ProductAddToCart from "./produtos";
+import { TituloWrapper } from "./titulo_wrapper";
+
+const data = [
+{
+  id: 1,
+  isNew: true,
+  imageURL:
+    'https://img.buzzfeed.com/thumbnailer-prod-us-east-1/video-api/assets/216054.jpg',
+  name: 'Quatro Queijos',
+  price: 28.0,
+  rating: 4.2,
+  numReviews: 18,
+},
+{
+  id: 2,
+  isNew: true,
+  imageURL:
+    'https://img.buzzfeed.com/thumbnailer-prod-us-east-1/video-api/assets/216054.jpg',
+  name: 'Calabresa',
+  price: 28.0,
+  rating: 4.2,
+  numReviews: 18,
+},
+{
+  id: 3,
+  isNew: true,
+  imageURL:
+    'https://img.buzzfeed.com/thumbnailer-prod-us-east-1/video-api/assets/216054.jpg',
+  name: 'Portuguesa',
+  price: 28.0,
+  rating: 4.2,
+  numReviews: 18,
+},
+{
+  id: 4,
+  isNew: true,
+  imageURL:
+    'https://img.buzzfeed.com/thumbnailer-prod-us-east-1/video-api/assets/216054.jpg',
+  name: 'Atum',
+  price: 36.0,
+  rating: 4.2,
+  numReviews: 18,
+},
+{
+  id: 5,
+  isNew: true,
+  imageURL:
+    'https://img.buzzfeed.com/thumbnailer-prod-us-east-1/video-api/assets/216054.jpg',
+  name: 'Cheddar',
+  price: 28.0,
+  rating: 4.2,
+  numReviews: 18,
+},
+{
+  id: 6,
+  isNew: true,
+  imageURL:
+    'https://img.buzzfeed.com/thumbnailer-prod-us-east-1/video-api/assets/216054.jpg',
+  name: 'Banana com Canela',
+  price: 28.0,
+  rating: 4.2,
+  numReviews: 18,
+},
+];
+
 
 export default class Galeria extends Component {
   render() {
-    var settings = {
-        dots: true,
+       const width = this.props.width;
+       var settings = {
+        dots: false,
         infinite: true,
-        slidesToShow: 5,
+        slidesToShow: Math.floor(width/300),
         slidesToScroll: 1,
-        autoplay: true,
-        speed: 3000,
+        //autoplay: true,
+        //speed: 2000,
         autoplaySpeed: 3000,
         cssEase: "linear",
-        responsive: [
-          {
-            breakpoint: 1024,
-            settings: {
-              slidesToShow: 3,
-              slidesToScroll: 3,
-              infinite: true,
-              dots: true
-            }
-          },
-          {
-            breakpoint: 600,
-            settings: {
-              slidesToShow: 2,
-              slidesToScroll: 2,
-              initialSlide: 2
-            }
-          },
-          {
-            breakpoint: 480,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1
-            }
-          }
-        ]
       };
+
     return (
+      <>
+      <Flex w={'full'} justify={'center'} align={'center'} alignItems={'center'} h={40}> 
+        <Text fontSize={36} color={'#ff0000'}>Destaques</Text>
+      </Flex>
       <div>
-        <h2> Cardápio </h2>
         <Slider {...settings}>
-          <div className="card">
-            <h3>1</h3>
-          </div>
-          <div>
-            <h3>2</h3>
-          </div>
-          <div>
-            <h3>3</h3>
-          </div>
-          <div>
-            <h3>4</h3>
-          </div>
-          <div>
-            <h3>5</h3>
-          </div>
-          <div>
-            <h3>6</h3>
-          </div>
-          <div>
-            <h3>7</h3>
-          </div>
-          <div>
-            <h3>8</h3>
-          </div>
-          <div>
-            <h3>9</h3>
-          </div>
+          { data.map((d) => (
+            <Flex key={d.id}>
+              <ProductAddToCart {...d}/>
+            </Flex>
+          ))}
         </Slider>
       </div>
+      </>
     );
   }
 }

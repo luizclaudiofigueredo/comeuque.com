@@ -247,14 +247,14 @@ import { useAuth } from '../contexts/AuthContext';
     },
     {
       label: 'Nossa História',
-      href: '/about',
+      href: '/',
     },
     {
       label: 'Cardápio',
-      href: '/cardapio',
+      href: '/',
     },        
     {
       label: 'Contato',
-      href: '/contato',
+      href: '/',
     },
   ];

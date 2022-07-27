@@ -12,8 +12,6 @@ function MyApp({ Component, pageProps }) {
         <Head>
         <title>Comê Uque?</title>
         <link rel="icon" type="image/x-icon" href="/icons/favicon.ico" />
-        <meta charset="utf-8" />
-        <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1" />
         <link rel="canonical" href="https://www.comeuque.com.br/" />
         <meta name="title" content="comeuque.com.br - Pizzaria e Restaurante" />
         <meta name="description" content="comeuque.com.br - Pizzaria e Restaurante" />

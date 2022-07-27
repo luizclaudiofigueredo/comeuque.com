@@ -1,46 +1,57 @@
 import Layout from '../components/layout'
-import { Flex } from '@chakra-ui/react'
+import { Flex, Grid, GridItem, Text, useForceUpdate } from '@chakra-ui/react'
 import Herosection from "./herosection"
 import { getData } from '../config/fetchData'
 import { getDados } from '../config/fetchDados'
 import { useEffect, useState } from 'react'
 import Galeria from '../components/galeria'
+import useWindowDimensions from '../components/useWindowDimensions';
 
 export default function Home(props) { 
-  const [ videos, setBlog ] = useState(props.videos)
-  
+
   const [ slide, setSlide ] = useState(props.slides)
 
+  const { height, width } = useWindowDimensions();
+
   useEffect(() => {
-    setBlog(props.videos)
     setSlide(props.slides)
-  },[props.videos, props.slides, props.empresa])
-  
+  },[props.slides])
+
+  const ProdutosWrapper = () => {
+    return(
+    <Grid templateColumns='repeat(2, 1fr)' gap={6} mx={10}>
+      <GridItem w='100%' h='10' bg='blue.500' px={4} />
+      <GridItem w='100%' h='10' bg='blue.500' px={4} />
+      <GridItem w='100%' h='10' bg='blue.500' px={4} />
+      <GridItem w='100%' h='10' bg='blue.500' px={4} />
+      <GridItem w='100%' h='10' bg='blue.500' px={4} />
+    </Grid>
+    )    
+  }
   
   return (
     <Flex direction={'column'}>
       <Layout empresa={props.empresa}>
         <Herosection slides={slide}/>
-        <Flex direction='column' w={'full'} px={['10px', '10px', '10px' , '60px']} justifyContent={'space-between'}>
-          <Galeria />    
+        <Flex direction='column' w={'full'} px={['10px', '10px', '10px' , '20px']} justifyContent={'space-between'}>
+          <Galeria width={width} />
         </Flex>
+        <Flex w={'full'} justify={'center'} align={'center'} alignItems={'center'} h={40}> 
+          <Text fontSize={24} color={'gray.700'}>Cardápio</Text>
+        </Flex>        
+        <ProdutosWrapper />
       </Layout>
     </Flex>
   )
 }
 
-const YOUTUBE_PLAYLIST_ITEMS_API = `https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=${process.env.CHANNEL_ID}&maxResults=3&order=date&type=video&key=${process.env.YOUTUBE_API_KEY}`;
-
 export async function getServerSideProps() {
-    const res = await getData(`blogs?categoria=youtube`)
     const slides_res = await getDados(`slides`)
     const empresas = await getDados(`empresas/1`)
     return {
         props: {
-          videos: res.blogs,
           slides: slides_res,
-          empresa: empresas,
-          result: res.result
+          empresa: empresas
         },
     }
 }
