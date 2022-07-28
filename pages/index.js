@@ -1,15 +1,14 @@
 import Layout from '../components/layout'
-import { Flex, Grid, GridItem, Text, useForceUpdate } from '@chakra-ui/react'
-import Herosection from "./herosection"
-import { getData } from '../config/fetchData'
+import { Flex, Grid, GridItem, Text } from '@chakra-ui/react'
 import { getDados } from '../config/fetchDados'
 import { useEffect, useState } from 'react'
 import Galeria from '../components/galeria'
 import useWindowDimensions from '../components/useWindowDimensions';
+import Slideshow from "../components/Slideshow";
 
 export default function Home(props) { 
 
-  const [ slide, setSlide ] = useState(props.slides)
+  const [ slides, setSlide ] = useState(props.slides)
 
   const { height, width } = useWindowDimensions();
 
@@ -32,14 +31,13 @@ export default function Home(props) {
   return (
     <Flex direction={'column'}>
       <Layout empresa={props.empresa}>
-        <Herosection slides={slide}/>
+        <Slideshow images={ slides }/>
         <Flex direction='column' w={'full'} px={['10px', '10px', '10px' , '20px']} justifyContent={'space-between'}>
           <Galeria width={width} />
         </Flex>
         <Flex w={'full'} justify={'center'} align={'center'} alignItems={'center'} h={40}> 
           <Text fontSize={24} color={'gray.700'}>Cardápio</Text>
         </Flex>        
-        <ProdutosWrapper />
       </Layout>
     </Flex>
   )

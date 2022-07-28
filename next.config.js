@@ -1,7 +1,7 @@
 module.exports = {
   env: {
       "BASE_URL": "https://www.projetovidamendes.com",
-      "MYSQL_URL": "http://localhost:3005",
+      "MYSQL_URL": "http://comeuque.kallario.com.br",
       "LOCAL_URL": "http://localhost:3000",
       "MONGODB_URL": "mongodb+srv://projetovidamendes:pvmendes1705@cluster0.m0mxv.mongodb.net/pvmendes?retryWrites=true&w=majority",
       "ACCESS_TOKEN_SECRET": "YOUR_ACCESS_TOKEN_SECRET",

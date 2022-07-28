@@ -1,9 +1,10 @@
 Rails.application.routes.draw do
+  root 'welcome#index'
   scope :api, defaults: { format: :json } do
     devise_for :usuarios, controllers: { sessions: :sessions },
     path_names: { sign_in: :login }
 
-    resource :usuario, only: [:show, :update]
+    resources :usuario, only: [:show, :update]
   end
   #devise_for :usuarios
   resources :produtos

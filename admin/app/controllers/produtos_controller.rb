@@ -1,6 +1,5 @@
 class ProdutosController < ApplicationController
   before_action :set_produto, only: %i[ show edit update destroy ]
-  skip_before_action :verify_authenticity_token
 
   # GET /produtos or /produtos.json
   def index
@@ -66,6 +65,6 @@ class ProdutosController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def produto_params
-      params.require(:produto).permit(:titulo, :descricao, :preco, :grupo_id, :ativo, :imagem)
+      params.require(:produto).permit(:nome, :preco, :destaque)
     end
 end

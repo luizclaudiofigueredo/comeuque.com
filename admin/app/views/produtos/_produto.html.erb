@@ -1,12 +1,7 @@
 <div id="<%= dom_id produto %>">
   <p>
-    <strong>Titulo:</strong>
-    <%= produto.titulo %>
-  </p>
-
-  <p>
-    <strong>Descricao:</strong>
-    <%= produto.descricao %>
+    <strong>Nome:</strong>
+    <%= produto.nome %>
   </p>
 
   <p>
@@ -15,20 +10,8 @@
   </p>
 
   <p>
-    <strong>Grupo:</strong>
-    <%= produto.grupo.descricao %>
-  </p>
-
-  <% if produto.imagem.attached? %>
-    <p>
-      <strong>Imagem:</strong>
-      <%= image_tag(produto.imagem, style: 'height:auto; width:300px;') %>
-    </p>
-  <% end %>
-
-  <p>
-    <strong>Ativo:</strong>
-    <%= produto.ativo %>
+    <strong>Destaque:</strong>
+    <%= produto.destaque %>
   </p>
 
 </div>

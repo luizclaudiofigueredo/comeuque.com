@@ -12,13 +12,8 @@
   <% end %>
 
   <div>
-    <%= form.label :titulo, style: "display: block" %>
-    <%= form.text_field :titulo %>
-  </div>
-
-  <div>
-    <%= form.label :descricao, style: "display: block" %>
-    <%= form.text_area :descricao %>
+    <%= form.label :nome, style: "display: block" %>
+    <%= form.text_field :nome %>
   </div>
 
   <div>
@@ -27,18 +22,8 @@
   </div>
 
   <div>
-    <%= form.label :grupo_id, style: "display: block" %>
-    <%= form.text_field :grupo_id %>
-  </div>
-
-  <div>
-    <%= form.label :imagem, style: "display: block" %>
-    <%= form.file_field :imagem, multiple: false %>
-  </div>  
-
-  <div>
-    <%= form.label :ativo, style: "display: block" %>
-    <%= form.number_field :ativo %>
+    <%= form.label :destaque, style: "display: block" %>
+    <%= form.check_box :destaque %>
   </div>
 
   <div>

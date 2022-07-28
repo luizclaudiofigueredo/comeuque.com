@@ -26,7 +26,7 @@ const Slideshow = ({images}) => {
 		<div className="slide-container">
 			<Zoom scale={0.4}>
 			{
-				images.map((item, index) => <img key={index} style={{width: "100%"}} src={'http://localhost:3005' + item.my_url_slide} alt="{item.titulo}" />)
+				images.map((item, index) => <img key={index} style={{width: "100%"}} src={process.env.MYSQL_URL + item.my_url_slide} alt="{item.titulo}" />)
 			}
 			</Zoom>
 		</div>

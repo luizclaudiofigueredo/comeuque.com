@@ -1,9 +1,9 @@
 class Produto < ApplicationRecord
-  belongs_to :grupo
 
-  has_one_attached :imagem
+  has_one_attached :imageURL
   
-  def imagem_produto
-    Rails.application.routes.url_helpers.rails_blob_path(imagem, only_path: true)
-  end  
+  def my_imageURL
+    Rails.application.routes.url_helpers.rails_blob_path(imageURL, only_path: true)
+  end
+
 end
