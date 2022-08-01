@@ -1,10 +1,12 @@
 import Layout from '../components/layout'
-import { Flex, Grid, GridItem, Text } from '@chakra-ui/react'
+import { Flex, Text } from '@chakra-ui/react'
 import { getDados } from '../config/fetchDados'
 import { useEffect, useState } from 'react'
 import Galeria from '../components/galeria'
 import useWindowDimensions from '../components/useWindowDimensions';
-import Slideshow from "../components/Slideshow";
+import Contato from '../components/form_contato'
+import Mapa from '../components/mapa'
+import Hero from '../components/hero'
 
 export default function Home(props) { 
 
@@ -16,28 +18,18 @@ export default function Home(props) {
     setSlide(props.slides)
   },[props.slides])
 
-  const ProdutosWrapper = () => {
-    return(
-    <Grid templateColumns='repeat(2, 1fr)' gap={6} mx={10}>
-      <GridItem w='100%' h='10' bg='blue.500' px={4} />
-      <GridItem w='100%' h='10' bg='blue.500' px={4} />
-      <GridItem w='100%' h='10' bg='blue.500' px={4} />
-      <GridItem w='100%' h='10' bg='blue.500' px={4} />
-      <GridItem w='100%' h='10' bg='blue.500' px={4} />
-    </Grid>
-    )    
-  }
-  
   return (
     <Flex direction={'column'}>
       <Layout empresa={props.empresa}>
-        <Slideshow images={ slides }/>
+        <Hero images={slides} />
         <Flex direction='column' w={'full'} px={['10px', '10px', '10px' , '20px']} justifyContent={'space-between'}>
           <Galeria width={width} />
         </Flex>
         <Flex w={'full'} justify={'center'} align={'center'} alignItems={'center'} h={40}> 
           <Text fontSize={24} color={'gray.700'}>Cardápio</Text>
-        </Flex>        
+        </Flex>
+        <Mapa />
+        <Contato empresa={props.empresa} />        
       </Layout>
     </Flex>
   )

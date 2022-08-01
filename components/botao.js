@@ -2,19 +2,29 @@ import { AddIcon } from '@chakra-ui/icons'
 import { Button, Icon, chakra } from '@chakra-ui/react'
 import { FiShoppingCart } from 'react-icons/fi';
 import React from 'react'
+import Modal from './modal';
+import { LIGHT_COLOR } from '../lib/constant';
 
-function Botao() {
+function Botao(props) {
   return (
     <Button
+        display={'flex'}
         variant={'solid'}
-        colorScheme={'red'}
+        bg={props.ColorBackground || 'red'}
+        color={'white'}
         size={'sm'}
         mr={4}
+        w={'full'}
+        h={props.height || 35}
+        py={props.paddingY || 0}
+        mt={props.marginTop || 0}
+        _hover={{bg: '#9d0008', color: 'white'}}
+        onClick={Modal('Modal', '<div>Hello World</div>', false, true)}
         >
-        <chakra.a href={'#'} display={'flex'}>
-            <Icon as={FiShoppingCart} h={5} w={5} mx={2} alignSelf={'center'} />
+        <chakra.a href={'#'} >
+            <Icon as={props.Icon ||FiShoppingCart} h={4} w={4} mx={2} alignSelf={'center'} />
         </chakra.a>            
-        Fazer Pedido
+        {props.title || "Fazer Pedido"}
     </Button>
   )
 }

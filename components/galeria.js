@@ -72,7 +72,7 @@ export default class Galeria extends Component {
   render() {
        const width = this.props.width;
        var settings = {
-        dots: false,
+        dots: true,
         infinite: true,
         slidesToShow: Math.floor(width/300),
         slidesToScroll: 1,
@@ -84,8 +84,8 @@ export default class Galeria extends Component {
 
     return (
       <>
-      <Flex w={'full'} justify={'center'} align={'center'} alignItems={'center'} h={40}> 
-        <Text fontSize={36} color={'#ff0000'}>Destaques</Text>
+      <Flex w={'full'} justify={'center'} align={'center'} alignItems={'center'} h={[20,20,20,40]}> 
+        <Text fontSize={24} color={'#825221'} fontWeight={'bold'}>Destaques</Text>
       </Flex>
       <div>
         <Slider {...settings}>

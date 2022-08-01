@@ -10,6 +10,7 @@ const Slideshow = ({images}) => {
 
 	//These are custom properties for zoom effect while slide-show
 	const zoomInProperties = {
+		dots: true,
 		indicators: true,
 		scale: 1.2,
 		duration: 5000,
@@ -26,7 +27,7 @@ const Slideshow = ({images}) => {
 		<div className="slide-container">
 			<Zoom scale={0.4}>
 			{
-				images.map((item, index) => <img key={index} style={{width: "100%"}} src={process.env.MYSQL_URL + item.my_url_slide} alt="{item.titulo}" />)
+				images.map((item, index) => <img key={index} style={{width: "100%", marginTop: '95px'}} src={process.env.MYSQL_URL + item.my_url_slide} alt="{item.titulo}" />)
 			}
 			</Zoom>
 		</div>

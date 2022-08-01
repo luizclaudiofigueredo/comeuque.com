@@ -2,20 +2,14 @@ import {
     Box,
     chakra,
     Container,
-    Image,
-    Link,
     Stack,
     Text,
     useColorModeValue,
     VisuallyHidden,
   } from '@chakra-ui/react';
-  import { FaInstagram, FaFacebook, FaYoutube } from 'react-icons/fa';
-    
-  const Logo = (props) => {
-    return (
-        <Image src='images/logosite-final.png' h={'90px'} alt="Logotipo" paddingTop={2}/>
-    );
-  };
+  import { FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
+  import { ReactNode } from 'react';
+import { PRIMARY_COLOR } from '../lib/constant';
   
   const SocialButton = ({
     children,
@@ -44,53 +38,22 @@ import {
     );
   };
   
-  export default function FooterSmall({empresa}) {
+  export default function SmallWithSocial() {
     return (
       <Box
-        bg={useColorModeValue('#825221', 'gray.900')}
-        color={useColorModeValue('white', 'gray.200')}>
+        bg={useColorModeValue(PRIMARY_COLOR, 'gray.900')}
+        color={useColorModeValue('#825221', 'gray.200')}>
         <Container
           as={Stack}
           maxW={'6xl'}
           py={4}
+          direction={{ base: 'column', md: 'row' }}
           spacing={4}
-          justify={'center'}
-          align={'center'}>
-          <Logo />
-          <Stack direction={'row'} spacing={6}>
-            <Link href={'#'}>Home</Link>
-            <Link href={'#'}>História</Link>
-            <Link href={'#'}>Cardápio</Link>
-            <Link href={'#'}>Contato</Link>
-          </Stack>
+          justify={{ base: 'center', md: 'space-between' }}
+          align={{ base: 'center', md: 'center' }}>
+          <Text>© 2022 - Todos os direitos reservados - Comê Uquê</Text>
+          <Text>kallario.com.br</Text>
         </Container>
-  
-        <Box
-          borderTopWidth={1}
-          borderStyle={'solid'}
-          borderColor={useColorModeValue('gray.200', 'gray.700')}>
-          <Container
-            as={Stack}
-            maxW={'6xl'}
-            py={4}
-            direction={{ base: 'column', md: 'row' }}
-            spacing={4}
-            justify={{ base: 'center', md: 'space-between' }}
-            align={{ base: 'center', md: 'center' }}>
-            <Text>© 2022 Powered by <a href="https://www.kallario.com.br">Kalla Rio</a>.</Text>
-            <Stack direction={'row'} spacing={6}>
-              <SocialButton label={'Facebook'} href={`https://www.facebook.com/${empresa.facebook}`}>
-                <FaFacebook />
-              </SocialButton>
-              <SocialButton label={'Instagram'} href={`https://www.facebook.com/${empresa.instagram}`}>
-                <FaInstagram />
-              </SocialButton>
-              <SocialButton label={'Youtube'} href={`https://www.facebook.com/${empresa.youtube}`}>
-                <FaYoutube />
-              </SocialButton>
-            </Stack>
-          </Container>
-        </Box>
       </Box>
     );
   }

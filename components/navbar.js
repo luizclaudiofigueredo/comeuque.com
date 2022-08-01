@@ -18,14 +18,16 @@ import {
 } from '@chakra-ui/react';
 import { HamburgerIcon, CloseIcon, AddIcon } from '@chakra-ui/icons';
 import Botao from './botao';
+import { PRIMARY_COLOR } from '../lib/constant';
 
 const Links = ['Home', 'Nossa História', 'Cardápio', 'Fale Conosco'];
 
 const NavLink = ({ children }) => (
   <Link
+    textTransform={'uppercase'}
     px={2}
     py={1}
-    color={'white'}
+    color={'#825221'}
     rounded={'md'}
     _hover={{
       textDecoration: 'none',
@@ -40,9 +42,8 @@ export default function NavBar() {
   const { isOpen, onOpen, onClose } = useDisclosure();
 
   return (
-    <>
-      <Box bg={useColorModeValue('#825221', 'gray.900')} px={4}>
-        <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
+      <Box bg={useColorModeValue(PRIMARY_COLOR, '#825221')} px={4} pos="fixed" w="100%" zIndex={2} boxShadow='md' >
+        <Flex h={24} alignItems={'center'} justifyContent={'space-between'}>
           <IconButton
             size={'md'}
             icon={isOpen ? <CloseIcon /> : <HamburgerIcon />}
@@ -91,6 +92,5 @@ export default function NavBar() {
           </Box>
         ) : null}
       </Box>
-    </>
   );
 }

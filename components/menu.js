@@ -30,14 +30,12 @@ import { useAuth } from '../contexts/AuthContext';
   export default function MainMenu() {
     const { isOpen, onToggle } = useDisclosure();
     return (
-      <Box>
+      <Box bg={useColorModeValue(PRIMARY_COLOR, '#825221')} px={4} pos="fixed" w="100%" zIndex={2} boxShadow='md'           minH={'42px'}
+      paddingTop={{ base: 2 }}
+      paddingBottom={{ base: 4 }}
+      px={{ base: 25 }} >
         <Flex
-          bg={'#825221'}
           color={'white'}
-          minH={'42px'}
-          paddingTop={{ base: 2 }}
-          paddingBottom={{ base: 4 }}
-          px={{ base: 25 }}
           align={'center'}
           justify={'space-between'}>
           <Flex
