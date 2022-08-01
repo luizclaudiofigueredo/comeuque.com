@@ -33,7 +33,7 @@ import {
 import Botao from './botao';
 import { DARK_COLOR, LIGHT_COLOR, PRIMARY_COLOR } from '../lib/constant';
   
-  export default function Contato(props) {
+export default function Contato(props) {
    
     function handleSubmit(e) {
       e.preventDefault();    //This is important, i'm not sure why, but the email won't send without it
@@ -62,20 +62,18 @@ import { DARK_COLOR, LIGHT_COLOR, PRIMARY_COLOR } from '../lib/constant';
           <FormControl w={'full'} mb={3}>
               <FormLabel htmlFor='nome' color={DARK_COLOR}>Seu nome</FormLabel>
               <InputGroup borderColor="gray.800">
-                <InputLeftElement
-                  pointerEvents="none"
-                  children={<BsPerson color="gray.800" />}
-                />              
+                <InputLeftElement pointerEvents="none">
+                  <BsPerson color="gray.800" />
+                </InputLeftElement>
                 <Input name='nome' type='string' placeholder='Nome' color={'white'} />
               </InputGroup>
           </FormControl>        
           <FormControl w={'full'} mb={3}>
               <FormLabel htmlFor='email' color={DARK_COLOR}>Seu Email</FormLabel>
               <InputGroup borderColor="gray.800">
-                <InputLeftElement
-                  pointerEvents="none"
-                  children={<MdOutlineEmail color="gray.800" />}
-                />              
+                <InputLeftElement pointerEvents="none">
+                  <MdOutlineEmail color="gray.800" />
+                </InputLeftElement>
                 <Input name='email' type='string' placeholder='Email' color={'white'} />
               </InputGroup>
           </FormControl>           
@@ -97,45 +95,6 @@ import { DARK_COLOR, LIGHT_COLOR, PRIMARY_COLOR } from '../lib/constant';
       </form>
     </Flex>      
     )}
-
-    const FormContato = () => {
-      return(
-      <form onSubmit={sendEmail} className="w-full max-w-sm">
-      <FormControl id="name">
-        <FormLabel mt={2}>Seu Nome</FormLabel>
-        <InputGroup borderColor="gray.800">
-          <InputLeftElement
-            pointerEvents="none"
-            children={<BsPerson color="gray.800" />}
-          />
-          <Input type="text" size="md" />
-        </InputGroup>
-      </FormControl>
-      <FormControl w={'full'} id="name">
-        <FormLabel mt={2}>Seu email</FormLabel>
-        <InputGroup borderColor="gray.800">
-          <InputLeftElement
-            pointerEvents="none"
-            children={<MdOutlineEmail color="gray.800" />}
-          />
-          <Input type="text" size="md" />
-        </InputGroup>
-      </FormControl>
-      <FormControl w={'full'} id="name">
-        <FormLabel mt={2}>Mensagem</FormLabel>
-        <Textarea
-          borderColor="gray.800"
-          _hover={{
-            borderRadius: 'gray.300',
-          }}
-        />
-      </FormControl>
-      <FormControl id="name" float="right" mt={4} pb={8}>
-        <Botao title="Enviar Mensagem >>" Color={DARK_COLOR} />
-      </FormControl>
-      </form>
-      )      
-    }   
 
     const Social = () => {
       return(
