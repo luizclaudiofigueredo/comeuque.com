@@ -44,7 +44,7 @@ function useWindowDimensions() {
 
 /***/ }),
 
-/***/ 7586:
+/***/ 4936:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -615,7 +615,7 @@ function Contato(props) {
                         justify: "flex-start",
                         direction: "column",
                         children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)(react_.VStack, {
-                            minW: 350,
+                            maxW: 350,
                             spacing: 2,
                             gap: 3,
                             children: [
@@ -638,7 +638,7 @@ function Contato(props) {
                         ],
                         justify: "flex-start",
                         children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)(react_.VStack, {
-                            minW: 350,
+                            maxW: 350,
                             gap: 2,
                             children: [
                                 /*#__PURE__*/ jsx_runtime_.jsx(react_.Heading, {
@@ -646,7 +646,10 @@ function Contato(props) {
                                     color: "gray.800",
                                     children: "Redes Sociais"
                                 }),
-                                /*#__PURE__*/ jsx_runtime_.jsx(Social, {})
+                                /*#__PURE__*/ jsx_runtime_.jsx(Social, {}),
+                                /*#__PURE__*/ jsx_runtime_.jsx(react_.Text, {
+                                    children: "Nos Acompanhe nas Redes Sociais e Fique por dentro das Novidades e Promo\xe7\xf5es!"
+                                })
                             ]
                         })
                     }),
@@ -661,7 +664,7 @@ function Contato(props) {
                         maxW: 420,
                         justify: "flex-start",
                         children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)(react_.VStack, {
-                            minW: 350,
+                            maxW: 350,
                             spacing: 2,
                             gap: 3,
                             children: [
@@ -681,7 +684,8 @@ function Contato(props) {
                                         fontWeight: "800",
                                         children: props.empresa.telefone
                                     })
-                                })
+                                }),
+                                /*#__PURE__*/ jsx_runtime_.jsx(botao/* default */.Z, {})
                             ]
                         })
                     })
@@ -693,17 +697,18 @@ function Contato(props) {
 
 ;// CONCATENATED MODULE: external "react-mapbox-gl"
 const external_react_mapbox_gl_namespaceObject = require("react-mapbox-gl");
-var external_react_mapbox_gl_default = /*#__PURE__*/__webpack_require__.n(external_react_mapbox_gl_namespaceObject);
 ;// CONCATENATED MODULE: ./components/mapa.js
 
 
 
 
 function Mapa() {
-    const Map = external_react_mapbox_gl_default()({
-        accessToken: "pk.eyJ1Ijoia2FsbGFyaW8iLCJhIjoiY2w2YXBoc291MXFpMzNvbjM1bzB6em55MiJ9.Cyi-lwLrpwX5mx9SZFOTDA"
+    const Map = ReactMapboxGl({
+        accessToken: "pk.eyJ1Ijoia2FsbGFyaW8iLCJhIjoiY2w2YXBoc291MXFpMzNvbjM1bzB6em55MiJ9.Cyi-lwLrpwX5mx9SZFOTDA",
+        latitude: -22.6105485,
+        longitude: -43.7130127
     });
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(Map, {
+    return /*#__PURE__*/ _jsxs(Map, {
         style: "mapbox://styles/mapbox/streets-v9",
         containerStyle: {
             height: [
@@ -712,29 +717,29 @@ function Mapa() {
             width: "100%"
         },
         children: [
-            /*#__PURE__*/ jsx_runtime_.jsx(react_.Text, {
+            /*#__PURE__*/ _jsx(Text, {
                 children: "Mapas"
             }),
-            /*#__PURE__*/ (0,jsx_runtime_.jsxs)(external_react_mapbox_gl_namespaceObject.Layer, {
+            /*#__PURE__*/ _jsxs(Layer, {
                 type: "symbol",
                 id: "marker",
                 layout: {
                     "icon-image": "marker-17"
                 },
                 children: [
-                    /*#__PURE__*/ jsx_runtime_.jsx(external_react_mapbox_gl_namespaceObject.Feature, {
+                    /*#__PURE__*/ _jsx(Feature, {
                         coordinates: [
                             -22.6105485,
                             -43.7130127
                         ]
                     }),
-                    /*#__PURE__*/ jsx_runtime_.jsx(external_react_mapbox_gl_namespaceObject.ZoomControl, {})
+                    /*#__PURE__*/ _jsx(ZoomControl, {})
                 ]
             })
         ]
     });
 }
-/* harmony default export */ const mapa = (Mapa);
+/* harmony default export */ const mapa = ((/* unused pure expression or super */ null && (Mapa)));
 
 ;// CONCATENATED MODULE: ./components/hero.js
 
@@ -772,7 +777,51 @@ class Hero extends external_react_.Component {
     }
 };
 
+;// CONCATENATED MODULE: external "react-map-gl"
+const external_react_map_gl_namespaceObject = require("react-map-gl");
+var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_react_map_gl_namespaceObject);
+;// CONCATENATED MODULE: ./components/mymap.js
+
+
+
+
+function MyMap() {
+    const lat = -22.6106654;
+    const lgt = -43.7109632;
+    return /*#__PURE__*/ jsx_runtime_.jsx("div", {
+        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)((external_react_map_gl_default()), {
+            mapboxAccessToken: "pk.eyJ1Ijoia2FsbGFyaW8iLCJhIjoiY2w2YXBoc291MXFpMzNvbjM1bzB6em55MiJ9.Cyi-lwLrpwX5mx9SZFOTDA",
+            style: {
+                height: "500px",
+                width: "100%"
+            },
+            initialViewState: {
+                longitude: lgt,
+                latitude: lat,
+                zoom: 17.0
+            },
+            mapStyle: "mapbox://styles/mapbox/streets-v11",
+            children: [
+                /*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_namespaceObject.GeolocateControl, {
+                    positionOptions: {
+                        enableHighAccuracy: true
+                    },
+                    trackUserLocation: true
+                }),
+                /*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_namespaceObject.Marker, {
+                    longitude: lgt,
+                    latitude: lat
+                }),
+                /*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_namespaceObject.FullscreenControl, {}),
+                /*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_namespaceObject.NavigationControl, {})
+            ]
+        })
+    });
+}
+/* harmony default export */ const mymap = (MyMap);
+
 ;// CONCATENATED MODULE: ./pages/index.js
+
 
 
 
@@ -822,10 +871,10 @@ function Home(props) {
                     children: /*#__PURE__*/ jsx_runtime_.jsx(react_.Text, {
                         fontSize: 24,
                         color: "gray.700",
-                        children: "Card\xe1pio"
+                        children: "Onde nos encontrar"
                     })
                 }),
-                /*#__PURE__*/ jsx_runtime_.jsx(mapa, {}),
+                /*#__PURE__*/ jsx_runtime_.jsx(mymap, {}),
                 /*#__PURE__*/ jsx_runtime_.jsx(Contato, {
                     empresa: props.empresa
                 })
@@ -896,7 +945,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [235], () => (__webpack_exec__(7586)));
+var __webpack_exports__ = __webpack_require__.X(0, [235], () => (__webpack_exec__(4936)));
 module.exports = __webpack_exports__;
 
 })();

@@ -5,7 +5,9 @@ import { Text } from '@chakra-ui/react';
 function Mapa() {
   const Map = ReactMapboxGl({
     accessToken:
-      'pk.eyJ1Ijoia2FsbGFyaW8iLCJhIjoiY2w2YXBoc291MXFpMzNvbjM1bzB6em55MiJ9.Cyi-lwLrpwX5mx9SZFOTDA'
+      'pk.eyJ1Ijoia2FsbGFyaW8iLCJhIjoiY2w2YXBoc291MXFpMzNvbjM1bzB6em55MiJ9.Cyi-lwLrpwX5mx9SZFOTDA',
+    latitude: -22.6105485,
+    longitude: -43.7130127
   });
   return(
     <Map

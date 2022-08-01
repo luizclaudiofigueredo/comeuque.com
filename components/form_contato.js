@@ -145,24 +145,26 @@ export default function Contato(props) {
       <Flex direction={['column','column','column','row']} justify={'space-evenly'}>
 
         <Flex p={[6,6,6,10,10]} justify={'flex-start'} direction={'column'}>
-          <VStack minW={350} spacing={2} gap={3} >
+          <VStack maxW={350} spacing={2} gap={3} >
             <Heading mb={4} color={'gray.800'}>Contato</Heading>
             <FormularioContato />
           </VStack>
         </Flex>
 
         <Flex p={[4,4,4,10,10]} justify={'flex-start'} >
-          <VStack minW={350} gap={2}>
+          <VStack maxW={350} gap={2}>
             <Heading mb={4} color={'gray.800'}>Redes Sociais</Heading>
             <Social />
+            <Text>Nos Acompanhe nas Redes Sociais e Fique por dentro das Novidades e Promoções!</Text>
           </VStack>
         </Flex>
 
         <Flex p={[4,4,4,10,10]}  maxW={420} justify={'flex-start'}>
-            <VStack minW={350} spacing={2} gap={3}>
+            <VStack maxW={350} spacing={2} gap={3}>
                 <Heading mb={4} color={'gray.800'}>{props.empresa.nome}</Heading>
                 <Text>{props.empresa.endereco}</Text>
                 <Link href={`https://wa.me/55${props.empresa.telefone.replace(/[^\d.]/g, '')}?text=Ol%C3%A1%2C%20voc%C3%AAs%20podem%20me%20ajudar%3F`}><Text color={DARK_COLOR} fontSize={28} fontWeight={'800'}>{props.empresa.telefone}</Text></Link>
+                <Botao />
             </VStack>
         </Flex>
 

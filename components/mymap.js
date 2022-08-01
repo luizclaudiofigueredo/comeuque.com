@@ -1,0 +1,34 @@
+import Map, { FullscreenControl, GeolocateControl, Marker, NavigationControl } from "react-map-gl";
+import "mapbox-gl/dist/mapbox-gl.css";
+import { useState } from "react";
+
+function MyMap() {
+  const lat = -22.6106654;
+  const lgt = -43.7109632;
+  return (
+    <div>
+      <Map
+        mapboxAccessToken="pk.eyJ1Ijoia2FsbGFyaW8iLCJhIjoiY2w2YXBoc291MXFpMzNvbjM1bzB6em55MiJ9.Cyi-lwLrpwX5mx9SZFOTDA"
+        style={{
+            height: '500px',
+            width: '100%'
+          }}        
+        initialViewState={{
+          longitude: lgt,
+          latitude: lat,
+          zoom: 17.0,
+        }}
+        mapStyle="mapbox://styles/mapbox/streets-v11"       
+      >
+        <GeolocateControl
+          positionOptions={{ enableHighAccuracy: true }}
+          trackUserLocation={true}
+        />
+        <Marker longitude={lgt} latitude={lat} />
+        <FullscreenControl />
+        <NavigationControl />
+      </Map>
+    </div>
+  );
+}
+export default MyMap;

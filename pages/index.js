@@ -7,6 +7,7 @@ import useWindowDimensions from '../components/useWindowDimensions';
 import Contato from '../components/form_contato'
 import Mapa from '../components/mapa'
 import Hero from '../components/hero'
+import MyMap from '../components/mymap'
 
 export default function Home(props) { 
 
@@ -26,9 +27,9 @@ export default function Home(props) {
           <Galeria width={width} />
         </Flex>
         <Flex w={'full'} justify={'center'} align={'center'} alignItems={'center'} h={40}> 
-          <Text fontSize={24} color={'gray.700'}>Cardápio</Text>
+          <Text fontSize={24} color={'gray.700'}>Onde nos encontrar</Text>
         </Flex>
-        <Mapa />
+        <MyMap />
         <Contato empresa={props.empresa} />        
       </Layout>
     </Flex>

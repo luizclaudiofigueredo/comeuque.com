@@ -1493,6 +1493,13 @@
   resolved "https://registry.yarnpkg.com/@types/long/-/long-4.0.2.tgz#b74129719fc8d11c01868010082d483b7545591a"
   integrity sha512-MqTGEo5bj5t157U6fA/BiDynNkn0YknVdh48CMPkTSpFTVmvao5UQmm7uEF6xBEo7qIMAlY/JSleYaE6VOdpaA==
 
+"@types/mapbox-gl@^2.6.0":
+  version "2.7.4"
+  resolved "https://registry.yarnpkg.com/@types/mapbox-gl/-/mapbox-gl-2.7.4.tgz#fbbb72a3fc0a1e0c2fbd7952d23418e51cdea77d"
+  integrity sha512-usTVCWYhmLt+teQ5U3HhSBZIIHFLp6fQXH/1QOnd4xnDtvNTUWo8n6UyRA4kUj84CGpHSBFeF/MNcBdGB1pwog==
+  dependencies:
+    "@types/geojson" "*"
+
 "@types/mysql@^2.15.6":
   version "2.15.21"
   resolved "https://registry.yarnpkg.com/@types/mysql/-/mysql-2.15.21.tgz#7516cba7f9d077f980100c85fd500c8210bd5e45"
@@ -4086,6 +4093,13 @@ react-leaflet@^4.0.1:
   integrity sha512-CpMQ99+52AklQofrGrVQHqHSyY41wqax1wT65XdyEkky/26V/j+Sv+fp0/wOaqPvdEMaSO/Ovj4dS7bGqtYpwQ==
   dependencies:
     "@react-leaflet/core" "^2.0.0"
+
+react-map-gl@^7.0.18:
+  version "7.0.18"
+  resolved "https://registry.yarnpkg.com/react-map-gl/-/react-map-gl-7.0.18.tgz#832319ad33152526827108634738e760b912ee1f"
+  integrity sha512-GLiupp35BNPPFpgz3pYWU4lLt3qzHFPQSVBkOco7RrRnG2EpIj8sKogG8YZHbd+pHIHIZJOLa2pOwKLoaoAZGA==
+  dependencies:
+    "@types/mapbox-gl" "^2.6.0"
 
 react-mapbox-gl@^5.1.1:
   version "5.1.1"
