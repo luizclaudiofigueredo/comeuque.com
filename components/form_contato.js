@@ -138,6 +138,7 @@ export default function Contato(props) {
     }
 
     return (
+    <section id='contato'>
     <Box bg='#fdc319' boxShadow='md' >
 
       <Logo />
@@ -171,5 +172,6 @@ export default function Contato(props) {
       </Flex>
 
     </Box>
+    </section>
     );
   }

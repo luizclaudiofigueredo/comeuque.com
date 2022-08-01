@@ -20,7 +20,7 @@ import { HamburgerIcon, CloseIcon, AddIcon } from '@chakra-ui/icons';
 import Botao from './botao';
 import { PRIMARY_COLOR } from '../lib/constant';
 
-const Links = ['Home', 'Nossa História', 'Cardápio', 'Fale Conosco'];
+const Links = [{label: 'Home', url: '#top'}, {label: 'Nossa História', url: '#historia'}, {label: 'Cardápio', url: '#cardapio'}, {label: 'Fale Conosco', url:'#contato'}];
 
 const NavLink = ({ children }) => (
   <Link
@@ -33,8 +33,8 @@ const NavLink = ({ children }) => (
       textDecoration: 'none',
       bg: useColorModeValue('orange', 'gray.700'),
     }}
-    href={'#'}>
-    {children}
+    href={children.url}>
+    {children.label}
   </Link>
 );
 

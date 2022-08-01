@@ -83,7 +83,7 @@ export default class Galeria extends Component {
       };
 
     return (
-      <>
+      <section id="cardapio">
       <Flex w={'full'} justify={'center'} align={'center'} alignItems={'center'} h={[20,20,20,40]}> 
         <Text fontSize={24} color={'#825221'} fontWeight={'bold'}>Destaques</Text>
       </Flex>
@@ -96,7 +96,7 @@ export default class Galeria extends Component {
           ))}
         </Slider>
       </div>
-      </>
+      </section>
     );
   }
 }

@@ -26,9 +26,6 @@ export default function Home(props) {
         <Flex direction='column' w={'full'} px={['10px', '10px', '10px' , '20px']} justifyContent={'space-between'}>
           <Galeria width={width} />
         </Flex>
-        <Flex w={'full'} justify={'center'} align={'center'} alignItems={'center'} h={40}> 
-          <Text fontSize={24} color={'gray.700'}>Onde nos encontrar</Text>
-        </Flex>
         <MyMap />
         <Contato empresa={props.empresa} />        
       </Layout>
