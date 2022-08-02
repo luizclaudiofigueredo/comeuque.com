@@ -5,7 +5,6 @@ import Head from 'next/head'
 import { AuthContextProvider } from '../contexts/AuthContext'
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
-import { AppWrapper } from './state'
 import { extendTheme } from "@chakra-ui/react";
 import Fonts from '../components/global'
 
