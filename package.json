@@ -8,6 +8,7 @@
     "start": "NODE_ENV=production nodemon server.js"
   },
   "dependencies": {
+    "@chakra-ui/css-reset": "^2.0.1",
     "@chakra-ui/icons": "^2.0.0",
     "@chakra-ui/react": "^1.8.8",
     "@emotion/react": "11",
@@ -37,6 +38,7 @@
     "react-map-gl": "^7.0.18",
     "react-mapbox-gl": "^5.1.1",
     "react-native-flash-message": "^0.2.1",
+    "react-redux": "^8.0.2",
     "react-router-dom": "^6.3.0",
     "react-share": "^4.4.0",
     "react-slick": "^0.29.0",

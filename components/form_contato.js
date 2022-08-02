@@ -56,7 +56,7 @@ export default function Contato(props) {
 
     const FormularioContato = () => {
       return(
-      <Flex direction='column'>
+      <Flex direction='column' minWidth='max-content'>
       <form onSubmit={handleSubmit} className="w-full max-w-sm">
       <Center flexDirection={'column'}>
           <FormControl w={'full'} mb={3}>
@@ -65,22 +65,22 @@ export default function Contato(props) {
                 <InputLeftElement pointerEvents="none">
                   <BsPerson color="gray.800" />
                 </InputLeftElement>
-                <Input name='nome' type='string' placeholder='Nome' color={'white'} />
+                <Input name='nome' type='string' placeholder='Nome' color={'gray.800'} _placeholder={{ color: 'white' }} />
               </InputGroup>
           </FormControl>        
-          <FormControl w={'full'} mb={3}>
+          <FormControl w={'full'} mb={3} alignItems="center">
               <FormLabel htmlFor='email' color={DARK_COLOR}>Seu Email</FormLabel>
               <InputGroup borderColor="gray.800">
                 <InputLeftElement pointerEvents="none">
                   <MdOutlineEmail color="gray.800" />
                 </InputLeftElement>
-                <Input name='email' type='string' placeholder='Email' color={'white'} />
+                <Input name='email' type='string' placeholder='Email' color={'gray.800'} _placeholder={{ color: 'white' }} />
               </InputGroup>
           </FormControl>           
           <FormControl w={'full'} mb={3}>
               <FormLabel htmlFor='observacoes' color={DARK_COLOR}>Mensagem</FormLabel>
               <InputGroup borderColor="gray.800">
-                <Textarea name='observacoes' placeholder='Mensagem' />
+                <Textarea name='observacoes' placeholder='Mensagem' color={'gray.800'} _placeholder={{ color: 'white' }} />
               </InputGroup>
           </FormControl>                            
       </Center>
@@ -99,6 +99,7 @@ export default function Contato(props) {
     const Social = () => {
       return(
         <HStack
+        minWidth='max-content'ya
         mt={{ lg: 10, md: 10 }}
         spacing={5}
         px={5}
@@ -138,22 +139,21 @@ export default function Contato(props) {
     }
 
     return (
-    <section id='contato'>
-    <Box bg='#fdc319' boxShadow='md' >
+    <Box bg='#fdc319' id="contato">
 
       <Logo />
 
-      <Flex direction={['column','column','column','row']} justify={'space-evenly'}>
+      <Flex direction={['column','column','row','row']} justify={'space-evenly'}>
 
         <Flex p={[6,6,6,10,10]} justify={'flex-start'} direction={'column'}>
-          <VStack maxW={350} spacing={2} gap={3} >
+          <VStack maxW={290} spacing={2} gap={3} >
             <Heading mb={4} color={'gray.800'}>Contato</Heading>
             <FormularioContato />
           </VStack>
         </Flex>
 
-        <Flex p={[4,4,4,10,10]} justify={'flex-start'} >
-          <VStack maxW={350} gap={2}>
+        <Flex p={[4,4,4,10,10]} justify={'flex-start'}>
+          <VStack maxW={290} gap={2}>
             <Heading mb={4} color={'gray.800'}>Redes Sociais</Heading>
             <Social />
             <Text>Nos Acompanhe nas Redes Sociais e Fique por dentro das Novidades e Promoções!</Text>
@@ -161,7 +161,7 @@ export default function Contato(props) {
         </Flex>
 
         <Flex p={[4,4,4,10,10]}  maxW={420} justify={'flex-start'}>
-            <VStack maxW={350} spacing={2} gap={3}>
+            <VStack maxW={290} spacing={2} gap={3}>
                 <Heading mb={4} color={'gray.800'}>{props.empresa.nome}</Heading>
                 <Text>{props.empresa.endereco}</Text>
                 <Link href={`https://wa.me/55${props.empresa.telefone.replace(/[^\d.]/g, '')}?text=Ol%C3%A1%2C%20voc%C3%AAs%20podem%20me%20ajudar%3F`}><Text color={DARK_COLOR} fontSize={28} fontWeight={'800'}>{props.empresa.telefone}</Text></Link>
@@ -172,6 +172,5 @@ export default function Contato(props) {
       </Flex>
 
     </Box>
-    </section>
     );
   }

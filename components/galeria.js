@@ -1,8 +1,7 @@
-import { Box, Flex, Text, useForceUpdate } from "@chakra-ui/react";
+import { Flex, Heading, Text } from "@chakra-ui/react";
 import React, { Component } from "react";
 import Slider from "react-slick";
 import ProductAddToCart from "./produtos";
-import { TituloWrapper } from "./titulo_wrapper";
 
 const data = [
 {
@@ -10,8 +9,8 @@ const data = [
   isNew: true,
   imageURL:
     'https://img.buzzfeed.com/thumbnailer-prod-us-east-1/video-api/assets/216054.jpg',
-  name: 'Quatro Queijos',
-  price: 28.0,
+  nome: 'Quatro Queijos',
+  preco: 28.0,
   rating: 4.2,
   numReviews: 18,
 },
@@ -20,8 +19,8 @@ const data = [
   isNew: true,
   imageURL:
     'https://img.buzzfeed.com/thumbnailer-prod-us-east-1/video-api/assets/216054.jpg',
-  name: 'Calabresa',
-  price: 28.0,
+  nome: 'Calabresa',
+  preco: 28.0,
   rating: 4.2,
   numReviews: 18,
 },
@@ -30,8 +29,8 @@ const data = [
   isNew: true,
   imageURL:
     'https://img.buzzfeed.com/thumbnailer-prod-us-east-1/video-api/assets/216054.jpg',
-  name: 'Portuguesa',
-  price: 28.0,
+  nome: 'Portuguesa',
+  preco: 28.0,
   rating: 4.2,
   numReviews: 18,
 },
@@ -40,8 +39,8 @@ const data = [
   isNew: true,
   imageURL:
     'https://img.buzzfeed.com/thumbnailer-prod-us-east-1/video-api/assets/216054.jpg',
-  name: 'Atum',
-  price: 36.0,
+  nome: 'Atum',
+  preco: 36.0,
   rating: 4.2,
   numReviews: 18,
 },
@@ -50,8 +49,8 @@ const data = [
   isNew: true,
   imageURL:
     'https://img.buzzfeed.com/thumbnailer-prod-us-east-1/video-api/assets/216054.jpg',
-  name: 'Cheddar',
-  price: 28.0,
+  nome: 'Cheddar',
+  preco: 28.0,
   rating: 4.2,
   numReviews: 18,
 },
@@ -60,16 +59,15 @@ const data = [
   isNew: true,
   imageURL:
     'https://img.buzzfeed.com/thumbnailer-prod-us-east-1/video-api/assets/216054.jpg',
-  name: 'Banana com Canela',
-  price: 28.0,
+  nome: 'Banana com Canela',
+  preco: 28.0,
   rating: 4.2,
   numReviews: 18,
 },
 ];
 
-
 export default class Galeria extends Component {
-  render() {
+  render() {    
        const width = this.props.width;
        var settings = {
         dots: true,
@@ -85,7 +83,7 @@ export default class Galeria extends Component {
     return (
       <section id="cardapio">
       <Flex w={'full'} justify={'center'} align={'center'} alignItems={'center'} h={[20,20,20,40]}> 
-        <Text fontSize={24} color={'#825221'} fontWeight={'bold'}>Destaques</Text>
+        <Heading color={'#825221'}>Destaques</Heading>
       </Flex>
       <div>
         <Slider {...settings}>

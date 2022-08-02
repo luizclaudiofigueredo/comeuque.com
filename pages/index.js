@@ -24,7 +24,7 @@ export default function Home(props) {
       <Layout empresa={props.empresa}>
         <Hero images={slides} />
         <Flex direction='column' w={'full'} px={['10px', '10px', '10px' , '20px']} justifyContent={'space-between'}>
-          <Galeria width={width} />
+        <Galeria width={width} />
         </Flex>
         <MyMap />
         <Contato empresa={props.empresa} />        

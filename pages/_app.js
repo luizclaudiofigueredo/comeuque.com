@@ -5,10 +5,23 @@ import Head from 'next/head'
 import { AuthContextProvider } from '../contexts/AuthContext'
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
+import { AppWrapper } from './state'
+import { extendTheme } from "@chakra-ui/react";
+import Fonts from '../components/global'
+
+const theme = extendTheme({
+  fonts: {
+    heading: "Mont-Heavy",
+    subHeading: "Ubuntu",
+    body: "Ubuntu",
+  }
+});
 
 function MyApp({ Component, pageProps }) {
   return (
-      <ChakraProvider>
+    <AppWrapper>
+      <ChakraProvider theme={theme}>
+        <Fonts />     
         <Head>
         <title>Comê Uque?</title>
         <link rel="icon" type="image/x-icon" href="/icons/favicon.ico" />
@@ -39,6 +52,7 @@ function MyApp({ Component, pageProps }) {
           <Component {...pageProps} />
         </AuthContextProvider>
       </ChakraProvider>
+      </AppWrapper>
   )
 }
 

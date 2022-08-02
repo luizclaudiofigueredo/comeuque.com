@@ -1,7 +1,7 @@
 import Map, { FullscreenControl, GeolocateControl, Marker, NavigationControl } from "react-map-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
 import { useState } from "react";
-import { Flex, Text } from "@chakra-ui/react";
+import { Flex, Heading, Text } from "@chakra-ui/react";
 
 function MyMap() {
   const lat = -22.6106654;
@@ -9,7 +9,7 @@ function MyMap() {
   return (
     <>
     <Flex w={'full'} justify={'center'} align={'center'} alignItems={'center'} h={[20,20,20,40]}> 
-      <Text fontSize={24} color={'#825221'} fontWeight={'bold'}>Onde nos encontrar</Text>
+      <Heading color={'#825221'}>Onde estamos?</Heading>
     </Flex>    
     <div>
       <Map

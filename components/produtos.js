@@ -70,7 +70,7 @@ import Swal from 'sweetalert2'
   
           <Image
             src={data.imageURL}
-            alt={`Picture of ${data.name}`}
+            alt={`Picture of ${data.nome}`}
             roundedTop="lg"
             onClick={handleShow}
           />
@@ -85,14 +85,14 @@ import Swal from 'sweetalert2'
                 color={'white'}
                 lineHeight="tight"
                 isTruncated>
-                {data.name}
+                {data.nome}
               </Box>
             </Flex>
   
             <Flex justifyContent="space-between" alignContent="center">
               <Botao />
               <Box fontSize="2xl" color={useColorModeValue('white', 'white')}>
-                { numberFormat(data.price) }
+                { numberFormat(data.preco) }
               </Box>
             </Flex>
           </Box>
