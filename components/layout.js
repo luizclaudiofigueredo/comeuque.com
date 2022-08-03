@@ -5,7 +5,7 @@ import NavBar from './navbar'
 
 function Layout({empresa, children}) {
   return (
-    <Flex bg={'#ffffff'} direction={'column'} minHeight={'100vh'}>
+    <Flex bg={'#ffffff'} direction={'column'} minHeight={'100vh'} overflowX={'hidden'}>
         <NavBar />
         {children}
         <FooterSmall empresa={empresa} />
