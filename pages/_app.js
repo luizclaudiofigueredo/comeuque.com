@@ -18,7 +18,6 @@ const theme = extendTheme({
 
 function MyApp({ Component, pageProps }) {
   return (
-    <AppWrapper>
       <ChakraProvider theme={theme}>
         <Fonts />     
         <Head>
@@ -51,7 +50,6 @@ function MyApp({ Component, pageProps }) {
           <Component {...pageProps} />
         </AuthContextProvider>
       </ChakraProvider>
-      </AppWrapper>
   )
 }
 

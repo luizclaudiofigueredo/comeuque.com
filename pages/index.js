@@ -4,10 +4,9 @@ import { getDados } from '../config/fetchDados'
 import { useEffect, useState } from 'react'
 import Galeria from '../components/galeria'
 import useWindowDimensions from '../components/useWindowDimensions';
-import Contato from '../components/form_contato'
-import Mapa from '../components/mapa'
 import Hero from '../components/hero'
 import MyMap from '../components/mymap'
+import FaleConosco from '../components/form_contato'
 
 export default function Home(props) { 
 
@@ -27,7 +26,7 @@ export default function Home(props) {
         <Galeria width={width} />
         </Flex>
         <MyMap />
-        <Contato empresa={props.empresa} />        
+        <FaleConosco empresa={props.empresa} />        
       </Layout>
     </Flex>
   )
