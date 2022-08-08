@@ -33,9 +33,9 @@ export default function Home(props) {
 }
 
 export async function getServerSideProps() {
-    const p = await getDados(`api/produtos`)
-    const s = await getDados(`api/slides`)
-    const e = await getDados(`api/empresas/1`)
+    const p = await getDados(`produtos`)
+    const s = await getDados(`slides`)
+    const e = await getDados(`empresas/1`)
     return {
         props: {
           produtos: p,

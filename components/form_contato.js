@@ -54,7 +54,7 @@ export default function FaleConosco(props) {
     const Logo = (props) => {
         return (
           <Flex justify={'center'} py={8}>
-            <Image src='images/logosite-final.png' h={'120px'} alt="Logotipo" paddingTop={2}/>
+            <Image src={process.env.IMAGEM_URL + props.empresa.url_imagem} h={'120px'} alt="Logotipo" paddingTop={2}/>
           </Flex>
         );
       };

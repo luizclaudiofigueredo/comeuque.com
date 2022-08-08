@@ -69,7 +69,7 @@ import Swal from 'sweetalert2'
           )}
   
           <Image
-            src={process.env.MYSQL_URL + data.url_imagem}
+            src={process.env.IMAGEM_URL + data.url_imagem}
             alt={`Picture of ${data.nome}`}
             roundedTop="lg"
             onClick={handleShow}

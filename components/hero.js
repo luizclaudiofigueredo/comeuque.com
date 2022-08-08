@@ -22,7 +22,7 @@ export default class Hero extends Component {
         <Slider {...settings}>
           { images.map((d) => (
             <Flex key={d.id}>
-              <Image src={process.env.MYSQL_URL + d.url_imagem} alt={`Picture of ${d.titulo}`} w={'full'} marginTop={'95px'} />
+              <Image src={process.env.IMAGEM_URL + d.url_imagem} alt={`Picture of ${d.titulo}`} w={'full'} marginTop={'95px'} />
             </Flex>
           ))}
         </Slider>
