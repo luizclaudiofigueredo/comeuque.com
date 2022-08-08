@@ -54,7 +54,7 @@ export default function FaleConosco(props) {
     const Logo = (props) => {
         return (
           <Flex justify={'center'} py={8}>
-            <Image src={process.env.IMAGEM_URL + props.empresa.url_imagem} h={'120px'} alt="Logotipo" paddingTop={2}/>
+            <Image src={process.env.IMAGEM_URL + props.imagem} h={'120px'} alt="Logotipo" paddingTop={2}/>
           </Flex>
         );
       };
@@ -169,7 +169,7 @@ export default function FaleConosco(props) {
       return(
         <VStack w="full" h="full" p={10} spacing={6} alignItems="flex-start">
           <VStack w={'full'} alignItems="center">
-            <Logo />
+            <Logo imagem={props.empresa.url_imagem} />
           </VStack>
           <VStack alignItems={"flex-start"} w="full">             
               <Text>{props.empresa.endereco}</Text>
