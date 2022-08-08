@@ -62,12 +62,12 @@ export default function FaleConosco(props) {
       const Details = () => {
         const colSpan = useBreakpointValue({ base: 2, md: 1 });
         return (
+          <form onSubmit={sendEmail}>
           <VStack w="full" h="full" p={10} spacing={10} alignItems="flex-start">
             <VStack spacing={3} alignItems="flex-start">
             <Heading color={DARK_COLOR}>Contato</Heading>
               <Text>Tem alguma dúvida? Algum problema? Quer apenas conversar? Esse aqui é o seu espaço.</Text>
             </VStack>
-            <form onSubmit={sendEmail}>
             <SimpleGrid columns={2} columnGap={3} rowGap={6} w="full">              
               <GridItem colSpan={2}>
                 <FormControl>
@@ -107,8 +107,8 @@ export default function FaleConosco(props) {
                 </Button>
               </GridItem>
             </SimpleGrid>
-            </form>
           </VStack>
+          </form>
         );
       };
 
