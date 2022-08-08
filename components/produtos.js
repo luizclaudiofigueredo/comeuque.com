@@ -69,7 +69,7 @@ import Swal from 'sweetalert2'
           )}
   
           <Image
-            src={data.imageURL}
+            src={process.env.MYSQL_URL + data.url_imagem}
             alt={`Picture of ${data.nome}`}
             roundedTop="lg"
             onClick={handleShow}
@@ -92,7 +92,7 @@ import Swal from 'sweetalert2'
             <Flex justifyContent="space-between" alignContent="center">
               <Botao />
               <Box fontSize="2xl" color={useColorModeValue('white', 'white')}>
-                { numberFormat(data.preco) }
+                { numberFormat(data.preco_venda) }
               </Box>
             </Flex>
           </Box>

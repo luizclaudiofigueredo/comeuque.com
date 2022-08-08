@@ -3,9 +3,9 @@ import "mapbox-gl/dist/mapbox-gl.css";
 import { useState } from "react";
 import { Flex, Heading, Text } from "@chakra-ui/react";
 
-function MyMap() {
-  const lat = -22.6106654;
-  const lgt = -43.7109632;
+function MyMap(props) {
+  const lat = props.empresa.latitude
+  const lgt = props.empresa.longitude
   return (
     <>
     <Flex w={'full'} justify={'center'} align={'center'} alignItems={'center'} h={[20,20,20,40]}> 

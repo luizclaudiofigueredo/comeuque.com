@@ -2,8 +2,11 @@ const baseUrl =  process.env.MYSQL_URL
 
 export const getDados = async (url, token) => {
     try {    
-        const res = await fetch(`${baseUrl}/${url}.json`, {
+        const res = await fetch(`${baseUrl}/${url}`, {
             method: 'GET',
+            headers: {
+                'Authorization': 'Bearer ' + process.env.TOKEN
+            },            
         })
         const data = await res.json()
         return data

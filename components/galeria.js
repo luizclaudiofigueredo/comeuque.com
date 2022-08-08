@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import Slider from "react-slick";
 import ProductAddToCart from "./produtos";
 
-const data = [
+const data_old = [
 {
   id: 1,
   isNew: true,
@@ -69,6 +69,7 @@ const data = [
 export default class Galeria extends Component {
   render() {    
        const width = this.props.width;
+       const data = this.props.produtos;
        var settings = {
         dots: true,
         infinite: true,

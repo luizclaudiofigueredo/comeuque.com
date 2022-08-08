@@ -39,17 +39,17 @@ import Botao from './botao';
 import { DARK_COLOR, LIGHT_COLOR, PRIMARY_COLOR } from '../lib/constant';
   
 export default function FaleConosco(props) {
-   
-    function handleSubmit(e) {
+
+    function sendEmail(e) {
       e.preventDefault();    //This is important, i'm not sure why, but the email won't send without it
   
-      emailjs.sendForm( 'service_ikge4sk' , 'template_32a0hfj', e.target, '8Hh2hSzRwdOGAe58h')
+      emailjs.sendForm( 'template_c7eep5s' , 'template_c7eep5s', e.target, 'YQsqvFEGr6f5vFWum')
         .then((result) => {
             window.location.reload()  //This is if you still want the page to reload (since e.preventDefault() cancelled that behavior) 
         }, (error) => {
             console.log(error.text);
         });
-    }
+    }    
 
     const Logo = (props) => {
         return (
@@ -67,8 +67,8 @@ export default function FaleConosco(props) {
             <Heading color={DARK_COLOR}>Contato</Heading>
               <Text>Tem alguma dúvida? Algum problema? Quer apenas conversar? Esse aqui é o seu espaço.</Text>
             </VStack>
-            <SimpleGrid columns={2} columnGap={3} rowGap={6} w="full">
-              
+            <form onSubmit={sendEmail}>
+            <SimpleGrid columns={2} columnGap={3} rowGap={6} w="full">              
               <GridItem colSpan={2}>
                 <FormControl>
                   <FormLabel htmlFor='nome' color={DARK_COLOR}>Seu nome</FormLabel>
@@ -76,7 +76,7 @@ export default function FaleConosco(props) {
                         <InputLeftElement pointerEvents="none">
                           <BsPerson color="gray.800" />
                         </InputLeftElement>
-                        <Input name='nome' type='string' placeholder='Nome' color={'gray.800'} _placeholder={{ color: 'white' }} />
+                        <Input name='nome' type='string' placeholder='Nome' bg='white' color={'gray.800'} _placeholder={{ color: 'gray.500' }} />
                       </InputGroup>
                   </FormControl>
               </GridItem>
@@ -88,7 +88,7 @@ export default function FaleConosco(props) {
                         <InputLeftElement pointerEvents="none">
                           <MdOutlineEmail color="gray.800" />
                         </InputLeftElement>
-                        <Input name='email' type='string' placeholder='Email' color={'gray.800'} _placeholder={{ color: 'white' }} />
+                        <Input name='email' type='string' placeholder='Email' bg='white' color={'gray.800'} _placeholder={{ color: 'gray.500' }} />
                       </InputGroup>
                   </FormControl>
               </GridItem>
@@ -97,16 +97,17 @@ export default function FaleConosco(props) {
                 <FormControl>
                 <FormLabel htmlFor='observacoes' color={DARK_COLOR}>Mensagem</FormLabel>
                       <InputGroup borderColor="gray.800">
-                        <Textarea name='observacoes' placeholder='Mensagem' color={'gray.800'} _placeholder={{ color: 'white' }} />
+                        <Textarea name='observacoes' placeholder='Mensagem' bg='white' color={'gray.800'} _placeholder={{ color: 'gray.500' }} />
                       </InputGroup>
                   </FormControl>
               </GridItem>
               <GridItem colSpan={2}>
-                <Button bg={DARK_COLOR} color={"white"} size="lg" w="full">
+                <Button bg={DARK_COLOR} color={"white"} size="lg" w="full" _hover={{ bg: '#916601' }}>
                   Enviar Mensagem
                 </Button>
               </GridItem>
             </SimpleGrid>
+            </form>
           </VStack>
         );
       };
@@ -172,6 +173,7 @@ export default function FaleConosco(props) {
           </VStack>
           <VStack alignItems={"flex-start"} w="full">             
               <Text>{props.empresa.endereco}</Text>
+              <Text>{props.empresa.bairro}, {props.empresa.cidade}/{props.empresa.estado}</Text>
               <Flex direction={"row"} justify={"center"} alignItems={'center'} w={'full'} mb={4}>
                   <IconButton
                       aria-label="youtube"
@@ -182,9 +184,9 @@ export default function FaleConosco(props) {
                       _hover={{ bg: '#0D74FF' }}
                       icon={<BsWhatsapp size="28px" />}
                     />
-                  <a href={`https://wa.me/55${props.empresa.telefone.replace(/[^\d.]/g, '')}?text=Ol%C3%A1%2C%20voc%C3%AAs%20podem%20me%20ajudar%3F`}>
+                  <a href={`https://wa.me/55${props.empresa.whatsapp.replace(/[^\d.]/g, '')}?text=Ol%C3%A1%2C%20voc%C3%AAs%20podem%20me%20ajudar%3F`}>
                     <Text fontFamily={'Mont-Heavy'} color={DARK_COLOR} fontSize={24}>
-                      {props.empresa.telefone}
+                      {props.empresa.whatsapp}
                     </Text>
                   </a>
               </Flex>

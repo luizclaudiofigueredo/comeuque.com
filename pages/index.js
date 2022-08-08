@@ -23,9 +23,9 @@ export default function Home(props) {
       <Layout empresa={props.empresa}>
         <Hero images={slides} />
         <Flex direction='column' w={'full'} px={['10px', '10px', '10px' , '20px']} justifyContent={'space-between'}>
-        <Galeria width={width} />
+        <Galeria width={width} produtos={props.produtos} />
         </Flex>
-        <MyMap />
+        <MyMap empresa={props.empresa}/>
         <FaleConosco empresa={props.empresa} />        
       </Layout>
     </Flex>
@@ -33,12 +33,14 @@ export default function Home(props) {
 }
 
 export async function getServerSideProps() {
-    const slides_res = await getDados(`slides`)
-    const empresas = await getDados(`empresas/1`)
+    const p = await getDados(`api/produtos`)
+    const s = await getDados(`api/slides`)
+    const e = await getDados(`api/empresas/1`)
     return {
         props: {
-          slides: slides_res,
-          empresa: empresas
+          produtos: p,
+          slides: s,
+          empresa: e
         },
     }
 }
