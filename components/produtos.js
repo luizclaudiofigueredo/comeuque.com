@@ -7,7 +7,6 @@ import {
 
 import Botao from './botao';
 import Swal from 'sweetalert2'
-import parse from 'react-html-parser'
 
   export default function ProductAddToCart(props) {
 
