@@ -1,855 +1,331 @@
-"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
 (() => {
 var exports = {};
-exports.id = 405;
-exports.ids = [405];
+exports.id = "pages/index";
+exports.ids = ["pages/index"];
 exports.modules = {
 
-/***/ 9643:
+/***/ "./components/botao.js":
+/*!*****************************!*\
+  !*** ./components/botao.js ***!
+  \*****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Z": () => (/* binding */ useWindowDimensions)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6689);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-// useWindowDimensions.js
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _chakra_ui_icons__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @chakra-ui/icons */ \"@chakra-ui/icons\");\n/* harmony import */ var _chakra_ui_icons__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_chakra_ui_icons__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _chakra_ui_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @chakra-ui/react */ \"@chakra-ui/react\");\n/* harmony import */ var _chakra_ui_react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var react_icons_fi__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-icons/fi */ \"react-icons/fi\");\n/* harmony import */ var react_icons_fi__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_icons_fi__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _modal__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./modal */ \"./components/modal.js\");\n/* harmony import */ var _lib_constant__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../lib/constant */ \"./lib/constant.js\");\n\n\n\n\n\n\n\nfunction Botao(props) {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_2__.Button, {\n        display: \"flex\",\n        variant: \"solid\",\n        bg: props.ColorBackground || \"red\",\n        color: \"white\",\n        size: \"sm\",\n        mr: 4,\n        w: \"full\",\n        h: props.height || 35,\n        py: props.paddingY || 0,\n        mt: props.marginTop || 0,\n        _hover: {\n            bg: \"#9d0008\",\n            color: \"white\"\n        },\n        onClick: (0,_modal__WEBPACK_IMPORTED_MODULE_5__[\"default\"])(\"Modal\", \"<div>Hello World</div>\", false, true),\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_2__.chakra.a, {\n                href: \"#\",\n                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_2__.Icon, {\n                    as: props.Icon || react_icons_fi__WEBPACK_IMPORTED_MODULE_3__.FiShoppingCart,\n                    h: 4,\n                    w: 4,\n                    mx: 2,\n                    alignSelf: \"center\"\n                }, void 0, false, {\n                    fileName: \"/var/www/html/comeuque.com/components/botao.js\",\n                    lineNumber: 25,\n                    columnNumber: 13\n                }, this)\n            }, void 0, false, {\n                fileName: \"/var/www/html/comeuque.com/components/botao.js\",\n                lineNumber: 24,\n                columnNumber: 9\n            }, this),\n            props.title || \"Fazer Pedido\"\n        ]\n    }, void 0, true, {\n        fileName: \"/var/www/html/comeuque.com/components/botao.js\",\n        lineNumber: 10,\n        columnNumber: 5\n    }, this);\n}\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Botao);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL2JvdGFvLmpzLmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7QUFBQTtBQUEwQztBQUNhO0FBQ1A7QUFDdkI7QUFDRztBQUNrQjtBQUU5QyxTQUFTUSxLQUFLLENBQUNDLEtBQUssRUFBRTtJQUNwQixxQkFDRSw4REFBQ1Isb0RBQU07UUFDSFMsT0FBTyxFQUFFLE1BQU07UUFDZkMsT0FBTyxFQUFFLE9BQU87UUFDaEJDLEVBQUUsRUFBRUgsS0FBSyxDQUFDSSxlQUFlLElBQUksS0FBSztRQUNsQ0MsS0FBSyxFQUFFLE9BQU87UUFDZEMsSUFBSSxFQUFFLElBQUk7UUFDVkMsRUFBRSxFQUFFLENBQUM7UUFDTEMsQ0FBQyxFQUFFLE1BQU07UUFDVEMsQ0FBQyxFQUFFVCxLQUFLLENBQUNVLE1BQU0sSUFBSSxFQUFFO1FBQ3JCQyxFQUFFLEVBQUVYLEtBQUssQ0FBQ1ksUUFBUSxJQUFJLENBQUM7UUFDdkJDLEVBQUUsRUFBRWIsS0FBSyxDQUFDYyxTQUFTLElBQUksQ0FBQztRQUN4QkMsTUFBTSxFQUFFO1lBQUNaLEVBQUUsRUFBRSxTQUFTO1lBQUVFLEtBQUssRUFBRSxPQUFPO1NBQUM7UUFDdkNXLE9BQU8sRUFBRW5CLGtEQUFLLENBQUMsT0FBTyxFQUFFLHdCQUF3QixFQUFFLEtBQUssRUFBRSxJQUFJLENBQUM7OzBCQUU5RCw4REFBQ0gsc0RBQVE7Z0JBQUN3QixJQUFJLEVBQUUsR0FBRzswQkFDZiw0RUFBQ3pCLGtEQUFJO29CQUFDMEIsRUFBRSxFQUFFbkIsS0FBSyxDQUFDUCxJQUFJLElBQUdFLDBEQUFjO29CQUFFYyxDQUFDLEVBQUUsQ0FBQztvQkFBRUQsQ0FBQyxFQUFFLENBQUM7b0JBQUVZLEVBQUUsRUFBRSxDQUFDO29CQUFFQyxTQUFTLEVBQUUsUUFBUTs7Ozs7d0JBQUk7Ozs7O29CQUMxRTtZQUNWckIsS0FBSyxDQUFDc0IsS0FBSyxJQUFJLGNBQWM7Ozs7OztZQUN6QixDQUNWO0NBQ0Y7QUFFRCxpRUFBZXZCLEtBQUsiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9tYXJjYWNhby8uL2NvbXBvbmVudHMvYm90YW8uanM/Y2JkMSJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBBZGRJY29uIH0gZnJvbSAnQGNoYWtyYS11aS9pY29ucydcbmltcG9ydCB7IEJ1dHRvbiwgSWNvbiwgY2hha3JhIH0gZnJvbSAnQGNoYWtyYS11aS9yZWFjdCdcbmltcG9ydCB7IEZpU2hvcHBpbmdDYXJ0IH0gZnJvbSAncmVhY3QtaWNvbnMvZmknO1xuaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0J1xuaW1wb3J0IE1vZGFsIGZyb20gJy4vbW9kYWwnO1xuaW1wb3J0IHsgTElHSFRfQ09MT1IgfSBmcm9tICcuLi9saWIvY29uc3RhbnQnO1xuXG5mdW5jdGlvbiBCb3Rhbyhwcm9wcykge1xuICByZXR1cm4gKFxuICAgIDxCdXR0b25cbiAgICAgICAgZGlzcGxheT17J2ZsZXgnfVxuICAgICAgICB2YXJpYW50PXsnc29saWQnfVxuICAgICAgICBiZz17cHJvcHMuQ29sb3JCYWNrZ3JvdW5kIHx8ICdyZWQnfVxuICAgICAgICBjb2xvcj17J3doaXRlJ31cbiAgICAgICAgc2l6ZT17J3NtJ31cbiAgICAgICAgbXI9ezR9XG4gICAgICAgIHc9eydmdWxsJ31cbiAgICAgICAgaD17cHJvcHMuaGVpZ2h0IHx8IDM1fVxuICAgICAgICBweT17cHJvcHMucGFkZGluZ1kgfHwgMH1cbiAgICAgICAgbXQ9e3Byb3BzLm1hcmdpblRvcCB8fCAwfVxuICAgICAgICBfaG92ZXI9e3tiZzogJyM5ZDAwMDgnLCBjb2xvcjogJ3doaXRlJ319XG4gICAgICAgIG9uQ2xpY2s9e01vZGFsKCdNb2RhbCcsICc8ZGl2PkhlbGxvIFdvcmxkPC9kaXY+JywgZmFsc2UsIHRydWUpfVxuICAgICAgICA+XG4gICAgICAgIDxjaGFrcmEuYSBocmVmPXsnIyd9ID5cbiAgICAgICAgICAgIDxJY29uIGFzPXtwcm9wcy5JY29uIHx8RmlTaG9wcGluZ0NhcnR9IGg9ezR9IHc9ezR9IG14PXsyfSBhbGlnblNlbGY9eydjZW50ZXInfSAvPlxuICAgICAgICA8L2NoYWtyYS5hPiAgICAgICAgICAgIFxuICAgICAgICB7cHJvcHMudGl0bGUgfHwgXCJGYXplciBQZWRpZG9cIn1cbiAgICA8L0J1dHRvbj5cbiAgKVxufVxuXG5leHBvcnQgZGVmYXVsdCBCb3RhbyJdLCJuYW1lcyI6WyJBZGRJY29uIiwiQnV0dG9uIiwiSWNvbiIsImNoYWtyYSIsIkZpU2hvcHBpbmdDYXJ0IiwiUmVhY3QiLCJNb2RhbCIsIkxJR0hUX0NPTE9SIiwiQm90YW8iLCJwcm9wcyIsImRpc3BsYXkiLCJ2YXJpYW50IiwiYmciLCJDb2xvckJhY2tncm91bmQiLCJjb2xvciIsInNpemUiLCJtciIsInciLCJoIiwiaGVpZ2h0IiwicHkiLCJwYWRkaW5nWSIsIm10IiwibWFyZ2luVG9wIiwiX2hvdmVyIiwib25DbGljayIsImEiLCJocmVmIiwiYXMiLCJteCIsImFsaWduU2VsZiIsInRpdGxlIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./components/botao.js\n");
 
-function useWindowDimensions() {
-    const hasWindow = "undefined" !== "undefined";
-    function getWindowDimensions() {
-        const width = hasWindow ? window.innerWidth : null;
-        const height = hasWindow ? window.innerHeight : null;
-        return {
-            width,
-            height
-        };
-    }
-    const { 0: windowDimensions , 1: setWindowDimensions  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(getWindowDimensions());
-    (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(()=>{
-        if (hasWindow) {
-            function handleResize() {
-                setWindowDimensions(getWindowDimensions());
-            }
-            window.addEventListener("resize", handleResize);
-            return ()=>window.removeEventListener("resize", handleResize)
-            ;
-        }
-    }, [
-        hasWindow
-    ]);
-    return windowDimensions;
-};
+/***/ }),
+
+/***/ "./components/footer.js":
+/*!******************************!*\
+  !*** ./components/footer.js ***!
+  \******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ SmallWithSocial)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @chakra-ui/react */ \"@chakra-ui/react\");\n/* harmony import */ var _chakra_ui_react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var react_icons_fa__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-icons/fa */ \"react-icons/fa\");\n/* harmony import */ var react_icons_fa__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_icons_fa__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _lib_constant__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../lib/constant */ \"./lib/constant.js\");\n\n\n\n\n\nconst SocialButton = ({ children , label , href ,  })=>{\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.chakra.button, {\n        bg: (0,_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.useColorModeValue)(\"blackAlpha.100\", \"whiteAlpha.100\"),\n        rounded: \"full\",\n        w: 8,\n        h: 8,\n        cursor: \"pointer\",\n        as: \"a\",\n        href: href,\n        display: \"inline-flex\",\n        alignItems: \"center\",\n        justifyContent: \"center\",\n        transition: \"background 0.3s ease\",\n        _hover: {\n            bg: (0,_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.useColorModeValue)(\"blackAlpha.200\", \"whiteAlpha.200\")\n        },\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.VisuallyHidden, {\n                children: label\n            }, void 0, false, {\n                fileName: \"/var/www/html/comeuque.com/components/footer.js\",\n                lineNumber: 35,\n                columnNumber: 9\n            }, undefined),\n            children\n        ]\n    }, void 0, true, {\n        fileName: \"/var/www/html/comeuque.com/components/footer.js\",\n        lineNumber: 20,\n        columnNumber: 7\n    }, undefined);\n};\nfunction SmallWithSocial() {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Box, {\n        bg: (0,_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.useColorModeValue)(_lib_constant__WEBPACK_IMPORTED_MODULE_4__.PRIMARY_COLOR, \"gray.900\"),\n        color: (0,_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.useColorModeValue)(\"#825221\", \"gray.200\"),\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Container, {\n            as: _chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Stack,\n            maxW: \"6xl\",\n            py: 4,\n            direction: {\n                base: \"column\",\n                md: \"row\"\n            },\n            spacing: 4,\n            justify: {\n                base: \"center\",\n                md: \"space-between\"\n            },\n            align: {\n                base: \"center\",\n                md: \"center\"\n            },\n            children: [\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Text, {\n                    children: \"\\xa9 2022 - Todos os direitos reservados - Com\\xea Uqu\\xea\"\n                }, void 0, false, {\n                    fileName: \"/var/www/html/comeuque.com/components/footer.js\",\n                    lineNumber: 54,\n                    columnNumber: 11\n                }, this),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Text, {\n                    children: \"kallario.com.br\"\n                }, void 0, false, {\n                    fileName: \"/var/www/html/comeuque.com/components/footer.js\",\n                    lineNumber: 55,\n                    columnNumber: 11\n                }, this)\n            ]\n        }, void 0, true, {\n            fileName: \"/var/www/html/comeuque.com/components/footer.js\",\n            lineNumber: 46,\n            columnNumber: 9\n        }, this)\n    }, void 0, false, {\n        fileName: \"/var/www/html/comeuque.com/components/footer.js\",\n        lineNumber: 43,\n        columnNumber: 7\n    }, this);\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL2Zvb3Rlci5qcy5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7O0FBQUE7QUFRNEI7QUFDeUM7QUFDakM7QUFDWTtBQUU5QyxNQUFNWSxZQUFZLEdBQUcsQ0FBQyxFQUNwQkMsUUFBUSxHQUNSQyxLQUFLLEdBQ0xDLElBQUksS0FDTCxHQUFLO0lBQ0oscUJBQ0UsOERBQUNkLDJEQUFhO1FBQ1pnQixFQUFFLEVBQUVaLG1FQUFpQixDQUFDLGdCQUFnQixFQUFFLGdCQUFnQixDQUFDO1FBQ3pEYSxPQUFPLEVBQUUsTUFBTTtRQUNmQyxDQUFDLEVBQUUsQ0FBQztRQUNKQyxDQUFDLEVBQUUsQ0FBQztRQUNKQyxNQUFNLEVBQUUsU0FBUztRQUNqQkMsRUFBRSxFQUFFLEdBQUc7UUFDUFAsSUFBSSxFQUFFQSxJQUFJO1FBQ1ZRLE9BQU8sRUFBRSxhQUFhO1FBQ3RCQyxVQUFVLEVBQUUsUUFBUTtRQUNwQkMsY0FBYyxFQUFFLFFBQVE7UUFDeEJDLFVBQVUsRUFBRSxzQkFBc0I7UUFDbENDLE1BQU0sRUFBRTtZQUNOVixFQUFFLEVBQUVaLG1FQUFpQixDQUFDLGdCQUFnQixFQUFFLGdCQUFnQixDQUFDO1NBQzFEOzswQkFDRCw4REFBQ0MsNERBQWM7MEJBQUVRLEtBQUs7Ozs7O3lCQUFrQjtZQUN2Q0QsUUFBUTs7Ozs7O2lCQUNLLENBQ2hCO0NBQ0g7QUFFYyxTQUFTZSxlQUFlLEdBQUc7SUFDeEMscUJBQ0UsOERBQUM1QixpREFBRztRQUNGaUIsRUFBRSxFQUFFWixtRUFBaUIsQ0FBQ00sd0RBQWEsRUFBRSxVQUFVLENBQUM7UUFDaERrQixLQUFLLEVBQUV4QixtRUFBaUIsQ0FBQyxTQUFTLEVBQUUsVUFBVSxDQUFDO2tCQUMvQyw0RUFBQ0gsdURBQVM7WUFDUm9CLEVBQUUsRUFBRW5CLG1EQUFLO1lBQ1QyQixJQUFJLEVBQUUsS0FBSztZQUNYQyxFQUFFLEVBQUUsQ0FBQztZQUNMQyxTQUFTLEVBQUU7Z0JBQUVDLElBQUksRUFBRSxRQUFRO2dCQUFFQyxFQUFFLEVBQUUsS0FBSzthQUFFO1lBQ3hDQyxPQUFPLEVBQUUsQ0FBQztZQUNWQyxPQUFPLEVBQUU7Z0JBQUVILElBQUksRUFBRSxRQUFRO2dCQUFFQyxFQUFFLEVBQUUsZUFBZTthQUFFO1lBQ2hERyxLQUFLLEVBQUU7Z0JBQUVKLElBQUksRUFBRSxRQUFRO2dCQUFFQyxFQUFFLEVBQUUsUUFBUTthQUFFOzs4QkFDdkMsOERBQUM5QixrREFBSTs4QkFBQyw0REFBaUQ7Ozs7O3dCQUFPOzhCQUM5RCw4REFBQ0Esa0RBQUk7OEJBQUMsaUJBQWU7Ozs7O3dCQUFPOzs7Ozs7Z0JBQ2xCOzs7OztZQUNSLENBQ047Q0FDSCIsInNvdXJjZXMiOlsid2VicGFjazovL21hcmNhY2FvLy4vY29tcG9uZW50cy9mb290ZXIuanM/YjE1NCJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQge1xuICAgIEJveCxcbiAgICBjaGFrcmEsXG4gICAgQ29udGFpbmVyLFxuICAgIFN0YWNrLFxuICAgIFRleHQsXG4gICAgdXNlQ29sb3JNb2RlVmFsdWUsXG4gICAgVmlzdWFsbHlIaWRkZW4sXG4gIH0gZnJvbSAnQGNoYWtyYS11aS9yZWFjdCc7XG4gIGltcG9ydCB7IEZhSW5zdGFncmFtLCBGYVR3aXR0ZXIsIEZhWW91dHViZSB9IGZyb20gJ3JlYWN0LWljb25zL2ZhJztcbiAgaW1wb3J0IHsgUmVhY3ROb2RlIH0gZnJvbSAncmVhY3QnO1xuaW1wb3J0IHsgUFJJTUFSWV9DT0xPUiB9IGZyb20gJy4uL2xpYi9jb25zdGFudCc7XG4gIFxuICBjb25zdCBTb2NpYWxCdXR0b24gPSAoe1xuICAgIGNoaWxkcmVuLFxuICAgIGxhYmVsLFxuICAgIGhyZWYsXG4gIH0pID0+IHtcbiAgICByZXR1cm4gKFxuICAgICAgPGNoYWtyYS5idXR0b25cbiAgICAgICAgYmc9e3VzZUNvbG9yTW9kZVZhbHVlKCdibGFja0FscGhhLjEwMCcsICd3aGl0ZUFscGhhLjEwMCcpfVxuICAgICAgICByb3VuZGVkPXsnZnVsbCd9XG4gICAgICAgIHc9ezh9XG4gICAgICAgIGg9ezh9XG4gICAgICAgIGN1cnNvcj17J3BvaW50ZXInfVxuICAgICAgICBhcz17J2EnfVxuICAgICAgICBocmVmPXtocmVmfVxuICAgICAgICBkaXNwbGF5PXsnaW5saW5lLWZsZXgnfVxuICAgICAgICBhbGlnbkl0ZW1zPXsnY2VudGVyJ31cbiAgICAgICAganVzdGlmeUNvbnRlbnQ9eydjZW50ZXInfVxuICAgICAgICB0cmFuc2l0aW9uPXsnYmFja2dyb3VuZCAwLjNzIGVhc2UnfVxuICAgICAgICBfaG92ZXI9e3tcbiAgICAgICAgICBiZzogdXNlQ29sb3JNb2RlVmFsdWUoJ2JsYWNrQWxwaGEuMjAwJywgJ3doaXRlQWxwaGEuMjAwJyksXG4gICAgICAgIH19PlxuICAgICAgICA8VmlzdWFsbHlIaWRkZW4+e2xhYmVsfTwvVmlzdWFsbHlIaWRkZW4+XG4gICAgICAgIHtjaGlsZHJlbn1cbiAgICAgIDwvY2hha3JhLmJ1dHRvbj5cbiAgICApO1xuICB9O1xuICBcbiAgZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gU21hbGxXaXRoU29jaWFsKCkge1xuICAgIHJldHVybiAoXG4gICAgICA8Qm94XG4gICAgICAgIGJnPXt1c2VDb2xvck1vZGVWYWx1ZShQUklNQVJZX0NPTE9SLCAnZ3JheS45MDAnKX1cbiAgICAgICAgY29sb3I9e3VzZUNvbG9yTW9kZVZhbHVlKCcjODI1MjIxJywgJ2dyYXkuMjAwJyl9PlxuICAgICAgICA8Q29udGFpbmVyXG4gICAgICAgICAgYXM9e1N0YWNrfVxuICAgICAgICAgIG1heFc9eyc2eGwnfVxuICAgICAgICAgIHB5PXs0fVxuICAgICAgICAgIGRpcmVjdGlvbj17eyBiYXNlOiAnY29sdW1uJywgbWQ6ICdyb3cnIH19XG4gICAgICAgICAgc3BhY2luZz17NH1cbiAgICAgICAgICBqdXN0aWZ5PXt7IGJhc2U6ICdjZW50ZXInLCBtZDogJ3NwYWNlLWJldHdlZW4nIH19XG4gICAgICAgICAgYWxpZ249e3sgYmFzZTogJ2NlbnRlcicsIG1kOiAnY2VudGVyJyB9fT5cbiAgICAgICAgICA8VGV4dD7CqSAyMDIyIC0gVG9kb3Mgb3MgZGlyZWl0b3MgcmVzZXJ2YWRvcyAtIENvbcOqIFVxdcOqPC9UZXh0PlxuICAgICAgICAgIDxUZXh0PmthbGxhcmlvLmNvbS5icjwvVGV4dD5cbiAgICAgICAgPC9Db250YWluZXI+XG4gICAgICA8L0JveD5cbiAgICApO1xuICB9Il0sIm5hbWVzIjpbIkJveCIsImNoYWtyYSIsIkNvbnRhaW5lciIsIlN0YWNrIiwiVGV4dCIsInVzZUNvbG9yTW9kZVZhbHVlIiwiVmlzdWFsbHlIaWRkZW4iLCJGYUluc3RhZ3JhbSIsIkZhVHdpdHRlciIsIkZhWW91dHViZSIsIlJlYWN0Tm9kZSIsIlBSSU1BUllfQ09MT1IiLCJTb2NpYWxCdXR0b24iLCJjaGlsZHJlbiIsImxhYmVsIiwiaHJlZiIsImJ1dHRvbiIsImJnIiwicm91bmRlZCIsInciLCJoIiwiY3Vyc29yIiwiYXMiLCJkaXNwbGF5IiwiYWxpZ25JdGVtcyIsImp1c3RpZnlDb250ZW50IiwidHJhbnNpdGlvbiIsIl9ob3ZlciIsIlNtYWxsV2l0aFNvY2lhbCIsImNvbG9yIiwibWF4VyIsInB5IiwiZGlyZWN0aW9uIiwiYmFzZSIsIm1kIiwic3BhY2luZyIsImp1c3RpZnkiLCJhbGlnbiJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./components/footer.js\n");
+
+/***/ }),
+
+/***/ "./components/form_contact.js":
+/*!************************************!*\
+  !*** ./components/form_contact.js ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"ContactUs\": () => (/* binding */ ContactUs)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var emailjs_com__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! emailjs-com */ \"emailjs-com\");\n/* harmony import */ var emailjs_com__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(emailjs_com__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _chakra_ui_react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @chakra-ui/react */ \"@chakra-ui/react\");\n/* harmony import */ var _chakra_ui_react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _lib_constant__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../lib/constant */ \"./lib/constant.js\");\n/* harmony import */ var react_icons_bs__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-icons/bs */ \"react-icons/bs\");\n/* harmony import */ var react_icons_bs__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_icons_bs__WEBPACK_IMPORTED_MODULE_5__);\n/* harmony import */ var react_icons_md__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-icons/md */ \"react-icons/md\");\n/* harmony import */ var react_icons_md__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_icons_md__WEBPACK_IMPORTED_MODULE_6__);\n\n\n\n\n\n\n\nconst ContactUs = ()=>{\n    const { 0: nome , 1: setNome  } = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(\"\");\n    const { 0: email , 1: setEmail  } = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(\"\");\n    const { 0: mensagem , 1: setMensagem  } = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(\"\");\n    const form = (0,react__WEBPACK_IMPORTED_MODULE_1__.useRef)();\n    const handleSubmit = async (e)=>{\n        e.preventDefault();\n        sendEmail(e);\n    };\n    function sendEmail(e) {\n        e.preventDefault(); //This is important, i'm not sure why, but the email won't send without it\n        emailjs_com__WEBPACK_IMPORTED_MODULE_2___default().sendForm(\"service_0zd9evo\", \"template_c7eep5s\", e.target, \"YQsqvFEGr6f5vFWum\").then((result)=>{\n            console.log(\"Ok\");\n        }, (error)=>{\n            console.log(error.text);\n        });\n    }\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_3__.VStack, {\n        w: \"full\",\n        h: \"full\",\n        p: 10,\n        spacing: 10,\n        alignItems: \"flex-start\",\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_3__.VStack, {\n                spacing: 3,\n                alignItems: \"flex-start\",\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_3__.Heading, {\n                        color: _lib_constant__WEBPACK_IMPORTED_MODULE_4__.DARK_COLOR,\n                        children: \"Contato\"\n                    }, void 0, false, {\n                        fileName: \"/var/www/html/comeuque.com/components/form_contact.js\",\n                        lineNumber: 35,\n                        columnNumber: 7\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_3__.Text, {\n                        children: \"Tem alguma d\\xfavida? Algum problema? Quer apenas conversar? Esse aqui \\xe9 o seu espa\\xe7o.\"\n                    }, void 0, false, {\n                        fileName: \"/var/www/html/comeuque.com/components/form_contact.js\",\n                        lineNumber: 36,\n                        columnNumber: 7\n                    }, undefined)\n                ]\n            }, void 0, true, {\n                fileName: \"/var/www/html/comeuque.com/components/form_contact.js\",\n                lineNumber: 34,\n                columnNumber: 5\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"form\", {\n                ref: form,\n                onSubmit: handleSubmit,\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_3__.FormControl, {\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_3__.FormLabel, {\n                                htmlFor: \"nome\",\n                                color: _lib_constant__WEBPACK_IMPORTED_MODULE_4__.DARK_COLOR,\n                                children: \"Seu nome\"\n                            }, void 0, false, {\n                                fileName: \"/var/www/html/comeuque.com/components/form_contact.js\",\n                                lineNumber: 40,\n                                columnNumber: 13\n                            }, undefined),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_3__.InputGroup, {\n                                borderColor: \"gray.800\",\n                                children: [\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_3__.InputLeftElement, {\n                                        pointerEvents: \"none\",\n                                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_icons_bs__WEBPACK_IMPORTED_MODULE_5__.BsPerson, {\n                                            color: \"gray.800\"\n                                        }, void 0, false, {\n                                            fileName: \"/var/www/html/comeuque.com/components/form_contact.js\",\n                                            lineNumber: 43,\n                                            columnNumber: 21\n                                        }, undefined)\n                                    }, void 0, false, {\n                                        fileName: \"/var/www/html/comeuque.com/components/form_contact.js\",\n                                        lineNumber: 42,\n                                        columnNumber: 17\n                                    }, undefined),\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_3__.Input, {\n                                        name: \"nome\",\n                                        type: \"string\",\n                                        placeholder: \"Seu Nome\",\n                                        bg: \"white\",\n                                        color: \"gray.800\",\n                                        _placeholder: {\n                                            color: \"gray.500\"\n                                        },\n                                        onChange: (event)=>setNome(event.target.value)\n                                        ,\n                                        value: nome\n                                    }, void 0, false, {\n                                        fileName: \"/var/www/html/comeuque.com/components/form_contact.js\",\n                                        lineNumber: 45,\n                                        columnNumber: 17\n                                    }, undefined)\n                                ]\n                            }, void 0, true, {\n                                fileName: \"/var/www/html/comeuque.com/components/form_contact.js\",\n                                lineNumber: 41,\n                                columnNumber: 17\n                            }, undefined)\n                        ]\n                    }, void 0, true, {\n                        fileName: \"/var/www/html/comeuque.com/components/form_contact.js\",\n                        lineNumber: 39,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_3__.FormControl, {\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_3__.FormLabel, {\n                                htmlFor: \"email\",\n                                color: _lib_constant__WEBPACK_IMPORTED_MODULE_4__.DARK_COLOR,\n                                mt: 2,\n                                children: \"Seu Email\"\n                            }, void 0, false, {\n                                fileName: \"/var/www/html/comeuque.com/components/form_contact.js\",\n                                lineNumber: 59,\n                                columnNumber: 19\n                            }, undefined),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_3__.InputGroup, {\n                                borderColor: \"gray.800\",\n                                children: [\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_3__.InputLeftElement, {\n                                        pointerEvents: \"none\",\n                                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_icons_md__WEBPACK_IMPORTED_MODULE_6__.MdOutlineEmail, {\n                                            color: \"gray.800\"\n                                        }, void 0, false, {\n                                            fileName: \"/var/www/html/comeuque.com/components/form_contact.js\",\n                                            lineNumber: 62,\n                                            columnNumber: 27\n                                        }, undefined)\n                                    }, void 0, false, {\n                                        fileName: \"/var/www/html/comeuque.com/components/form_contact.js\",\n                                        lineNumber: 61,\n                                        columnNumber: 25\n                                    }, undefined),\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_3__.Input, {\n                                        name: \"email\",\n                                        type: \"string\",\n                                        placeholder: \"Seu Email\",\n                                        bg: \"white\",\n                                        color: \"gray.800\",\n                                        _placeholder: {\n                                            color: \"gray.500\"\n                                        },\n                                        onChange: (event)=>setEmail(event.target.value)\n                                        ,\n                                        value: email\n                                    }, void 0, false, {\n                                        fileName: \"/var/www/html/comeuque.com/components/form_contact.js\",\n                                        lineNumber: 64,\n                                        columnNumber: 25\n                                    }, undefined)\n                                ]\n                            }, void 0, true, {\n                                fileName: \"/var/www/html/comeuque.com/components/form_contact.js\",\n                                lineNumber: 60,\n                                columnNumber: 23\n                            }, undefined)\n                        ]\n                    }, void 0, true, {\n                        fileName: \"/var/www/html/comeuque.com/components/form_contact.js\",\n                        lineNumber: 58,\n                        columnNumber: 13\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_3__.FormControl, {\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_3__.FormLabel, {\n                                htmlFor: \"observacoes\",\n                                color: _lib_constant__WEBPACK_IMPORTED_MODULE_4__.DARK_COLOR,\n                                mt: 2,\n                                children: \"Mensagem\"\n                            }, void 0, false, {\n                                fileName: \"/var/www/html/comeuque.com/components/form_contact.js\",\n                                lineNumber: 78,\n                                columnNumber: 17\n                            }, undefined),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_3__.InputGroup, {\n                                borderColor: \"gray.800\",\n                                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_3__.Textarea, {\n                                    name: \"mensagem\",\n                                    placeholder: \"Deixe sua mensagem\",\n                                    bg: \"white\",\n                                    color: \"gray.800\",\n                                    _placeholder: {\n                                        color: \"gray.500\"\n                                    },\n                                    onChange: (event)=>setMensagem(event.target.value)\n                                    ,\n                                    value: mensagem\n                                }, void 0, false, {\n                                    fileName: \"/var/www/html/comeuque.com/components/form_contact.js\",\n                                    lineNumber: 80,\n                                    columnNumber: 25\n                                }, undefined)\n                            }, void 0, false, {\n                                fileName: \"/var/www/html/comeuque.com/components/form_contact.js\",\n                                lineNumber: 79,\n                                columnNumber: 23\n                            }, undefined)\n                        ]\n                    }, void 0, true, {\n                        fileName: \"/var/www/html/comeuque.com/components/form_contact.js\",\n                        lineNumber: 77,\n                        columnNumber: 13\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_3__.Button, {\n                        type: \"submit\",\n                        bg: _lib_constant__WEBPACK_IMPORTED_MODULE_4__.DARK_COLOR,\n                        color: \"white\",\n                        my: 4,\n                        size: \"lg\",\n                        w: \"full\",\n                        _hover: {\n                            bg: \"#916601\"\n                        },\n                        children: \"Enviar Mensagem\"\n                    }, void 0, false, {\n                        fileName: \"/var/www/html/comeuque.com/components/form_contact.js\",\n                        lineNumber: 92,\n                        columnNumber: 9\n                    }, undefined)\n                ]\n            }, void 0, true, {\n                fileName: \"/var/www/html/comeuque.com/components/form_contact.js\",\n                lineNumber: 38,\n                columnNumber: 5\n            }, undefined)\n        ]\n    }, void 0, true, {\n        fileName: \"/var/www/html/comeuque.com/components/form_contact.js\",\n        lineNumber: 33,\n        columnNumber: 1\n    }, undefined);\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,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QUFFLFVBQVU7b0NBQ2pCVSxZQUFZLEVBQUU7d0NBQUVWLEtBQUssRUFBRSxVQUFVO3FDQUFFO29DQUNuQ1csUUFBUSxFQUFFQyxDQUFBQSxLQUFLLEdBQUkvQixXQUFXLENBQUMrQixLQUFLLENBQUN4QixNQUFNLENBQUN5QixLQUFLLENBQUM7b0NBQUE7b0NBQ2xEQSxLQUFLLEVBQUVqQyxRQUFROzs7Ozs2Q0FDYjs7Ozs7eUNBQ087Ozs7OztpQ0FDVDtrQ0FFbEIsOERBQUNsQixvREFBTTt3QkFBQzZDLElBQUksRUFBQyxRQUFRO3dCQUFDRSxFQUFFLEVBQUVyQyxxREFBVTt3QkFBRTRCLEtBQUssRUFBRSxPQUFPO3dCQUFFZSxFQUFFLEVBQUUsQ0FBQzt3QkFBRUMsSUFBSSxFQUFDLElBQUk7d0JBQUNyQixDQUFDLEVBQUMsTUFBTTt3QkFBQ3NCLE1BQU0sRUFBRTs0QkFBRVIsRUFBRSxFQUFFLFNBQVM7eUJBQUU7a0NBQUUsaUJBRTNHOzs7OztpQ0FBUzs7Ozs7O3lCQUNOOzs7Ozs7aUJBQ0YsQ0FDTDtDQUNILENBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9tYXJjYWNhby8uL2NvbXBvbmVudHMvZm9ybV9jb250YWN0LmpzPzZlOWMiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0LCB7IHVzZVJlZiwgdXNlU3RhdGUgfSBmcm9tICdyZWFjdCc7XG5pbXBvcnQgZW1haWxqcyBmcm9tICdlbWFpbGpzLWNvbSdcbmltcG9ydCB7IEJ1dHRvbiwgRm9ybUNvbnRyb2wsIEZvcm1MYWJlbCwgSGVhZGluZywgSW5wdXQsIElucHV0R3JvdXAsIElucHV0TGVmdEVsZW1lbnQsIFRleHQsIFRleHRhcmVhLCBWU3RhY2sgfSBmcm9tICdAY2hha3JhLXVpL3JlYWN0JztcbmltcG9ydCB7IERBUktfQ09MT1IgfSBmcm9tICcuLi9saWIvY29uc3RhbnQnO1xuaW1wb3J0IHsgQnNQZXJzb24gfSBmcm9tICdyZWFjdC1pY29ucy9icyc7XG5pbXBvcnQgeyBNZE91dGxpbmVFbWFpbCB9IGZyb20gJ3JlYWN0LWljb25zL21kJztcblxuZXhwb3J0IGNvbnN0IENvbnRhY3RVcyA9ICgpID0+IHtcblxuICBjb25zdCBbbm9tZSwgc2V0Tm9tZV0gPSB1c2VTdGF0ZSgnJylcbiAgY29uc3QgW2VtYWlsLCBzZXRFbWFpbF0gPSB1c2VTdGF0ZSgnJylcbiAgY29uc3QgW21lbnNhZ2VtLCBzZXRNZW5zYWdlbV0gPSB1c2VTdGF0ZSgnJylcblxuICBjb25zdCBmb3JtID0gdXNlUmVmKCk7XG5cbiAgY29uc3QgaGFuZGxlU3VibWl0ID0gYXN5bmMoZSkgPT4ge1xuICAgIGUucHJldmVudERlZmF1bHQoKVxuICAgIHNlbmRFbWFpbChlKVxuICB9ICBcbiAgIFxuICBmdW5jdGlvbiBzZW5kRW1haWwoZSkge1xuICAgIGUucHJldmVudERlZmF1bHQoKTsgICAgLy9UaGlzIGlzIGltcG9ydGFudCwgaSdtIG5vdCBzdXJlIHdoeSwgYnV0IHRoZSBlbWFpbCB3b24ndCBzZW5kIHdpdGhvdXQgaXRcblxuICAgIGVtYWlsanMuc2VuZEZvcm0oJ3NlcnZpY2VfMHpkOWV2bycgLCAndGVtcGxhdGVfYzdlZXA1cycsIGUudGFyZ2V0LCAnWVFzcXZGRUdyNmY1dkZXdW0nKVxuICAgICAgLnRoZW4oKHJlc3VsdCkgPT4ge1xuICAgICAgICAgIGNvbnNvbGUubG9nKCdPaycpXG4gICAgICB9LCAoZXJyb3IpID0+IHtcbiAgICAgICAgICBjb25zb2xlLmxvZyhlcnJvci50ZXh0KTtcbiAgICAgIH0pO1xuICB9XG5cbiAgcmV0dXJuIChcbjxWU3RhY2sgdz1cImZ1bGxcIiBoPVwiZnVsbFwiIHA9ezEwfSBzcGFjaW5nPXsxMH0gYWxpZ25JdGVtcz1cImZsZXgtc3RhcnRcIj5cbiAgICA8VlN0YWNrIHNwYWNpbmc9ezN9IGFsaWduSXRlbXM9XCJmbGV4LXN0YXJ0XCI+XG4gICAgICA8SGVhZGluZyBjb2xvcj17REFSS19DT0xPUn0+Q29udGF0bzwvSGVhZGluZz5cbiAgICAgIDxUZXh0PlRlbSBhbGd1bWEgZMO6dmlkYT8gQWxndW0gcHJvYmxlbWE/IFF1ZXIgYXBlbmFzIGNvbnZlcnNhcj8gRXNzZSBhcXVpIMOpIG8gc2V1IGVzcGHDp28uPC9UZXh0PlxuICAgIDwvVlN0YWNrPiAgICBcbiAgICA8Zm9ybSByZWY9e2Zvcm19IG9uU3VibWl0PXtoYW5kbGVTdWJtaXR9PlxuICAgICAgICA8Rm9ybUNvbnRyb2w+XG4gICAgICAgICAgICA8Rm9ybUxhYmVsIGh0bWxGb3I9J25vbWUnIGNvbG9yPXtEQVJLX0NPTE9SfT5TZXUgbm9tZTwvRm9ybUxhYmVsPlxuICAgICAgICAgICAgICAgIDxJbnB1dEdyb3VwIGJvcmRlckNvbG9yPVwiZ3JheS44MDBcIj5cbiAgICAgICAgICAgICAgICA8SW5wdXRMZWZ0RWxlbWVudCBwb2ludGVyRXZlbnRzPVwibm9uZVwiPlxuICAgICAgICAgICAgICAgICAgICA8QnNQZXJzb24gY29sb3I9XCJncmF5LjgwMFwiIC8+XG4gICAgICAgICAgICAgICAgPC9JbnB1dExlZnRFbGVtZW50PlxuICAgICAgICAgICAgICAgIDxJbnB1dCBcbiAgICAgICAgICAgICAgICAgICAgbmFtZT0nbm9tZScgXG4gICAgICAgICAgICAgICAgICAgIHR5cGU9J3N0cmluZycgXG4gICAgICAgICAgICAgICAgICAgIHBsYWNlaG9sZGVyPSdTZXUgTm9tZScgXG4gICAgICAgICAgICAgICAgICAgIGJnPSd3aGl0ZScgXG4gICAgICAgICAgICAgICAgICAgIGNvbG9yPXsnZ3JheS44MDAnfSBcbiAgICAgICAgICAgICAgICAgICAgX3BsYWNlaG9sZGVyPXt7IGNvbG9yOiAnZ3JheS41MDAnIH19XG4gICAgICAgICAgICAgICAgICAgIG9uQ2hhbmdlPXtldmVudCA9PiBzZXROb21lKGV2ZW50LnRhcmdldC52YWx1ZSl9XG4gICAgICAgICAgICAgICAgICAgIHZhbHVlPXtub21lfSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXG4gICAgICAgICAgICAgICAgICAgIC8+XG4gICAgICAgICAgICAgICAgPC9JbnB1dEdyb3VwPlxuICAgICAgICAgICAgPC9Gb3JtQ29udHJvbD5cblxuICAgICAgICAgICAgPEZvcm1Db250cm9sPlxuICAgICAgICAgICAgICAgICAgPEZvcm1MYWJlbCBodG1sRm9yPSdlbWFpbCcgY29sb3I9e0RBUktfQ09MT1J9IG10PXsyfT5TZXUgRW1haWw8L0Zvcm1MYWJlbD5cbiAgICAgICAgICAgICAgICAgICAgICA8SW5wdXRHcm91cCBib3JkZXJDb2xvcj1cImdyYXkuODAwXCI+XG4gICAgICAgICAgICAgICAgICAgICAgICA8SW5wdXRMZWZ0RWxlbWVudCBwb2ludGVyRXZlbnRzPVwibm9uZVwiPlxuICAgICAgICAgICAgICAgICAgICAgICAgICA8TWRPdXRsaW5lRW1haWwgY29sb3I9XCJncmF5LjgwMFwiIC8+XG4gICAgICAgICAgICAgICAgICAgICAgICA8L0lucHV0TGVmdEVsZW1lbnQ+XG4gICAgICAgICAgICAgICAgICAgICAgICA8SW5wdXQgXG4gICAgICAgICAgICAgICAgICAgICAgICAgIG5hbWU9J2VtYWlsJyBcbiAgICAgICAgICAgICAgICAgICAgICAgICAgdHlwZT0nc3RyaW5nJyBcbiAgICAgICAgICAgICAgICAgICAgICAgICAgcGxhY2Vob2xkZXI9J1NldSBFbWFpbCcgXG4gICAgICAgICAgICAgICAgICAgICAgICAgIGJnPSd3aGl0ZScgXG4gICAgICAgICAgICAgICAgICAgICAgICAgIGNvbG9yPXsnZ3JheS44MDAnfSBcbiAgICAgICAgICAgICAgICAgICAgICAgICAgX3BsYWNlaG9sZGVyPXt7IGNvbG9yOiAnZ3JheS41MDAnIH19XG4gICAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2hhbmdlPXtldmVudCA9PiBzZXRFbWFpbChldmVudC50YXJnZXQudmFsdWUpfVxuICAgICAgICAgICAgICAgICAgICAgICAgICB2YWx1ZT17ZW1haWx9ICAgICAgICAgICAgICAgICAgICAgICAgICAgXG4gICAgICAgICAgICAgICAgICAgICAgICAvPlxuICAgICAgICAgICAgICAgICAgICAgIDwvSW5wdXRHcm91cD5cbiAgICAgICAgICAgIDwvRm9ybUNvbnRyb2w+XG5cbiAgICAgICAgICAgIDxGb3JtQ29udHJvbD5cbiAgICAgICAgICAgICAgICA8Rm9ybUxhYmVsIGh0bWxGb3I9J29ic2VydmFjb2VzJyBjb2xvcj17REFSS19DT0xPUn0gbXQ9ezJ9Pk1lbnNhZ2VtPC9Gb3JtTGFiZWw+XG4gICAgICAgICAgICAgICAgICAgICAgPElucHV0R3JvdXAgYm9yZGVyQ29sb3I9XCJncmF5LjgwMFwiPlxuICAgICAgICAgICAgICAgICAgICAgICAgPFRleHRhcmVhIFxuICAgICAgICAgICAgICAgICAgICAgICAgICBuYW1lPSdtZW5zYWdlbScgXG4gICAgICAgICAgICAgICAgICAgICAgICAgIHBsYWNlaG9sZGVyPSdEZWl4ZSBzdWEgbWVuc2FnZW0nIFxuICAgICAgICAgICAgICAgICAgICAgICAgICBiZz0nd2hpdGUnIFxuICAgICAgICAgICAgICAgICAgICAgICAgICBjb2xvcj17J2dyYXkuODAwJ30gXG4gICAgICAgICAgICAgICAgICAgICAgICAgIF9wbGFjZWhvbGRlcj17eyBjb2xvcjogJ2dyYXkuNTAwJyB9fSBcbiAgICAgICAgICAgICAgICAgICAgICAgICAgb25DaGFuZ2U9e2V2ZW50ID0+IHNldE1lbnNhZ2VtKGV2ZW50LnRhcmdldC52YWx1ZSl9XG4gICAgICAgICAgICAgICAgICAgICAgICAgIHZhbHVlPXttZW5zYWdlbX0gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXG4gICAgICAgICAgICAgICAgICAgICAgICAgIC8+XG4gICAgICAgICAgICAgICAgICAgICAgPC9JbnB1dEdyb3VwPlxuICAgICAgICAgICAgPC9Gb3JtQ29udHJvbD5cblxuICAgICAgICA8QnV0dG9uIHR5cGU9XCJzdWJtaXRcIiBiZz17REFSS19DT0xPUn0gY29sb3I9e1wid2hpdGVcIn0gbXk9ezR9IHNpemU9XCJsZ1wiIHc9XCJmdWxsXCIgX2hvdmVyPXt7IGJnOiAnIzkxNjYwMScgfX0+XG4gICAgICAgICAgICBFbnZpYXIgTWVuc2FnZW1cbiAgICAgICAgPC9CdXR0b24+XG4gICAgPC9mb3JtPlxuPC9WU3RhY2s+XG4gICk7XG59O1xuIl0sIm5hbWVzIjpbIlJlYWN0IiwidXNlUmVmIiwidXNlU3RhdGUiLCJlbWFpbGpzIiwiQnV0dG9uIiwiRm9ybUNvbnRyb2wiLCJGb3JtTGFiZWwiLCJIZWFkaW5nIiwiSW5wdXQiLCJJbnB1dEdyb3VwIiwiSW5wdXRMZWZ0RWxlbWVudCIsIlRleHQiLCJUZXh0YXJlYSIsIlZTdGFjayIsIkRBUktfQ09MT1IiLCJCc1BlcnNvbiIsIk1kT3V0bGluZUVtYWlsIiwiQ29udGFjdFVzIiwibm9tZSIsInNldE5vbWUiLCJlbWFpbCIsInNldEVtYWlsIiwibWVuc2FnZW0iLCJzZXRNZW5zYWdlbSIsImZvcm0iLCJoYW5kbGVTdWJtaXQiLCJlIiwicHJldmVudERlZmF1bHQiLCJzZW5kRW1haWwiLCJzZW5kRm9ybSIsInRhcmdldCIsInRoZW4iLCJyZXN1bHQiLCJjb25zb2xlIiwibG9nIiwiZXJyb3IiLCJ0ZXh0IiwidyIsImgiLCJwIiwic3BhY2luZyIsImFsaWduSXRlbXMiLCJjb2xvciIsInJlZiIsIm9uU3VibWl0IiwiaHRtbEZvciIsImJvcmRlckNvbG9yIiwicG9pbnRlckV2ZW50cyIsIm5hbWUiLCJ0eXBlIiwicGxhY2Vob2xkZXIiLCJiZyIsIl9wbGFjZWhvbGRlciIsIm9uQ2hhbmdlIiwiZXZlbnQiLCJ2YWx1ZSIsIm10IiwibXkiLCJzaXplIiwiX2hvdmVyIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./components/form_contact.js\n");
+
+/***/ }),
+
+/***/ "./components/form_contato.js":
+/*!************************************!*\
+  !*** ./components/form_contato.js ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ FaleConosco)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @chakra-ui/react */ \"@chakra-ui/react\");\n/* harmony import */ var _chakra_ui_react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var react_icons_md__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-icons/md */ \"react-icons/md\");\n/* harmony import */ var react_icons_md__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_icons_md__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var react_icons_bs__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-icons/bs */ \"react-icons/bs\");\n/* harmony import */ var react_icons_bs__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_icons_bs__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _botao__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./botao */ \"./components/botao.js\");\n/* harmony import */ var _lib_constant__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../lib/constant */ \"./lib/constant.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_6__);\n/* harmony import */ var _form_contact__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./form_contact */ \"./components/form_contact.js\");\n\n\n\n\n\n\n\n\nfunction FaleConosco(props1) {\n    const Logo = (props)=>{\n        return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Flex, {\n            justify: \"center\",\n            py: 8,\n            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Image, {\n                src: \"http://painel.kallario.com.br\" + props.imagem,\n                h: \"120px\",\n                alt: \"Logotipo\",\n                paddingTop: 2\n            }, void 0, false, {\n                fileName: \"/var/www/html/comeuque.com/components/form_contato.js\",\n                lineNumber: 28,\n                columnNumber: 13\n            }, this)\n        }, void 0, false, {\n            fileName: \"/var/www/html/comeuque.com/components/form_contato.js\",\n            lineNumber: 27,\n            columnNumber: 11\n        }, this);\n    };\n    const Social = ()=>{\n        return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.VStack, {\n            w: \"full\",\n            h: \"full\",\n            p: 10,\n            spacing: 10,\n            alignItems: \"flex-start\",\n            children: [\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.VStack, {\n                    spacing: 3,\n                    alignItems: \"flex-start\",\n                    children: [\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Heading, {\n                            color: _lib_constant__WEBPACK_IMPORTED_MODULE_5__.DARK_COLOR,\n                            children: \"Redes Sociais\"\n                        }, void 0, false, {\n                            fileName: \"/var/www/html/comeuque.com/components/form_contato.js\",\n                            lineNumber: 36,\n                            columnNumber: 13\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Text, {\n                            children: \"Nos Acompanhe nas Redes Sociais e Fique por dentro das Novidades e Promo\\xe7\\xf5es!\"\n                        }, void 0, false, {\n                            fileName: \"/var/www/html/comeuque.com/components/form_contato.js\",\n                            lineNumber: 37,\n                            columnNumber: 15\n                        }, this)\n                    ]\n                }, void 0, true, {\n                    fileName: \"/var/www/html/comeuque.com/components/form_contato.js\",\n                    lineNumber: 35,\n                    columnNumber: 13\n                }, this),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.SimpleGrid, {\n                    rowGap: 6,\n                    w: \"full\",\n                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.GridItem, {\n                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.HStack, {\n                            w: \"full\",\n                            mt: {\n                                lg: 10,\n                                md: 10\n                            },\n                            spacing: 5,\n                            px: 5,\n                            justify: \"center\",\n                            alignItems: \"center\",\n                            children: [\n                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                                    href: `https://facebook.com/${props1.empresa.facebook}`,\n                                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.IconButton, {\n                                        \"aria-label\": \"facebook\",\n                                        variant: \"ghost\",\n                                        size: \"lg\",\n                                        isRound: true,\n                                        _hover: {\n                                            bg: \"#0D74FF\"\n                                        },\n                                        icon: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_icons_md__WEBPACK_IMPORTED_MODULE_2__.MdFacebook, {\n                                            size: \"28px\"\n                                        }, void 0, false, void 0, void 0)\n                                    }, void 0, false, {\n                                        fileName: \"/var/www/html/comeuque.com/components/form_contato.js\",\n                                        lineNumber: 49,\n                                        columnNumber: 19\n                                    }, this)\n                                }, void 0, false, {\n                                    fileName: \"/var/www/html/comeuque.com/components/form_contato.js\",\n                                    lineNumber: 48,\n                                    columnNumber: 19\n                                }, this),\n                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                                    href: `https://instagram.com/${props1.empresa.instagram}`,\n                                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.IconButton, {\n                                        \"aria-label\": \"instagram\",\n                                        variant: \"ghost\",\n                                        size: \"lg\",\n                                        isRound: true,\n                                        _hover: {\n                                            bg: \"#0D74FF\"\n                                        },\n                                        icon: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_icons_bs__WEBPACK_IMPORTED_MODULE_3__.BsInstagram, {\n                                            size: \"28px\"\n                                        }, void 0, false, void 0, void 0)\n                                    }, void 0, false, {\n                                        fileName: \"/var/www/html/comeuque.com/components/form_contato.js\",\n                                        lineNumber: 59,\n                                        columnNumber: 19\n                                    }, this)\n                                }, void 0, false, {\n                                    fileName: \"/var/www/html/comeuque.com/components/form_contato.js\",\n                                    lineNumber: 58,\n                                    columnNumber: 19\n                                }, this),\n                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                                    href: `https://youtube.com/${props1.empresa.youtube}`,\n                                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.IconButton, {\n                                        \"aria-label\": \"youtube\",\n                                        variant: \"ghost\",\n                                        size: \"lg\",\n                                        isRound: true,\n                                        _hover: {\n                                            bg: \"#0D74FF\"\n                                        },\n                                        icon: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_icons_bs__WEBPACK_IMPORTED_MODULE_3__.BsYoutube, {\n                                            size: \"28px\"\n                                        }, void 0, false, void 0, void 0)\n                                    }, void 0, false, {\n                                        fileName: \"/var/www/html/comeuque.com/components/form_contato.js\",\n                                        lineNumber: 69,\n                                        columnNumber: 19\n                                    }, this)\n                                }, void 0, false, {\n                                    fileName: \"/var/www/html/comeuque.com/components/form_contato.js\",\n                                    lineNumber: 68,\n                                    columnNumber: 19\n                                }, this)\n                            ]\n                        }, void 0, true, {\n                            fileName: \"/var/www/html/comeuque.com/components/form_contato.js\",\n                            lineNumber: 41,\n                            columnNumber: 17\n                        }, this)\n                    }, void 0, false, {\n                        fileName: \"/var/www/html/comeuque.com/components/form_contato.js\",\n                        lineNumber: 40,\n                        columnNumber: 15\n                    }, this)\n                }, void 0, false, {\n                    fileName: \"/var/www/html/comeuque.com/components/form_contato.js\",\n                    lineNumber: 39,\n                    columnNumber: 13\n                }, this)\n            ]\n        }, void 0, true, {\n            fileName: \"/var/www/html/comeuque.com/components/form_contato.js\",\n            lineNumber: 34,\n            columnNumber: 11\n        }, this);\n    };\n    const Pedidos = ()=>{\n        return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.VStack, {\n            w: \"full\",\n            h: \"full\",\n            p: 10,\n            spacing: 6,\n            alignItems: \"flex-start\",\n            children: [\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.VStack, {\n                    w: \"full\",\n                    alignItems: \"center\",\n                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(Logo, {\n                        imagem: props1.empresa.url_imagem\n                    }, void 0, false, {\n                        fileName: \"/var/www/html/comeuque.com/components/form_contato.js\",\n                        lineNumber: 89,\n                        columnNumber: 13\n                    }, this)\n                }, void 0, false, {\n                    fileName: \"/var/www/html/comeuque.com/components/form_contato.js\",\n                    lineNumber: 88,\n                    columnNumber: 11\n                }, this),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.VStack, {\n                    alignItems: \"flex-start\",\n                    w: \"full\",\n                    children: [\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Text, {\n                            children: props1.empresa.endereco\n                        }, void 0, false, {\n                            fileName: \"/var/www/html/comeuque.com/components/form_contato.js\",\n                            lineNumber: 92,\n                            columnNumber: 15\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Text, {\n                            children: [\n                                props1.empresa.bairro,\n                                \", \",\n                                props1.empresa.cidade,\n                                \"/\",\n                                props1.empresa.estado\n                            ]\n                        }, void 0, true, {\n                            fileName: \"/var/www/html/comeuque.com/components/form_contato.js\",\n                            lineNumber: 93,\n                            columnNumber: 15\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Flex, {\n                            direction: \"row\",\n                            justify: \"center\",\n                            alignItems: \"center\",\n                            w: \"full\",\n                            mb: 4,\n                            children: [\n                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.IconButton, {\n                                    \"aria-label\": \"youtube\",\n                                    variant: \"ghost\",\n                                    size: \"lg\",\n                                    isRound: true,\n                                    color: _lib_constant__WEBPACK_IMPORTED_MODULE_5__.DARK_COLOR,\n                                    _hover: {\n                                        bg: \"#0D74FF\"\n                                    },\n                                    icon: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_icons_bs__WEBPACK_IMPORTED_MODULE_3__.BsWhatsapp, {\n                                        size: \"28px\"\n                                    }, void 0, false, void 0, void 0)\n                                }, void 0, false, {\n                                    fileName: \"/var/www/html/comeuque.com/components/form_contato.js\",\n                                    lineNumber: 95,\n                                    columnNumber: 19\n                                }, this),\n                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                                    href: `https://wa.me/55${props1.empresa.whatsapp.replace(/[^\\d.]/g, \"\")}?text=Ol%C3%A1%2C%20voc%C3%AAs%20podem%20me%20ajudar%3F`,\n                                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Text, {\n                                        fontFamily: \"Mont-Heavy\",\n                                        color: _lib_constant__WEBPACK_IMPORTED_MODULE_5__.DARK_COLOR,\n                                        fontSize: 24,\n                                        children: props1.empresa.whatsapp\n                                    }, void 0, false, {\n                                        fileName: \"/var/www/html/comeuque.com/components/form_contato.js\",\n                                        lineNumber: 105,\n                                        columnNumber: 21\n                                    }, this)\n                                }, void 0, false, {\n                                    fileName: \"/var/www/html/comeuque.com/components/form_contato.js\",\n                                    lineNumber: 104,\n                                    columnNumber: 19\n                                }, this)\n                            ]\n                        }, void 0, true, {\n                            fileName: \"/var/www/html/comeuque.com/components/form_contato.js\",\n                            lineNumber: 94,\n                            columnNumber: 15\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_botao__WEBPACK_IMPORTED_MODULE_4__[\"default\"], {\n                            paddingY: 6,\n                            mt: 4\n                        }, void 0, false, {\n                            fileName: \"/var/www/html/comeuque.com/components/form_contato.js\",\n                            lineNumber: 110,\n                            columnNumber: 15\n                        }, this)\n                    ]\n                }, void 0, true, {\n                    fileName: \"/var/www/html/comeuque.com/components/form_contato.js\",\n                    lineNumber: 91,\n                    columnNumber: 11\n                }, this)\n            ]\n        }, void 0, true, {\n            fileName: \"/var/www/html/comeuque.com/components/form_contato.js\",\n            lineNumber: 87,\n            columnNumber: 9\n        }, this);\n    };\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Box, {\n        bg: \"#fdc319\",\n        id: \"contato\",\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Container, {\n            maxW: \"container.xl\",\n            p: 0,\n            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Flex, {\n                h: {\n                    base: \"auto\",\n                    md: \"fit-content\"\n                },\n                py: [\n                    0,\n                    10,\n                    20\n                ],\n                direction: {\n                    base: \"column-reverse\",\n                    md: \"row\"\n                },\n                justify: \"space-evenly\",\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_form_contact__WEBPACK_IMPORTED_MODULE_7__.ContactUs, {}, void 0, false, {\n                        fileName: \"/var/www/html/comeuque.com/components/form_contato.js\",\n                        lineNumber: 125,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(Social, {}, void 0, false, {\n                        fileName: \"/var/www/html/comeuque.com/components/form_contato.js\",\n                        lineNumber: 126,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(Pedidos, {}, void 0, false, {\n                        fileName: \"/var/www/html/comeuque.com/components/form_contato.js\",\n                        lineNumber: 127,\n                        columnNumber: 9\n                    }, this)\n                ]\n            }, void 0, true, {\n                fileName: \"/var/www/html/comeuque.com/components/form_contato.js\",\n                lineNumber: 119,\n                columnNumber: 7\n            }, this)\n        }, void 0, false, {\n            fileName: \"/var/www/html/comeuque.com/components/form_contato.js\",\n            lineNumber: 118,\n            columnNumber: 7\n        }, this)\n    }, void 0, false, {\n        fileName: \"/var/www/html/comeuque.com/components/form_contato.js\",\n        lineNumber: 117,\n        columnNumber: 5\n    }, this);\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,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QVM7WUFBQ3NFLElBQUksRUFBQyxjQUFjO1lBQUNwQyxDQUFDLEVBQUUsQ0FBQztzQkFDbkMsNEVBQUNqQyxrREFBSTtnQkFDTDRCLENBQUMsRUFBRTtvQkFBRTBDLElBQUksRUFBRSxNQUFNO29CQUFFOUIsRUFBRSxFQUFFLGFBQWE7aUJBQUU7Z0JBQ3RDbEIsRUFBRSxFQUFFO0FBQUMscUJBQUM7QUFBRSxzQkFBRTtBQUFFLHNCQUFFO2lCQUFDO2dCQUNmdUMsU0FBUyxFQUFFO29CQUFFUyxJQUFJLEVBQUUsZ0JBQWdCO29CQUFFOUIsRUFBRSxFQUFFLEtBQUs7aUJBQUU7Z0JBQ2hEbkIsT0FBTyxFQUFFLGNBQWM7O2tDQUVyQiw4REFBQ0osb0RBQVM7Ozs7NEJBQUc7a0NBQ2IsOERBQUNjLE1BQU07Ozs7NEJBQUc7a0NBQ1YsOERBQUN3QixPQUFPOzs7OzRCQUFHOzs7Ozs7b0JBQ047Ozs7O2dCQUNLOzs7OztZQUNSLENBQ0o7Q0FDSCIsInNvdXJjZXMiOlsid2VicGFjazovL21hcmNhY2FvLy4vY29tcG9uZW50cy9mb3JtX2NvbnRhdG8uanM/M2U5YSJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQge1xyXG4gICAgQ29udGFpbmVyLFxyXG4gICAgRmxleCxcclxuICAgIEJveCxcclxuICAgIEhlYWRpbmcsXHJcbiAgICBUZXh0LFxyXG4gICAgSWNvbkJ1dHRvbixcclxuICAgIFZTdGFjayxcclxuICAgIEhTdGFjayxcclxuICAgIEltYWdlLFxyXG4gICAgU2ltcGxlR3JpZCxcclxuICAgIEdyaWRJdGVtLFxyXG4gIH0gZnJvbSAnQGNoYWtyYS11aS9yZWFjdCc7XHJcbiAgaW1wb3J0IHtcclxuICAgIE1kRmFjZWJvb2ssXHJcbiAgfSBmcm9tICdyZWFjdC1pY29ucy9tZCc7XHJcbiAgaW1wb3J0IHsgQnNJbnN0YWdyYW0sIEJzWW91dHViZSwgQnNXaGF0c2FwcCB9IGZyb20gJ3JlYWN0LWljb25zL2JzJztcclxuaW1wb3J0IEJvdGFvIGZyb20gJy4vYm90YW8nO1xyXG5pbXBvcnQgeyBEQVJLX0NPTE9SIH0gZnJvbSAnLi4vbGliL2NvbnN0YW50JztcclxuaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0J1xyXG5pbXBvcnQgeyBDb250YWN0VXMgfSBmcm9tICcuL2Zvcm1fY29udGFjdCc7XHJcbiAgXHJcbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIEZhbGVDb25vc2NvKHByb3BzKSB7XHJcbiAgICAgXHJcbiAgICBjb25zdCBMb2dvID0gKHByb3BzKSA9PiB7XHJcbiAgICAgICAgcmV0dXJuIChcclxuICAgICAgICAgIDxGbGV4IGp1c3RpZnk9eydjZW50ZXInfSBweT17OH0+XHJcbiAgICAgICAgICAgIDxJbWFnZSBzcmM9e3Byb2Nlc3MuZW52LklNQUdFTV9VUkwgKyBwcm9wcy5pbWFnZW19IGg9eycxMjBweCd9IGFsdD1cIkxvZ290aXBvXCIgcGFkZGluZ1RvcD17Mn0vPlxyXG4gICAgICAgICAgPC9GbGV4PlxyXG4gICAgICAgICk7XHJcbiAgICAgIH07XHJcbiAgICAgIGNvbnN0IFNvY2lhbCA9ICgpID0+IHtcclxuICAgICAgICByZXR1cm4gKFxyXG4gICAgICAgICAgPFZTdGFjayB3PVwiZnVsbFwiIGg9XCJmdWxsXCIgcD17MTB9IHNwYWNpbmc9ezEwfSBhbGlnbkl0ZW1zPVwiZmxleC1zdGFydFwiPlxyXG4gICAgICAgICAgICA8VlN0YWNrIHNwYWNpbmc9ezN9IGFsaWduSXRlbXM9XCJmbGV4LXN0YXJ0XCI+XHJcbiAgICAgICAgICAgIDxIZWFkaW5nIGNvbG9yPXtEQVJLX0NPTE9SfT5SZWRlcyBTb2NpYWlzPC9IZWFkaW5nPlxyXG4gICAgICAgICAgICAgIDxUZXh0Pk5vcyBBY29tcGFuaGUgbmFzIFJlZGVzIFNvY2lhaXMgZSBGaXF1ZSBwb3IgZGVudHJvIGRhcyBOb3ZpZGFkZXMgZSBQcm9tb8Onw7VlcyE8L1RleHQ+XHJcbiAgICAgICAgICAgIDwvVlN0YWNrPlxyXG4gICAgICAgICAgICA8U2ltcGxlR3JpZCByb3dHYXA9ezZ9IHc9XCJmdWxsXCI+ICAgICAgICAgICAgIFxyXG4gICAgICAgICAgICAgIDxHcmlkSXRlbT5cclxuICAgICAgICAgICAgICAgIDxIU3RhY2tcclxuICAgICAgICAgICAgICAgICAgdz0nZnVsbCdcclxuICAgICAgICAgICAgICAgICAgbXQ9e3sgbGc6IDEwLCBtZDogMTAgfX1cclxuICAgICAgICAgICAgICAgICAgc3BhY2luZz17NX1cclxuICAgICAgICAgICAgICAgICAgcHg9ezV9XHJcbiAgICAgICAgICAgICAgICAgIGp1c3RpZnk9eydjZW50ZXInfVxyXG4gICAgICAgICAgICAgICAgICBhbGlnbkl0ZW1zPSdjZW50ZXInPlxyXG4gICAgICAgICAgICAgICAgICA8YSBocmVmPXtgaHR0cHM6Ly9mYWNlYm9vay5jb20vJHtwcm9wcy5lbXByZXNhLmZhY2Vib29rfWB9PlxyXG4gICAgICAgICAgICAgICAgICA8SWNvbkJ1dHRvblxyXG4gICAgICAgICAgICAgICAgICAgIGFyaWEtbGFiZWw9XCJmYWNlYm9va1wiXHJcbiAgICAgICAgICAgICAgICAgICAgdmFyaWFudD1cImdob3N0XCJcclxuICAgICAgICAgICAgICAgICAgICBzaXplPVwibGdcIlxyXG4gICAgICAgICAgICAgICAgICAgIGlzUm91bmQ9e3RydWV9XHJcbiAgICAgICAgICAgICAgICAgICAgX2hvdmVyPXt7IGJnOiAnIzBENzRGRicgfX1cclxuICAgICAgICAgICAgICAgICAgICBpY29uPXs8TWRGYWNlYm9vayBzaXplPVwiMjhweFwiIC8+fVxyXG4gICAgICAgICAgICAgICAgICAvPlxyXG4gICAgICAgICAgICAgICAgICA8L2E+XHJcbiAgICAgICAgICAgICAgICAgIDxhIGhyZWY9e2BodHRwczovL2luc3RhZ3JhbS5jb20vJHtwcm9wcy5lbXByZXNhLmluc3RhZ3JhbX1gfT5cclxuICAgICAgICAgICAgICAgICAgPEljb25CdXR0b25cclxuICAgICAgICAgICAgICAgICAgICBhcmlhLWxhYmVsPVwiaW5zdGFncmFtXCJcclxuICAgICAgICAgICAgICAgICAgICB2YXJpYW50PVwiZ2hvc3RcIlxyXG4gICAgICAgICAgICAgICAgICAgIHNpemU9XCJsZ1wiXHJcbiAgICAgICAgICAgICAgICAgICAgaXNSb3VuZD17dHJ1ZX1cclxuICAgICAgICAgICAgICAgICAgICBfaG92ZXI9e3sgYmc6ICcjMEQ3NEZGJyB9fVxyXG4gICAgICAgICAgICAgICAgICAgIGljb249ezxCc0luc3RhZ3JhbSBzaXplPVwiMjhweFwiIC8+fVxyXG4gICAgICAgICAgICAgICAgICAvPlxyXG4gICAgICAgICAgICAgICAgICA8L2E+XHJcbiAgICAgICAgICAgICAgICAgIDxhIGhyZWY9e2BodHRwczovL3lvdXR1YmUuY29tLyR7cHJvcHMuZW1wcmVzYS55b3V0dWJlfWB9PlxyXG4gICAgICAgICAgICAgICAgICA8SWNvbkJ1dHRvblxyXG4gICAgICAgICAgICAgICAgICAgIGFyaWEtbGFiZWw9XCJ5b3V0dWJlXCJcclxuICAgICAgICAgICAgICAgICAgICB2YXJpYW50PVwiZ2hvc3RcIlxyXG4gICAgICAgICAgICAgICAgICAgIHNpemU9XCJsZ1wiXHJcbiAgICAgICAgICAgICAgICAgICAgaXNSb3VuZD17dHJ1ZX1cclxuICAgICAgICAgICAgICAgICAgICBfaG92ZXI9e3sgYmc6ICcjMEQ3NEZGJyB9fVxyXG4gICAgICAgICAgICAgICAgICAgIGljb249ezxCc1lvdXR1YmUgc2l6ZT1cIjI4cHhcIiAvPn1cclxuICAgICAgICAgICAgICAgICAgLz5cclxuICAgICAgICAgICAgICAgICAgPC9hPlxyXG4gICAgICAgICAgICAgICAgPC9IU3RhY2s+XHJcbiAgICAgICAgICAgICAgPC9HcmlkSXRlbT5cclxuICAgICAgICAgICAgPC9TaW1wbGVHcmlkPlxyXG4gICAgICAgICAgPC9WU3RhY2s+XHJcbiAgICAgICAgKTtcclxuICAgICAgfTsgICAgICBcclxuXHJcbiAgICBjb25zdCBQZWRpZG9zID0gKCkgPT4ge1xyXG4gICAgICByZXR1cm4oXHJcbiAgICAgICAgPFZTdGFjayB3PVwiZnVsbFwiIGg9XCJmdWxsXCIgcD17MTB9IHNwYWNpbmc9ezZ9IGFsaWduSXRlbXM9XCJmbGV4LXN0YXJ0XCI+XHJcbiAgICAgICAgICA8VlN0YWNrIHc9eydmdWxsJ30gYWxpZ25JdGVtcz1cImNlbnRlclwiPlxyXG4gICAgICAgICAgICA8TG9nbyBpbWFnZW09e3Byb3BzLmVtcHJlc2EudXJsX2ltYWdlbX0gLz5cclxuICAgICAgICAgIDwvVlN0YWNrPlxyXG4gICAgICAgICAgPFZTdGFjayBhbGlnbkl0ZW1zPXtcImZsZXgtc3RhcnRcIn0gdz1cImZ1bGxcIj4gICAgICAgICAgICAgXHJcbiAgICAgICAgICAgICAgPFRleHQ+e3Byb3BzLmVtcHJlc2EuZW5kZXJlY299PC9UZXh0PlxyXG4gICAgICAgICAgICAgIDxUZXh0Pntwcm9wcy5lbXByZXNhLmJhaXJyb30sIHtwcm9wcy5lbXByZXNhLmNpZGFkZX0ve3Byb3BzLmVtcHJlc2EuZXN0YWRvfTwvVGV4dD5cclxuICAgICAgICAgICAgICA8RmxleCBkaXJlY3Rpb249e1wicm93XCJ9IGp1c3RpZnk9e1wiY2VudGVyXCJ9IGFsaWduSXRlbXM9eydjZW50ZXInfSB3PXsnZnVsbCd9IG1iPXs0fT5cclxuICAgICAgICAgICAgICAgICAgPEljb25CdXR0b25cclxuICAgICAgICAgICAgICAgICAgICAgIGFyaWEtbGFiZWw9XCJ5b3V0dWJlXCJcclxuICAgICAgICAgICAgICAgICAgICAgIHZhcmlhbnQ9XCJnaG9zdFwiXHJcbiAgICAgICAgICAgICAgICAgICAgICBzaXplPVwibGdcIlxyXG4gICAgICAgICAgICAgICAgICAgICAgaXNSb3VuZD17dHJ1ZX1cclxuICAgICAgICAgICAgICAgICAgICAgIGNvbG9yPXtEQVJLX0NPTE9SfVxyXG4gICAgICAgICAgICAgICAgICAgICAgX2hvdmVyPXt7IGJnOiAnIzBENzRGRicgfX1cclxuICAgICAgICAgICAgICAgICAgICAgIGljb249ezxCc1doYXRzYXBwIHNpemU9XCIyOHB4XCIgLz59XHJcbiAgICAgICAgICAgICAgICAgICAgLz5cclxuICAgICAgICAgICAgICAgICAgPGEgaHJlZj17YGh0dHBzOi8vd2EubWUvNTUke3Byb3BzLmVtcHJlc2Eud2hhdHNhcHAucmVwbGFjZSgvW15cXGQuXS9nLCAnJyl9P3RleHQ9T2wlQzMlQTElMkMlMjB2b2MlQzMlQUFzJTIwcG9kZW0lMjBtZSUyMGFqdWRhciUzRmB9PlxyXG4gICAgICAgICAgICAgICAgICAgIDxUZXh0IGZvbnRGYW1pbHk9eydNb250LUhlYXZ5J30gY29sb3I9e0RBUktfQ09MT1J9IGZvbnRTaXplPXsyNH0+XHJcbiAgICAgICAgICAgICAgICAgICAgICB7cHJvcHMuZW1wcmVzYS53aGF0c2FwcH1cclxuICAgICAgICAgICAgICAgICAgICA8L1RleHQ+XHJcbiAgICAgICAgICAgICAgICAgIDwvYT5cclxuICAgICAgICAgICAgICA8L0ZsZXg+XHJcbiAgICAgICAgICAgICAgPEJvdGFvIHBhZGRpbmdZPXs2fSBtdD17NH0vPlxyXG4gICAgICAgICAgPC9WU3RhY2s+XHJcbiAgICAgICAgPC9WU3RhY2s+XHJcbiAgICAgIClcclxuICAgIH1cclxuXHJcbiAgICByZXR1cm4gKFxyXG4gICAgPEJveCBiZz0nI2ZkYzMxOScgaWQ9XCJjb250YXRvXCI+XHJcbiAgICAgIDxDb250YWluZXIgbWF4Vz1cImNvbnRhaW5lci54bFwiIHA9ezB9PlxyXG4gICAgICA8RmxleFxyXG4gICAgICBoPXt7IGJhc2U6ICdhdXRvJywgbWQ6ICdmaXQtY29udGVudCcgfX1cclxuICAgICAgcHk9e1swLCAxMCwgMjBdfVxyXG4gICAgICBkaXJlY3Rpb249e3sgYmFzZTogJ2NvbHVtbi1yZXZlcnNlJywgbWQ6ICdyb3cnIH19XHJcbiAgICAgIGp1c3RpZnk9eydzcGFjZS1ldmVubHknfVxyXG4gICAgICA+XHJcbiAgICAgICAgPENvbnRhY3RVcyAvPlxyXG4gICAgICAgIDxTb2NpYWwgLz5cclxuICAgICAgICA8UGVkaWRvcyAvPlxyXG4gICAgICA8L0ZsZXg+XHJcbiAgICAgIDwvQ29udGFpbmVyPlxyXG4gICAgPC9Cb3g+XHJcbiAgICApO1xyXG4gIH0iXSwibmFtZXMiOlsiQ29udGFpbmVyIiwiRmxleCIsIkJveCIsIkhlYWRpbmciLCJUZXh0IiwiSWNvbkJ1dHRvbiIsIlZTdGFjayIsIkhTdGFjayIsIkltYWdlIiwiU2ltcGxlR3JpZCIsIkdyaWRJdGVtIiwiTWRGYWNlYm9vayIsIkJzSW5zdGFncmFtIiwiQnNZb3V0dWJlIiwiQnNXaGF0c2FwcCIsIkJvdGFvIiwiREFSS19DT0xPUiIsIlJlYWN0IiwiQ29udGFjdFVzIiwiRmFsZUNvbm9zY28iLCJwcm9wcyIsIkxvZ28iLCJqdXN0aWZ5IiwicHkiLCJzcmMiLCJwcm9jZXNzIiwiZW52IiwiSU1BR0VNX1VSTCIsImltYWdlbSIsImgiLCJhbHQiLCJwYWRkaW5nVG9wIiwiU29jaWFsIiwidyIsInAiLCJzcGFjaW5nIiwiYWxpZ25JdGVtcyIsImNvbG9yIiwicm93R2FwIiwibXQiLCJsZyIsIm1kIiwicHgiLCJhIiwiaHJlZiIsImVtcHJlc2EiLCJmYWNlYm9vayIsImFyaWEtbGFiZWwiLCJ2YXJpYW50Iiwic2l6ZSIsImlzUm91bmQiLCJfaG92ZXIiLCJiZyIsImljb24iLCJpbnN0YWdyYW0iLCJ5b3V0dWJlIiwiUGVkaWRvcyIsInVybF9pbWFnZW0iLCJlbmRlcmVjbyIsImJhaXJybyIsImNpZGFkZSIsImVzdGFkbyIsImRpcmVjdGlvbiIsIm1iIiwid2hhdHNhcHAiLCJyZXBsYWNlIiwiZm9udEZhbWlseSIsImZvbnRTaXplIiwicGFkZGluZ1kiLCJpZCIsIm1heFciLCJiYXNlIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./components/form_contato.js\n");
+
+/***/ }),
+
+/***/ "./components/galeria.js":
+/*!*******************************!*\
+  !*** ./components/galeria.js ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Galeria)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @chakra-ui/react */ \"@chakra-ui/react\");\n/* harmony import */ var _chakra_ui_react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var react_slick__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-slick */ \"react-slick\");\n/* harmony import */ var react_slick__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_slick__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _produtos__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./produtos */ \"./components/produtos.js\");\n\n\n\n\n\nclass Galeria extends react__WEBPACK_IMPORTED_MODULE_2__.Component {\n    render() {\n        const width = this.props.width;\n        const data = this.props.produtos;\n        var settings = {\n            dots: true,\n            infinite: true,\n            slidesToShow: Math.floor(width / 300),\n            slidesToScroll: 1,\n            //autoplay: true,\n            //speed: 2000,\n            autoplaySpeed: 3000,\n            cssEase: \"linear\"\n        };\n        return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"section\", {\n            id: \"cardapio\",\n            children: [\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Flex, {\n                    w: \"full\",\n                    justify: \"center\",\n                    align: \"center\",\n                    alignItems: \"center\",\n                    h: [\n                        20,\n                        20,\n                        20,\n                        40\n                    ],\n                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Heading, {\n                        color: \"#825221\",\n                        children: \"Destaques\"\n                    }, void 0, false, {\n                        fileName: \"/var/www/html/comeuque.com/components/galeria.js\",\n                        lineNumber: 24,\n                        columnNumber: 9\n                    }, this)\n                }, void 0, false, {\n                    fileName: \"/var/www/html/comeuque.com/components/galeria.js\",\n                    lineNumber: 23,\n                    columnNumber: 7\n                }, this),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((react_slick__WEBPACK_IMPORTED_MODULE_3___default()), {\n                        ...settings,\n                        children: data.map((d)=>/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Flex, {\n                                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_produtos__WEBPACK_IMPORTED_MODULE_4__[\"default\"], {\n                                    data: d\n                                }, void 0, false, {\n                                    fileName: \"/var/www/html/comeuque.com/components/galeria.js\",\n                                    lineNumber: 30,\n                                    columnNumber: 15\n                                }, this)\n                            }, d.id, false, {\n                                fileName: \"/var/www/html/comeuque.com/components/galeria.js\",\n                                lineNumber: 29,\n                                columnNumber: 13\n                            }, this)\n                        )\n                    }, void 0, false, {\n                        fileName: \"/var/www/html/comeuque.com/components/galeria.js\",\n                        lineNumber: 27,\n                        columnNumber: 9\n                    }, this)\n                }, void 0, false, {\n                    fileName: \"/var/www/html/comeuque.com/components/galeria.js\",\n                    lineNumber: 26,\n                    columnNumber: 7\n                }, this)\n            ]\n        }, void 0, true, {\n            fileName: \"/var/www/html/comeuque.com/components/galeria.js\",\n            lineNumber: 22,\n            columnNumber: 7\n        }, this);\n    }\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL2dhbGVyaWEuanMuanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7OztBQUFBO0FBQXVEO0FBQ2Q7QUFDUjtBQUNTO0FBRTNCLE1BQU1PLE9BQU8sU0FBU0gsNENBQVM7SUFDNUNJLE1BQU0sR0FBRztRQUNKLE1BQU1DLEtBQUssR0FBRyxJQUFJLENBQUNDLEtBQUssQ0FBQ0QsS0FBSztRQUM5QixNQUFNRSxJQUFJLEdBQUcsSUFBSSxDQUFDRCxLQUFLLENBQUNFLFFBQVE7UUFDaEMsSUFBSUMsUUFBUSxHQUFHO1lBQ2RDLElBQUksRUFBRSxJQUFJO1lBQ1ZDLFFBQVEsRUFBRSxJQUFJO1lBQ2RDLFlBQVksRUFBRUMsSUFBSSxDQUFDQyxLQUFLLENBQUNULEtBQUssR0FBQyxHQUFHLENBQUM7WUFDbkNVLGNBQWMsRUFBRSxDQUFDO1lBQ2pCLGlCQUFpQjtZQUNqQixjQUFjO1lBQ2RDLGFBQWEsRUFBRSxJQUFJO1lBQ25CQyxPQUFPLEVBQUUsUUFBUTtTQUNsQjtRQUVILHFCQUNFLDhEQUFDQyxTQUFPO1lBQUNDLEVBQUUsRUFBQyxVQUFVOzs4QkFDdEIsOERBQUN2QixrREFBSTtvQkFBQ3dCLENBQUMsRUFBRSxNQUFNO29CQUFFQyxPQUFPLEVBQUUsUUFBUTtvQkFBRUMsS0FBSyxFQUFFLFFBQVE7b0JBQUVDLFVBQVUsRUFBRSxRQUFRO29CQUFFQyxDQUFDLEVBQUU7QUFBQywwQkFBRTtBQUFDLDBCQUFFO0FBQUMsMEJBQUU7QUFBQywwQkFBRTtxQkFBQzs4QkFDekYsNEVBQUMzQixxREFBTzt3QkFBQzRCLEtBQUssRUFBRSxTQUFTO2tDQUFFLFdBQVM7Ozs7OzRCQUFVOzs7Ozt3QkFDekM7OEJBQ1AsOERBQUNDLEtBQUc7OEJBQ0YsNEVBQUN6QixvREFBTTt3QkFBRSxHQUFHUSxRQUFRO2tDQUNoQkYsSUFBSSxDQUFDb0IsR0FBRyxDQUFDLENBQUNDLENBQUMsaUJBQ1gsOERBQUNoQyxrREFBSTswQ0FDSCw0RUFBQ00saURBQWdCO29DQUFDSyxJQUFJLEVBQUVxQixDQUFDOzs7Ozt3Q0FBRzsrQkFEbkJBLENBQUMsQ0FBQ1QsRUFBRTs7OztvQ0FFUjt3QkFDUixDQUFDOzs7Ozs0QkFDSzs7Ozs7d0JBQ0w7Ozs7OztnQkFDSSxDQUNWO0tBQ0g7Q0FDRiIsInNvdXJjZXMiOlsid2VicGFjazovL21hcmNhY2FvLy4vY29tcG9uZW50cy9nYWxlcmlhLmpzP2I1ZWMiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgRmxleCwgSGVhZGluZywgVGV4dCB9IGZyb20gXCJAY2hha3JhLXVpL3JlYWN0XCI7XG5pbXBvcnQgUmVhY3QsIHsgQ29tcG9uZW50IH0gZnJvbSBcInJlYWN0XCI7XG5pbXBvcnQgU2xpZGVyIGZyb20gXCJyZWFjdC1zbGlja1wiO1xuaW1wb3J0IFByb2R1Y3RBZGRUb0NhcnQgZnJvbSBcIi4vcHJvZHV0b3NcIjtcblxuZXhwb3J0IGRlZmF1bHQgY2xhc3MgR2FsZXJpYSBleHRlbmRzIENvbXBvbmVudCB7XG4gIHJlbmRlcigpIHsgICAgXG4gICAgICAgY29uc3Qgd2lkdGggPSB0aGlzLnByb3BzLndpZHRoO1xuICAgICAgIGNvbnN0IGRhdGEgPSB0aGlzLnByb3BzLnByb2R1dG9zO1xuICAgICAgIHZhciBzZXR0aW5ncyA9IHtcbiAgICAgICAgZG90czogdHJ1ZSxcbiAgICAgICAgaW5maW5pdGU6IHRydWUsXG4gICAgICAgIHNsaWRlc1RvU2hvdzogTWF0aC5mbG9vcih3aWR0aC8zMDApLFxuICAgICAgICBzbGlkZXNUb1Njcm9sbDogMSxcbiAgICAgICAgLy9hdXRvcGxheTogdHJ1ZSxcbiAgICAgICAgLy9zcGVlZDogMjAwMCxcbiAgICAgICAgYXV0b3BsYXlTcGVlZDogMzAwMCxcbiAgICAgICAgY3NzRWFzZTogXCJsaW5lYXJcIixcbiAgICAgIH07XG5cbiAgICByZXR1cm4gKFxuICAgICAgPHNlY3Rpb24gaWQ9XCJjYXJkYXBpb1wiPlxuICAgICAgPEZsZXggdz17J2Z1bGwnfSBqdXN0aWZ5PXsnY2VudGVyJ30gYWxpZ249eydjZW50ZXInfSBhbGlnbkl0ZW1zPXsnY2VudGVyJ30gaD17WzIwLDIwLDIwLDQwXX0+IFxuICAgICAgICA8SGVhZGluZyBjb2xvcj17JyM4MjUyMjEnfT5EZXN0YXF1ZXM8L0hlYWRpbmc+XG4gICAgICA8L0ZsZXg+XG4gICAgICA8ZGl2PlxuICAgICAgICA8U2xpZGVyIHsuLi5zZXR0aW5nc30+XG4gICAgICAgICAgeyBkYXRhLm1hcCgoZCkgPT4gKFxuICAgICAgICAgICAgPEZsZXgga2V5PXtkLmlkfT5cbiAgICAgICAgICAgICAgPFByb2R1Y3RBZGRUb0NhcnQgZGF0YT17ZH0vPlxuICAgICAgICAgICAgPC9GbGV4PlxuICAgICAgICAgICkpfVxuICAgICAgICA8L1NsaWRlcj5cbiAgICAgIDwvZGl2PlxuICAgICAgPC9zZWN0aW9uPlxuICAgICk7XG4gIH1cbn0iXSwibmFtZXMiOlsiRmxleCIsIkhlYWRpbmciLCJUZXh0IiwiUmVhY3QiLCJDb21wb25lbnQiLCJTbGlkZXIiLCJQcm9kdWN0QWRkVG9DYXJ0IiwiR2FsZXJpYSIsInJlbmRlciIsIndpZHRoIiwicHJvcHMiLCJkYXRhIiwicHJvZHV0b3MiLCJzZXR0aW5ncyIsImRvdHMiLCJpbmZpbml0ZSIsInNsaWRlc1RvU2hvdyIsIk1hdGgiLCJmbG9vciIsInNsaWRlc1RvU2Nyb2xsIiwiYXV0b3BsYXlTcGVlZCIsImNzc0Vhc2UiLCJzZWN0aW9uIiwiaWQiLCJ3IiwianVzdGlmeSIsImFsaWduIiwiYWxpZ25JdGVtcyIsImgiLCJjb2xvciIsImRpdiIsIm1hcCIsImQiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./components/galeria.js\n");
+
+/***/ }),
+
+/***/ "./components/hero.js":
+/*!****************************!*\
+  !*** ./components/hero.js ***!
+  \****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Hero)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @chakra-ui/react */ \"@chakra-ui/react\");\n/* harmony import */ var _chakra_ui_react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var react_slick__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-slick */ \"react-slick\");\n/* harmony import */ var react_slick__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_slick__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var slick_carousel_slick_slick_theme_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! slick-carousel/slick/slick-theme.css */ \"./node_modules/slick-carousel/slick/slick-theme.css\");\n/* harmony import */ var slick_carousel_slick_slick_theme_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(slick_carousel_slick_slick_theme_css__WEBPACK_IMPORTED_MODULE_4__);\n\n\n\n\n\nclass Hero extends react__WEBPACK_IMPORTED_MODULE_2__.Component {\n    render() {\n        const images = this.props.images;\n        var settings = {\n            dots: true,\n            infinite: true,\n            slidesToShow: 1,\n            slidesToScroll: 1,\n            autoplay: true,\n            speed: 1200,\n            autoplaySpeed: 3600,\n            cssEase: \"linear\"\n        };\n        return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((react_slick__WEBPACK_IMPORTED_MODULE_3___default()), {\n                ...settings,\n                children: images.map((d)=>/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Flex, {\n                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Image, {\n                            src: \"http://painel.kallario.com.br\" + d.url_imagem,\n                            alt: `Picture of ${d.titulo}`,\n                            w: \"full\",\n                            marginTop: \"95px\"\n                        }, void 0, false, {\n                            fileName: \"/var/www/html/comeuque.com/components/hero.js\",\n                            lineNumber: 25,\n                            columnNumber: 15\n                        }, this)\n                    }, d.id, false, {\n                        fileName: \"/var/www/html/comeuque.com/components/hero.js\",\n                        lineNumber: 24,\n                        columnNumber: 13\n                    }, this)\n                )\n            }, void 0, false, {\n                fileName: \"/var/www/html/comeuque.com/components/hero.js\",\n                lineNumber: 22,\n                columnNumber: 9\n            }, this)\n        }, void 0, false, {\n            fileName: \"/var/www/html/comeuque.com/components/hero.js\",\n            lineNumber: 21,\n            columnNumber: 7\n        }, this);\n    }\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL2hlcm8uanMuanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7QUFBQTtBQUFxRDtBQUNaO0FBQ1I7QUFDYTtBQUUvQixNQUFNTSxJQUFJLFNBQVNGLDRDQUFTO0lBQ3pDRyxNQUFNLEdBQUc7UUFDSixNQUFNQyxNQUFNLEdBQUcsSUFBSSxDQUFDQyxLQUFLLENBQUNELE1BQU07UUFDaEMsSUFBSUUsUUFBUSxHQUFHO1lBQ2RDLElBQUksRUFBRSxJQUFJO1lBQ1ZDLFFBQVEsRUFBRSxJQUFJO1lBQ2RDLFlBQVksRUFBRSxDQUFDO1lBQ2ZDLGNBQWMsRUFBRSxDQUFDO1lBQ2pCQyxRQUFRLEVBQUUsSUFBSTtZQUNkQyxLQUFLLEVBQUUsSUFBSTtZQUNYQyxhQUFhLEVBQUUsSUFBSTtZQUNuQkMsT0FBTyxFQUFFLFFBQVE7U0FDbEI7UUFFSCxxQkFDRSw4REFBQ0MsS0FBRztzQkFDRiw0RUFBQ2Qsb0RBQU07Z0JBQUUsR0FBR0ssUUFBUTswQkFDaEJGLE1BQU0sQ0FBQ1ksR0FBRyxDQUFDLENBQUNDLENBQUMsaUJBQ2IsOERBQUNwQixrREFBSTtrQ0FDSCw0RUFBQ0QsbURBQUs7NEJBQUNzQixHQUFHLEVBQUVDLCtCQUFzQixHQUFHRixDQUFDLENBQUNLLFVBQVU7NEJBQUVDLEdBQUcsRUFBRSxDQUFDLFdBQVcsRUFBRU4sQ0FBQyxDQUFDTyxNQUFNLENBQUMsQ0FBQzs0QkFBRUMsQ0FBQyxFQUFFLE1BQU07NEJBQUVDLFNBQVMsRUFBRSxNQUFNOzs7OztnQ0FBSTt1QkFEekdULENBQUMsQ0FBQ1UsRUFBRTs7Ozs0QkFFUjtnQkFDUixDQUFDOzs7OztvQkFDSzs7Ozs7Z0JBQ0wsQ0FDTjtLQUNIO0NBQ0YiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9tYXJjYWNhby8uL2NvbXBvbmVudHMvaGVyby5qcz80Yjc0Il0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IEltYWdlLCBGbGV4LCBUZXh0IH0gZnJvbSBcIkBjaGFrcmEtdWkvcmVhY3RcIjtcbmltcG9ydCBSZWFjdCwgeyBDb21wb25lbnQgfSBmcm9tIFwicmVhY3RcIjtcbmltcG9ydCBTbGlkZXIgZnJvbSBcInJlYWN0LXNsaWNrXCI7XG5pbXBvcnQgJ3NsaWNrLWNhcm91c2VsL3NsaWNrL3NsaWNrLXRoZW1lLmNzcyc7XG5cbmV4cG9ydCBkZWZhdWx0IGNsYXNzIEhlcm8gZXh0ZW5kcyBDb21wb25lbnQge1xuICByZW5kZXIoKSB7XG4gICAgICAgY29uc3QgaW1hZ2VzID0gdGhpcy5wcm9wcy5pbWFnZXM7XG4gICAgICAgdmFyIHNldHRpbmdzID0ge1xuICAgICAgICBkb3RzOiB0cnVlLFxuICAgICAgICBpbmZpbml0ZTogdHJ1ZSxcbiAgICAgICAgc2xpZGVzVG9TaG93OiAxLFxuICAgICAgICBzbGlkZXNUb1Njcm9sbDogMSxcbiAgICAgICAgYXV0b3BsYXk6IHRydWUsXG4gICAgICAgIHNwZWVkOiAxMjAwLFxuICAgICAgICBhdXRvcGxheVNwZWVkOiAzNjAwLFxuICAgICAgICBjc3NFYXNlOiBcImxpbmVhclwiLFxuICAgICAgfTtcblxuICAgIHJldHVybiAoXG4gICAgICA8ZGl2PlxuICAgICAgICA8U2xpZGVyIHsuLi5zZXR0aW5nc30+XG4gICAgICAgICAgeyBpbWFnZXMubWFwKChkKSA9PiAoXG4gICAgICAgICAgICA8RmxleCBrZXk9e2QuaWR9PlxuICAgICAgICAgICAgICA8SW1hZ2Ugc3JjPXtwcm9jZXNzLmVudi5JTUFHRU1fVVJMICsgZC51cmxfaW1hZ2VtfSBhbHQ9e2BQaWN0dXJlIG9mICR7ZC50aXR1bG99YH0gdz17J2Z1bGwnfSBtYXJnaW5Ub3A9eyc5NXB4J30gLz5cbiAgICAgICAgICAgIDwvRmxleD5cbiAgICAgICAgICApKX1cbiAgICAgICAgPC9TbGlkZXI+XG4gICAgICA8L2Rpdj5cbiAgICApO1xuICB9XG59Il0sIm5hbWVzIjpbIkltYWdlIiwiRmxleCIsIlRleHQiLCJSZWFjdCIsIkNvbXBvbmVudCIsIlNsaWRlciIsIkhlcm8iLCJyZW5kZXIiLCJpbWFnZXMiLCJwcm9wcyIsInNldHRpbmdzIiwiZG90cyIsImluZmluaXRlIiwic2xpZGVzVG9TaG93Iiwic2xpZGVzVG9TY3JvbGwiLCJhdXRvcGxheSIsInNwZWVkIiwiYXV0b3BsYXlTcGVlZCIsImNzc0Vhc2UiLCJkaXYiLCJtYXAiLCJkIiwic3JjIiwicHJvY2VzcyIsImVudiIsIklNQUdFTV9VUkwiLCJ1cmxfaW1hZ2VtIiwiYWx0IiwidGl0dWxvIiwidyIsIm1hcmdpblRvcCIsImlkIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./components/hero.js\n");
+
+/***/ }),
+
+/***/ "./components/layout.js":
+/*!******************************!*\
+  !*** ./components/layout.js ***!
+  \******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @chakra-ui/react */ \"@chakra-ui/react\");\n/* harmony import */ var _chakra_ui_react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./footer */ \"./components/footer.js\");\n/* harmony import */ var _navbar__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./navbar */ \"./components/navbar.js\");\n\n\n\n\n\nfunction Layout({ empresa , children  }) {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Flex, {\n        bg: \"#ffffff\",\n        direction: \"column\",\n        minHeight: \"100vh\",\n        overflowX: \"hidden\",\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_navbar__WEBPACK_IMPORTED_MODULE_4__[\"default\"], {}, void 0, false, {\n                fileName: \"/var/www/html/comeuque.com/components/layout.js\",\n                lineNumber: 9,\n                columnNumber: 9\n            }, this),\n            children,\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_footer__WEBPACK_IMPORTED_MODULE_3__[\"default\"], {\n                empresa: empresa\n            }, void 0, false, {\n                fileName: \"/var/www/html/comeuque.com/components/layout.js\",\n                lineNumber: 11,\n                columnNumber: 9\n            }, this)\n        ]\n    }, void 0, true, {\n        fileName: \"/var/www/html/comeuque.com/components/layout.js\",\n        lineNumber: 8,\n        columnNumber: 5\n    }, this);\n}\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Layout);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL2xheW91dC5qcy5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7QUFBQTtBQUF1QztBQUNkO0FBQ1M7QUFDTDtBQUU3QixTQUFTSSxNQUFNLENBQUMsRUFBQ0MsT0FBTyxHQUFFQyxRQUFRLEdBQUMsRUFBRTtJQUNuQyxxQkFDRSw4REFBQ04sa0RBQUk7UUFBQ08sRUFBRSxFQUFFLFNBQVM7UUFBRUMsU0FBUyxFQUFFLFFBQVE7UUFBRUMsU0FBUyxFQUFFLE9BQU87UUFBRUMsU0FBUyxFQUFFLFFBQVE7OzBCQUM3RSw4REFBQ1AsK0NBQU07Ozs7b0JBQUc7WUFDVEcsUUFBUTswQkFDVCw4REFBQ0osK0NBQVc7Z0JBQUNHLE9BQU8sRUFBRUEsT0FBTzs7Ozs7b0JBQUk7Ozs7OztZQUM5QixDQUNSO0NBQ0Y7QUFFRCxpRUFBZUQsTUFBTSIsInNvdXJjZXMiOlsid2VicGFjazovL21hcmNhY2FvLy4vY29tcG9uZW50cy9sYXlvdXQuanM/MjlhNyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBGbGV4IH0gZnJvbSAnQGNoYWtyYS11aS9yZWFjdCdcclxuaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0J1xyXG5pbXBvcnQgRm9vdGVyU21hbGwgZnJvbSAnLi9mb290ZXInXHJcbmltcG9ydCBOYXZCYXIgZnJvbSAnLi9uYXZiYXInXHJcblxyXG5mdW5jdGlvbiBMYXlvdXQoe2VtcHJlc2EsIGNoaWxkcmVufSkge1xyXG4gIHJldHVybiAoXHJcbiAgICA8RmxleCBiZz17JyNmZmZmZmYnfSBkaXJlY3Rpb249eydjb2x1bW4nfSBtaW5IZWlnaHQ9eycxMDB2aCd9IG92ZXJmbG93WD17J2hpZGRlbid9PlxyXG4gICAgICAgIDxOYXZCYXIgLz5cclxuICAgICAgICB7Y2hpbGRyZW59XHJcbiAgICAgICAgPEZvb3RlclNtYWxsIGVtcHJlc2E9e2VtcHJlc2F9IC8+XHJcbiAgICA8L0ZsZXg+XHJcbiAgKVxyXG59XHJcblxyXG5leHBvcnQgZGVmYXVsdCBMYXlvdXQiXSwibmFtZXMiOlsiRmxleCIsIlJlYWN0IiwiRm9vdGVyU21hbGwiLCJOYXZCYXIiLCJMYXlvdXQiLCJlbXByZXNhIiwiY2hpbGRyZW4iLCJiZyIsImRpcmVjdGlvbiIsIm1pbkhlaWdodCIsIm92ZXJmbG93WCJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./components/layout.js\n");
+
+/***/ }),
+
+/***/ "./components/modal.js":
+/*!*****************************!*\
+  !*** ./components/modal.js ***!
+  \*****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Modal)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n\n\nfunction Modal({ title , children , dismissable , onClose  }) {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n            className: \"modal black\",\n            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: \"modal-content\",\n                children: [\n                    dismissable && /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                        className: \"close\",\n                        onClick: onClose,\n                        children: \"\\xd7\"\n                    }, void 0, false, {\n                        fileName: \"/var/www/html/comeuque.com/components/modal.js\",\n                        lineNumber: 8,\n                        columnNumber: 13\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                        className: \"modal-flex-row\",\n                        children: [\n                            title && /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                children: [\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h2\", {\n                                        children: title\n                                    }, void 0, false, {\n                                        fileName: \"/var/www/html/comeuque.com/components/modal.js\",\n                                        lineNumber: 15,\n                                        columnNumber: 17\n                                    }, this),\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"hr\", {}, void 0, false, {\n                                        fileName: \"/var/www/html/comeuque.com/components/modal.js\",\n                                        lineNumber: 16,\n                                        columnNumber: 17\n                                    }, this)\n                                ]\n                            }, void 0, true, {\n                                fileName: \"/var/www/html/comeuque.com/components/modal.js\",\n                                lineNumber: 14,\n                                columnNumber: 15\n                            }, this),\n                            children\n                        ]\n                    }, void 0, true, {\n                        fileName: \"/var/www/html/comeuque.com/components/modal.js\",\n                        lineNumber: 12,\n                        columnNumber: 11\n                    }, this)\n                ]\n            }, void 0, true, {\n                fileName: \"/var/www/html/comeuque.com/components/modal.js\",\n                lineNumber: 6,\n                columnNumber: 9\n            }, this)\n        }, void 0, false, {\n            fileName: \"/var/www/html/comeuque.com/components/modal.js\",\n            lineNumber: 5,\n            columnNumber: 7\n        }, this)\n    }, void 0, false, {\n        fileName: \"/var/www/html/comeuque.com/components/modal.js\",\n        lineNumber: 4,\n        columnNumber: 5\n    }, this);\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL21vZGFsLmpzLmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7O0FBQUE7QUFBMEI7QUFDWCxTQUFTQyxLQUFLLENBQUMsRUFBRUMsS0FBSyxHQUFFQyxRQUFRLEdBQUVDLFdBQVcsR0FBRUMsT0FBTyxHQUFFLEVBQUU7SUFDdkUscUJBQ0UsOERBQUNDLEtBQUc7a0JBQ0YsNEVBQUNBLEtBQUc7WUFBQ0MsU0FBUyxFQUFDLGFBQWE7c0JBQzFCLDRFQUFDRCxLQUFHO2dCQUFDQyxTQUFTLEVBQUMsZUFBZTs7b0JBQzNCSCxXQUFXLGtCQUNWLDhEQUFDRSxLQUFHO3dCQUFDQyxTQUFTLEVBQUMsT0FBTzt3QkFBQ0MsT0FBTyxFQUFFSCxPQUFPO2tDQUFFLE1BRXpDOzs7Ozs0QkFBTTtrQ0FFUiw4REFBQ0MsS0FBRzt3QkFBQ0MsU0FBUyxFQUFDLGdCQUFnQjs7NEJBQzVCTCxLQUFLLGtCQUNKLDhEQUFDSSxLQUFHOztrREFDRiw4REFBQ0csSUFBRTtrREFBRVAsS0FBSzs7Ozs7NENBQU07a0RBQ2hCLDhEQUFDUSxJQUFFOzs7OzRDQUFHOzs7Ozs7b0NBQ0Y7NEJBRVBQLFFBQVE7Ozs7Ozs0QkFDTDs7Ozs7O29CQUNGOzs7OztnQkFDRjs7Ozs7WUFDRixDQUNOO0NBQ0giLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9tYXJjYWNhby8uL2NvbXBvbmVudHMvbW9kYWwuanM/MmMzMSJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSBcInJlYWN0XCI7XG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBNb2RhbCh7IHRpdGxlLCBjaGlsZHJlbiwgZGlzbWlzc2FibGUsIG9uQ2xvc2UgfSkge1xuICByZXR1cm4gKFxuICAgIDxkaXY+XG4gICAgICA8ZGl2IGNsYXNzTmFtZT1cIm1vZGFsIGJsYWNrXCI+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwibW9kYWwtY29udGVudFwiPlxuICAgICAgICAgIHtkaXNtaXNzYWJsZSAmJiAoXG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNsb3NlXCIgb25DbGljaz17b25DbG9zZX0+XG4gICAgICAgICAgICAgICZ0aW1lcztcbiAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICl9XG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJtb2RhbC1mbGV4LXJvd1wiPlxuICAgICAgICAgICAge3RpdGxlICYmIChcbiAgICAgICAgICAgICAgPGRpdj5cbiAgICAgICAgICAgICAgICA8aDI+e3RpdGxlfTwvaDI+XG4gICAgICAgICAgICAgICAgPGhyIC8+XG4gICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgKX1cbiAgICAgICAgICAgIHtjaGlsZHJlbn1cbiAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgPC9kaXY+XG4gICAgICA8L2Rpdj5cbiAgICA8L2Rpdj5cbiAgKTtcbn0iXSwibmFtZXMiOlsiUmVhY3QiLCJNb2RhbCIsInRpdGxlIiwiY2hpbGRyZW4iLCJkaXNtaXNzYWJsZSIsIm9uQ2xvc2UiLCJkaXYiLCJjbGFzc05hbWUiLCJvbkNsaWNrIiwiaDIiLCJociJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./components/modal.js\n");
+
+/***/ }),
+
+/***/ "./components/mymap.js":
+/*!*****************************!*\
+  !*** ./components/mymap.js ***!
+  \*****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_map_gl__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-map-gl */ \"react-map-gl\");\n/* harmony import */ var react_map_gl__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_map_gl__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var mapbox_gl_dist_mapbox_gl_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! mapbox-gl/dist/mapbox-gl.css */ \"./node_modules/mapbox-gl/dist/mapbox-gl.css\");\n/* harmony import */ var mapbox_gl_dist_mapbox_gl_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(mapbox_gl_dist_mapbox_gl_css__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _chakra_ui_react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @chakra-ui/react */ \"@chakra-ui/react\");\n/* harmony import */ var _chakra_ui_react__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_4__);\n\n\n\n\n\nfunction MyMap(props) {\n    const lat = props.empresa.latitude;\n    const lgt = props.empresa.longitude;\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_4__.Flex, {\n                w: \"full\",\n                justify: \"center\",\n                align: \"center\",\n                alignItems: \"center\",\n                h: [\n                    20,\n                    20,\n                    20,\n                    40\n                ],\n                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_4__.Heading, {\n                    color: \"#825221\",\n                    children: \"Onde estamos?\"\n                }, void 0, false, {\n                    fileName: \"/var/www/html/comeuque.com/components/mymap.js\",\n                    lineNumber: 12,\n                    columnNumber: 7\n                }, this)\n            }, void 0, false, {\n                fileName: \"/var/www/html/comeuque.com/components/mymap.js\",\n                lineNumber: 11,\n                columnNumber: 5\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((react_map_gl__WEBPACK_IMPORTED_MODULE_1___default()), {\n                    mapboxAccessToken: \"pk.eyJ1Ijoia2FsbGFyaW8iLCJhIjoiY2w2YXBoc291MXFpMzNvbjM1bzB6em55MiJ9.Cyi-lwLrpwX5mx9SZFOTDA\",\n                    style: {\n                        height: \"500px\",\n                        width: \"100%\"\n                    },\n                    initialViewState: {\n                        longitude: lgt,\n                        latitude: lat,\n                        zoom: 17.0\n                    },\n                    mapStyle: \"mapbox://styles/mapbox/streets-v11\",\n                    children: [\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_map_gl__WEBPACK_IMPORTED_MODULE_1__.GeolocateControl, {\n                            positionOptions: {\n                                enableHighAccuracy: true\n                            },\n                            trackUserLocation: true\n                        }, void 0, false, {\n                            fileName: \"/var/www/html/comeuque.com/components/mymap.js\",\n                            lineNumber: 28,\n                            columnNumber: 9\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_map_gl__WEBPACK_IMPORTED_MODULE_1__.Marker, {\n                            longitude: lgt,\n                            latitude: lat\n                        }, void 0, false, {\n                            fileName: \"/var/www/html/comeuque.com/components/mymap.js\",\n                            lineNumber: 32,\n                            columnNumber: 9\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_map_gl__WEBPACK_IMPORTED_MODULE_1__.FullscreenControl, {}, void 0, false, {\n                            fileName: \"/var/www/html/comeuque.com/components/mymap.js\",\n                            lineNumber: 33,\n                            columnNumber: 9\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_map_gl__WEBPACK_IMPORTED_MODULE_1__.NavigationControl, {}, void 0, false, {\n                            fileName: \"/var/www/html/comeuque.com/components/mymap.js\",\n                            lineNumber: 34,\n                            columnNumber: 9\n                        }, this)\n                    ]\n                }, void 0, true, {\n                    fileName: \"/var/www/html/comeuque.com/components/mymap.js\",\n                    lineNumber: 15,\n                    columnNumber: 7\n                }, this)\n            }, void 0, false, {\n                fileName: \"/var/www/html/comeuque.com/components/mymap.js\",\n                lineNumber: 14,\n                columnNumber: 5\n            }, this)\n        ]\n    }, void 0, true);\n}\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (MyMap);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL215bWFwLmpzLmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7O0FBQUE7QUFBbUc7QUFDN0Q7QUFDTDtBQUNzQjtBQUV2RCxTQUFTUyxLQUFLLENBQUNDLEtBQUssRUFBRTtJQUNwQixNQUFNQyxHQUFHLEdBQUdELEtBQUssQ0FBQ0UsT0FBTyxDQUFDQyxRQUFRO0lBQ2xDLE1BQU1DLEdBQUcsR0FBR0osS0FBSyxDQUFDRSxPQUFPLENBQUNHLFNBQVM7SUFDbkMscUJBQ0U7OzBCQUNBLDhEQUFDVCxrREFBSTtnQkFBQ1UsQ0FBQyxFQUFFLE1BQU07Z0JBQUVDLE9BQU8sRUFBRSxRQUFRO2dCQUFFQyxLQUFLLEVBQUUsUUFBUTtnQkFBRUMsVUFBVSxFQUFFLFFBQVE7Z0JBQUVDLENBQUMsRUFBRTtBQUFDLHNCQUFFO0FBQUMsc0JBQUU7QUFBQyxzQkFBRTtBQUFDLHNCQUFFO2lCQUFDOzBCQUN6Riw0RUFBQ2IscURBQU87b0JBQUNjLEtBQUssRUFBRSxTQUFTOzhCQUFFLGVBQWE7Ozs7O3dCQUFVOzs7OztvQkFDN0M7MEJBQ1AsOERBQUNDLEtBQUc7MEJBQ0YsNEVBQUN0QixxREFBRztvQkFDRnVCLGlCQUFpQixFQUFDLDRGQUE0RjtvQkFDOUdDLEtBQUssRUFBRTt3QkFDSEMsTUFBTSxFQUFFLE9BQU87d0JBQ2ZDLEtBQUssRUFBRSxNQUFNO3FCQUNkO29CQUNIQyxnQkFBZ0IsRUFBRTt3QkFDaEJaLFNBQVMsRUFBRUQsR0FBRzt3QkFDZEQsUUFBUSxFQUFFRixHQUFHO3dCQUNiaUIsSUFBSSxFQUFFLElBQUk7cUJBQ1g7b0JBQ0RDLFFBQVEsRUFBQyxvQ0FBb0M7O3NDQUU3Qyw4REFBQzNCLDBEQUFnQjs0QkFDZjRCLGVBQWUsRUFBRTtnQ0FBRUMsa0JBQWtCLEVBQUUsSUFBSTs2QkFBRTs0QkFDN0NDLGlCQUFpQixFQUFFLElBQUk7Ozs7O2dDQUN2QjtzQ0FDRiw4REFBQzdCLGdEQUFNOzRCQUFDWSxTQUFTLEVBQUVELEdBQUc7NEJBQUVELFFBQVEsRUFBRUYsR0FBRzs7Ozs7Z0NBQUk7c0NBQ3pDLDhEQUFDViwyREFBaUI7Ozs7Z0NBQUc7c0NBQ3JCLDhEQUFDRywyREFBaUI7Ozs7Z0NBQUc7Ozs7Ozt3QkFDakI7Ozs7O29CQUNGOztvQkFDSCxDQUNIO0NBQ0g7QUFDRCxpRUFBZUssS0FBSyxFQUFDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vbWFyY2FjYW8vLi9jb21wb25lbnRzL215bWFwLmpzP2FlYmMiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IE1hcCwgeyBGdWxsc2NyZWVuQ29udHJvbCwgR2VvbG9jYXRlQ29udHJvbCwgTWFya2VyLCBOYXZpZ2F0aW9uQ29udHJvbCB9IGZyb20gXCJyZWFjdC1tYXAtZ2xcIjtcbmltcG9ydCBcIm1hcGJveC1nbC9kaXN0L21hcGJveC1nbC5jc3NcIjtcbmltcG9ydCB7IHVzZVN0YXRlIH0gZnJvbSBcInJlYWN0XCI7XG5pbXBvcnQgeyBGbGV4LCBIZWFkaW5nLCBUZXh0IH0gZnJvbSBcIkBjaGFrcmEtdWkvcmVhY3RcIjtcblxuZnVuY3Rpb24gTXlNYXAocHJvcHMpIHtcbiAgY29uc3QgbGF0ID0gcHJvcHMuZW1wcmVzYS5sYXRpdHVkZVxuICBjb25zdCBsZ3QgPSBwcm9wcy5lbXByZXNhLmxvbmdpdHVkZVxuICByZXR1cm4gKFxuICAgIDw+XG4gICAgPEZsZXggdz17J2Z1bGwnfSBqdXN0aWZ5PXsnY2VudGVyJ30gYWxpZ249eydjZW50ZXInfSBhbGlnbkl0ZW1zPXsnY2VudGVyJ30gaD17WzIwLDIwLDIwLDQwXX0+IFxuICAgICAgPEhlYWRpbmcgY29sb3I9eycjODI1MjIxJ30+T25kZSBlc3RhbW9zPzwvSGVhZGluZz5cbiAgICA8L0ZsZXg+ICAgIFxuICAgIDxkaXY+XG4gICAgICA8TWFwXG4gICAgICAgIG1hcGJveEFjY2Vzc1Rva2VuPVwicGsuZXlKMUlqb2lhMkZzYkdGeWFXOGlMQ0poSWpvaVkydzJZWEJvYzI5MU1YRnBNek52YmpNMWJ6QjZlbTU1TWlKOS5DeWktbHdMcnB3WDVteDlTWkZPVERBXCJcbiAgICAgICAgc3R5bGU9e3tcbiAgICAgICAgICAgIGhlaWdodDogJzUwMHB4JyxcbiAgICAgICAgICAgIHdpZHRoOiAnMTAwJSdcbiAgICAgICAgICB9fSAgICAgICAgXG4gICAgICAgIGluaXRpYWxWaWV3U3RhdGU9e3tcbiAgICAgICAgICBsb25naXR1ZGU6IGxndCxcbiAgICAgICAgICBsYXRpdHVkZTogbGF0LFxuICAgICAgICAgIHpvb206IDE3LjAsXG4gICAgICAgIH19XG4gICAgICAgIG1hcFN0eWxlPVwibWFwYm94Oi8vc3R5bGVzL21hcGJveC9zdHJlZXRzLXYxMVwiICAgICAgIFxuICAgICAgPlxuICAgICAgICA8R2VvbG9jYXRlQ29udHJvbFxuICAgICAgICAgIHBvc2l0aW9uT3B0aW9ucz17eyBlbmFibGVIaWdoQWNjdXJhY3k6IHRydWUgfX1cbiAgICAgICAgICB0cmFja1VzZXJMb2NhdGlvbj17dHJ1ZX1cbiAgICAgICAgLz5cbiAgICAgICAgPE1hcmtlciBsb25naXR1ZGU9e2xndH0gbGF0aXR1ZGU9e2xhdH0gLz5cbiAgICAgICAgPEZ1bGxzY3JlZW5Db250cm9sIC8+XG4gICAgICAgIDxOYXZpZ2F0aW9uQ29udHJvbCAvPlxuICAgICAgPC9NYXA+XG4gICAgPC9kaXY+XG4gICAgPC8+XG4gICk7XG59XG5leHBvcnQgZGVmYXVsdCBNeU1hcDsiXSwibmFtZXMiOlsiTWFwIiwiRnVsbHNjcmVlbkNvbnRyb2wiLCJHZW9sb2NhdGVDb250cm9sIiwiTWFya2VyIiwiTmF2aWdhdGlvbkNvbnRyb2wiLCJ1c2VTdGF0ZSIsIkZsZXgiLCJIZWFkaW5nIiwiVGV4dCIsIk15TWFwIiwicHJvcHMiLCJsYXQiLCJlbXByZXNhIiwibGF0aXR1ZGUiLCJsZ3QiLCJsb25naXR1ZGUiLCJ3IiwianVzdGlmeSIsImFsaWduIiwiYWxpZ25JdGVtcyIsImgiLCJjb2xvciIsImRpdiIsIm1hcGJveEFjY2Vzc1Rva2VuIiwic3R5bGUiLCJoZWlnaHQiLCJ3aWR0aCIsImluaXRpYWxWaWV3U3RhdGUiLCJ6b29tIiwibWFwU3R5bGUiLCJwb3NpdGlvbk9wdGlvbnMiLCJlbmFibGVIaWdoQWNjdXJhY3kiLCJ0cmFja1VzZXJMb2NhdGlvbiJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./components/mymap.js\n");
+
+/***/ }),
+
+/***/ "./components/navbar.js":
+/*!******************************!*\
+  !*** ./components/navbar.js ***!
+  \******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ NavBar)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @chakra-ui/react */ \"@chakra-ui/react\");\n/* harmony import */ var _chakra_ui_react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _chakra_ui_icons__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @chakra-ui/icons */ \"@chakra-ui/icons\");\n/* harmony import */ var _chakra_ui_icons__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_chakra_ui_icons__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _botao__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./botao */ \"./components/botao.js\");\n/* harmony import */ var _lib_constant__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../lib/constant */ \"./lib/constant.js\");\n\n\n\n\n\nconst Links = [\n    {\n        label: \"Home\",\n        url: \"#top\"\n    },\n    {\n        label: \"Nossa Hist\\xf3ria\",\n        url: \"#historia\"\n    },\n    {\n        label: \"Card\\xe1pio\",\n        url: \"#cardapio\"\n    },\n    {\n        label: \"Fale Conosco\",\n        url: \"#contato\"\n    }\n];\nconst NavLink = ({ children  })=>/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Link, {\n        textTransform: \"uppercase\",\n        px: 2,\n        py: 1,\n        color: \"#825221\",\n        rounded: \"md\",\n        _hover: {\n            textDecoration: \"none\",\n            bg: (0,_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.useColorModeValue)(\"orange\", \"gray.700\")\n        },\n        href: children.url,\n        children: children.label\n    }, void 0, false, {\n        fileName: \"/var/www/html/comeuque.com/components/navbar.js\",\n        lineNumber: 26,\n        columnNumber: 3\n    }, undefined)\n;\nfunction NavBar() {\n    const { isOpen , onOpen , onClose  } = (0,_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.useDisclosure)();\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Box, {\n        bg: (0,_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.useColorModeValue)(_lib_constant__WEBPACK_IMPORTED_MODULE_4__.PRIMARY_COLOR, \"#825221\"),\n        px: 4,\n        pos: \"fixed\",\n        w: \"100%\",\n        zIndex: 2,\n        boxShadow: \"md\",\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Flex, {\n                h: 24,\n                alignItems: \"center\",\n                justifyContent: \"space-between\",\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.IconButton, {\n                        size: \"md\",\n                        icon: isOpen ? /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_icons__WEBPACK_IMPORTED_MODULE_2__.CloseIcon, {}, void 0, false, void 0, void 0) : /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_icons__WEBPACK_IMPORTED_MODULE_2__.HamburgerIcon, {}, void 0, false, void 0, void 0),\n                        \"aria-label\": \"Open Menu\",\n                        display: {\n                            md: \"none\"\n                        },\n                        onClick: isOpen ? onClose : onOpen\n                    }, void 0, false, {\n                        fileName: \"/var/www/html/comeuque.com/components/navbar.js\",\n                        lineNumber: 47,\n                        columnNumber: 11\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.HStack, {\n                        spacing: 8,\n                        alignItems: \"center\",\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Box, {\n                                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Image, {\n                                    src: \"images/logosite-final.png\",\n                                    h: \"55px\",\n                                    alt: \"Logotipo\",\n                                    paddingTop: 2\n                                }, void 0, false, {\n                                    fileName: \"/var/www/html/comeuque.com/components/navbar.js\",\n                                    lineNumber: 55,\n                                    columnNumber: 18\n                                }, this)\n                            }, void 0, false, {\n                                fileName: \"/var/www/html/comeuque.com/components/navbar.js\",\n                                lineNumber: 55,\n                                columnNumber: 13\n                            }, this),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.HStack, {\n                                as: \"nav\",\n                                spacing: 4,\n                                display: {\n                                    base: \"none\",\n                                    md: \"flex\"\n                                },\n                                children: Links.map((link)=>/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(NavLink, {\n                                        children: link\n                                    }, link, false, {\n                                        fileName: \"/var/www/html/comeuque.com/components/navbar.js\",\n                                        lineNumber: 61,\n                                        columnNumber: 17\n                                    }, this)\n                                )\n                            }, void 0, false, {\n                                fileName: \"/var/www/html/comeuque.com/components/navbar.js\",\n                                lineNumber: 56,\n                                columnNumber: 13\n                            }, this)\n                        ]\n                    }, void 0, true, {\n                        fileName: \"/var/www/html/comeuque.com/components/navbar.js\",\n                        lineNumber: 54,\n                        columnNumber: 11\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Flex, {\n                        alignItems: \"center\",\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_botao__WEBPACK_IMPORTED_MODULE_3__[\"default\"], {}, void 0, false, {\n                                fileName: \"/var/www/html/comeuque.com/components/navbar.js\",\n                                lineNumber: 66,\n                                columnNumber: 13\n                            }, this),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Menu, {\n                                children: [\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.MenuButton, {\n                                        as: _chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Button,\n                                        rounded: \"full\",\n                                        variant: \"link\",\n                                        cursor: \"pointer\",\n                                        minW: 0\n                                    }, void 0, false, {\n                                        fileName: \"/var/www/html/comeuque.com/components/navbar.js\",\n                                        lineNumber: 68,\n                                        columnNumber: 15\n                                    }, this),\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.MenuList, {\n                                        children: [\n                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.MenuItem, {\n                                                children: \"Link 1\"\n                                            }, void 0, false, {\n                                                fileName: \"/var/www/html/comeuque.com/components/navbar.js\",\n                                                lineNumber: 76,\n                                                columnNumber: 17\n                                            }, this),\n                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.MenuItem, {\n                                                children: \"Link 2\"\n                                            }, void 0, false, {\n                                                fileName: \"/var/www/html/comeuque.com/components/navbar.js\",\n                                                lineNumber: 77,\n                                                columnNumber: 17\n                                            }, this),\n                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.MenuDivider, {}, void 0, false, {\n                                                fileName: \"/var/www/html/comeuque.com/components/navbar.js\",\n                                                lineNumber: 78,\n                                                columnNumber: 17\n                                            }, this),\n                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.MenuItem, {\n                                                children: \"Link 3\"\n                                            }, void 0, false, {\n                                                fileName: \"/var/www/html/comeuque.com/components/navbar.js\",\n                                                lineNumber: 79,\n                                                columnNumber: 17\n                                            }, this)\n                                        ]\n                                    }, void 0, true, {\n                                        fileName: \"/var/www/html/comeuque.com/components/navbar.js\",\n                                        lineNumber: 75,\n                                        columnNumber: 15\n                                    }, this)\n                                ]\n                            }, void 0, true, {\n                                fileName: \"/var/www/html/comeuque.com/components/navbar.js\",\n                                lineNumber: 67,\n                                columnNumber: 13\n                            }, this)\n                        ]\n                    }, void 0, true, {\n                        fileName: \"/var/www/html/comeuque.com/components/navbar.js\",\n                        lineNumber: 65,\n                        columnNumber: 11\n                    }, this)\n                ]\n            }, void 0, true, {\n                fileName: \"/var/www/html/comeuque.com/components/navbar.js\",\n                lineNumber: 46,\n                columnNumber: 9\n            }, this),\n            isOpen ? /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Box, {\n                pb: 4,\n                display: {\n                    md: \"none\"\n                },\n                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Stack, {\n                    as: \"nav\",\n                    spacing: 4,\n                    children: Links.map((link)=>/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(NavLink, {\n                            children: link\n                        }, link, false, {\n                            fileName: \"/var/www/html/comeuque.com/components/navbar.js\",\n                            lineNumber: 89,\n                            columnNumber: 17\n                        }, this)\n                    )\n                }, void 0, false, {\n                    fileName: \"/var/www/html/comeuque.com/components/navbar.js\",\n                    lineNumber: 87,\n                    columnNumber: 13\n                }, this)\n            }, void 0, false, {\n                fileName: \"/var/www/html/comeuque.com/components/navbar.js\",\n                lineNumber: 86,\n                columnNumber: 11\n            }, this) : null\n        ]\n    }, void 0, true, {\n        fileName: \"/var/www/html/comeuque.com/components/navbar.js\",\n        lineNumber: 45,\n        columnNumber: 7\n    }, this);\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,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RSxRQUFROzswQ0FDeEIsOERBQUN6Qiw4Q0FBSzs7OztvQ0FBRzswQ0FDVCw4REFBQ1osa0RBQUk7O2tEQUNILDhEQUFDQyx3REFBVTt3Q0FDVGdELEVBQUUsRUFBRWxELG9EQUFNO3dDQUNWd0IsT0FBTyxFQUFFLE1BQU07d0NBQ2Y4QixPQUFPLEVBQUUsTUFBTTt3Q0FDZkMsTUFBTSxFQUFFLFNBQVM7d0NBQ2pCQyxJQUFJLEVBQUUsQ0FBQzs7Ozs7NENBQ0k7a0RBQ2IsOERBQUNyRCxzREFBUTs7MERBQ1AsOERBQUNDLHNEQUFROzBEQUFDLFFBQU07Ozs7O29EQUFXOzBEQUMzQiw4REFBQ0Esc0RBQVE7MERBQUMsUUFBTTs7Ozs7b0RBQVc7MERBQzNCLDhEQUFDQyx5REFBVzs7OztvREFBRzswREFDZiw4REFBQ0Qsc0RBQVE7MERBQUMsUUFBTTs7Ozs7b0RBQVc7Ozs7Ozs0Q0FDbEI7Ozs7OztvQ0FDTjs7Ozs7OzRCQUNGOzs7Ozs7b0JBQ0Y7WUFFTjBCLE1BQU0saUJBQ0wsOERBQUNwQyxpREFBRztnQkFBQytELEVBQUUsRUFBRSxDQUFDO2dCQUFFZCxPQUFPLEVBQUU7b0JBQUVDLEVBQUUsRUFBRSxNQUFNO2lCQUFFOzBCQUNqQyw0RUFBQ3BDLG1EQUFLO29CQUFDMEMsRUFBRSxFQUFFLEtBQUs7b0JBQUVKLE9BQU8sRUFBRSxDQUFDOzhCQUN6Qi9CLEtBQUssQ0FBQ3FDLEdBQUcsQ0FBQyxDQUFDQyxJQUFJLGlCQUNkLDhEQUFDbkMsT0FBTztzQ0FBYW1DLElBQUk7MkJBQVhBLElBQUk7Ozs7Z0NBQWtCO29CQUNyQyxDQUFDOzs7Ozt3QkFDSTs7Ozs7b0JBQ0osR0FDSixJQUFJOzs7Ozs7WUFDSixDQUNSO0NBQ0oiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9tYXJjYWNhby8uL2NvbXBvbmVudHMvbmF2YmFyLmpzPzViNWMiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHtcbiAgQm94LFxuICBGbGV4LFxuICBBdmF0YXIsXG4gIEhTdGFjayxcbiAgTGluayxcbiAgSWNvbkJ1dHRvbixcbiAgQnV0dG9uLFxuICBNZW51LFxuICBNZW51QnV0dG9uLFxuICBNZW51TGlzdCxcbiAgTWVudUl0ZW0sXG4gIE1lbnVEaXZpZGVyLFxuICB1c2VEaXNjbG9zdXJlLFxuICB1c2VDb2xvck1vZGVWYWx1ZSxcbiAgU3RhY2ssXG4gIEltYWdlLFxufSBmcm9tICdAY2hha3JhLXVpL3JlYWN0JztcbmltcG9ydCB7IEhhbWJ1cmdlckljb24sIENsb3NlSWNvbiwgQWRkSWNvbiB9IGZyb20gJ0BjaGFrcmEtdWkvaWNvbnMnO1xuaW1wb3J0IEJvdGFvIGZyb20gJy4vYm90YW8nO1xuaW1wb3J0IHsgUFJJTUFSWV9DT0xPUiB9IGZyb20gJy4uL2xpYi9jb25zdGFudCc7XG5cbmNvbnN0IExpbmtzID0gW3tsYWJlbDogJ0hvbWUnLCB1cmw6ICcjdG9wJ30sIHtsYWJlbDogJ05vc3NhIEhpc3TDs3JpYScsIHVybDogJyNoaXN0b3JpYSd9LCB7bGFiZWw6ICdDYXJkw6FwaW8nLCB1cmw6ICcjY2FyZGFwaW8nfSwge2xhYmVsOiAnRmFsZSBDb25vc2NvJywgdXJsOicjY29udGF0byd9XTtcblxuY29uc3QgTmF2TGluayA9ICh7IGNoaWxkcmVuIH0pID0+IChcbiAgPExpbmtcbiAgICB0ZXh0VHJhbnNmb3JtPXsndXBwZXJjYXNlJ31cbiAgICBweD17Mn1cbiAgICBweT17MX1cbiAgICBjb2xvcj17JyM4MjUyMjEnfVxuICAgIHJvdW5kZWQ9eydtZCd9XG4gICAgX2hvdmVyPXt7XG4gICAgICB0ZXh0RGVjb3JhdGlvbjogJ25vbmUnLFxuICAgICAgYmc6IHVzZUNvbG9yTW9kZVZhbHVlKCdvcmFuZ2UnLCAnZ3JheS43MDAnKSxcbiAgICB9fVxuICAgIGhyZWY9e2NoaWxkcmVuLnVybH0+XG4gICAge2NoaWxkcmVuLmxhYmVsfVxuICA8L0xpbms+XG4pO1xuXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBOYXZCYXIoKSB7XG4gIGNvbnN0IHsgaXNPcGVuLCBvbk9wZW4sIG9uQ2xvc2UgfSA9IHVzZURpc2Nsb3N1cmUoKTtcblxuICByZXR1cm4gKFxuICAgICAgPEJveCBiZz17dXNlQ29sb3JNb2RlVmFsdWUoUFJJTUFSWV9DT0xPUiwgJyM4MjUyMjEnKX0gcHg9ezR9IHBvcz1cImZpeGVkXCIgdz1cIjEwMCVcIiB6SW5kZXg9ezJ9IGJveFNoYWRvdz0nbWQnID5cbiAgICAgICAgPEZsZXggaD17MjR9IGFsaWduSXRlbXM9eydjZW50ZXInfSBqdXN0aWZ5Q29udGVudD17J3NwYWNlLWJldHdlZW4nfT5cbiAgICAgICAgICA8SWNvbkJ1dHRvblxuICAgICAgICAgICAgc2l6ZT17J21kJ31cbiAgICAgICAgICAgIGljb249e2lzT3BlbiA/IDxDbG9zZUljb24gLz4gOiA8SGFtYnVyZ2VySWNvbiAvPn1cbiAgICAgICAgICAgIGFyaWEtbGFiZWw9eydPcGVuIE1lbnUnfVxuICAgICAgICAgICAgZGlzcGxheT17eyBtZDogJ25vbmUnIH19XG4gICAgICAgICAgICBvbkNsaWNrPXtpc09wZW4gPyBvbkNsb3NlIDogb25PcGVufVxuICAgICAgICAgIC8+XG4gICAgICAgICAgPEhTdGFjayBzcGFjaW5nPXs4fSBhbGlnbkl0ZW1zPXsnY2VudGVyJ30+XG4gICAgICAgICAgICA8Qm94PjxJbWFnZSBzcmM9J2ltYWdlcy9sb2dvc2l0ZS1maW5hbC5wbmcnIGg9eyc1NXB4J30gYWx0PVwiTG9nb3RpcG9cIiBwYWRkaW5nVG9wPXsyfS8+PC9Cb3g+XG4gICAgICAgICAgICA8SFN0YWNrXG4gICAgICAgICAgICAgIGFzPXsnbmF2J31cbiAgICAgICAgICAgICAgc3BhY2luZz17NH1cbiAgICAgICAgICAgICAgZGlzcGxheT17eyBiYXNlOiAnbm9uZScsIG1kOiAnZmxleCcgfX0+XG4gICAgICAgICAgICAgIHtMaW5rcy5tYXAoKGxpbmspID0+IChcbiAgICAgICAgICAgICAgICA8TmF2TGluayBrZXk9e2xpbmt9PntsaW5rfTwvTmF2TGluaz5cbiAgICAgICAgICAgICAgKSl9XG4gICAgICAgICAgICA8L0hTdGFjaz5cbiAgICAgICAgICA8L0hTdGFjaz5cbiAgICAgICAgICA8RmxleCBhbGlnbkl0ZW1zPXsnY2VudGVyJ30+XG4gICAgICAgICAgICA8Qm90YW8gLz5cbiAgICAgICAgICAgIDxNZW51PlxuICAgICAgICAgICAgICA8TWVudUJ1dHRvblxuICAgICAgICAgICAgICAgIGFzPXtCdXR0b259XG4gICAgICAgICAgICAgICAgcm91bmRlZD17J2Z1bGwnfVxuICAgICAgICAgICAgICAgIHZhcmlhbnQ9eydsaW5rJ31cbiAgICAgICAgICAgICAgICBjdXJzb3I9eydwb2ludGVyJ31cbiAgICAgICAgICAgICAgICBtaW5XPXswfT5cbiAgICAgICAgICAgICAgPC9NZW51QnV0dG9uPlxuICAgICAgICAgICAgICA8TWVudUxpc3Q+XG4gICAgICAgICAgICAgICAgPE1lbnVJdGVtPkxpbmsgMTwvTWVudUl0ZW0+XG4gICAgICAgICAgICAgICAgPE1lbnVJdGVtPkxpbmsgMjwvTWVudUl0ZW0+XG4gICAgICAgICAgICAgICAgPE1lbnVEaXZpZGVyIC8+XG4gICAgICAgICAgICAgICAgPE1lbnVJdGVtPkxpbmsgMzwvTWVudUl0ZW0+XG4gICAgICAgICAgICAgIDwvTWVudUxpc3Q+XG4gICAgICAgICAgICA8L01lbnU+XG4gICAgICAgICAgPC9GbGV4PlxuICAgICAgICA8L0ZsZXg+XG5cbiAgICAgICAge2lzT3BlbiA/IChcbiAgICAgICAgICA8Qm94IHBiPXs0fSBkaXNwbGF5PXt7IG1kOiAnbm9uZScgfX0+XG4gICAgICAgICAgICA8U3RhY2sgYXM9eyduYXYnfSBzcGFjaW5nPXs0fT5cbiAgICAgICAgICAgICAge0xpbmtzLm1hcCgobGluaykgPT4gKFxuICAgICAgICAgICAgICAgIDxOYXZMaW5rIGtleT17bGlua30+e2xpbmt9PC9OYXZMaW5rPlxuICAgICAgICAgICAgICApKX1cbiAgICAgICAgICAgIDwvU3RhY2s+XG4gICAgICAgICAgPC9Cb3g+XG4gICAgICAgICkgOiBudWxsfVxuICAgICAgPC9Cb3g+XG4gICk7XG59Il0sIm5hbWVzIjpbIkJveCIsIkZsZXgiLCJBdmF0YXIiLCJIU3RhY2siLCJMaW5rIiwiSWNvbkJ1dHRvbiIsIkJ1dHRvbiIsIk1lbnUiLCJNZW51QnV0dG9uIiwiTWVudUxpc3QiLCJNZW51SXRlbSIsIk1lbnVEaXZpZGVyIiwidXNlRGlzY2xvc3VyZSIsInVzZUNvbG9yTW9kZVZhbHVlIiwiU3RhY2siLCJJbWFnZSIsIkhhbWJ1cmdlckljb24iLCJDbG9zZUljb24iLCJBZGRJY29uIiwiQm90YW8iLCJQUklNQVJZX0NPTE9SIiwiTGlua3MiLCJsYWJlbCIsInVybCIsIk5hdkxpbmsiLCJjaGlsZHJlbiIsInRleHRUcmFuc2Zvcm0iLCJweCIsInB5IiwiY29sb3IiLCJyb3VuZGVkIiwiX2hvdmVyIiwidGV4dERlY29yYXRpb24iLCJiZyIsImhyZWYiLCJOYXZCYXIiLCJpc09wZW4iLCJvbk9wZW4iLCJvbkNsb3NlIiwicG9zIiwidyIsInpJbmRleCIsImJveFNoYWRvdyIsImgiLCJhbGlnbkl0ZW1zIiwianVzdGlmeUNvbnRlbnQiLCJzaXplIiwiaWNvbiIsImFyaWEtbGFiZWwiLCJkaXNwbGF5IiwibWQiLCJvbkNsaWNrIiwic3BhY2luZyIsInNyYyIsImFsdCIsInBhZGRpbmdUb3AiLCJhcyIsImJhc2UiLCJtYXAiLCJsaW5rIiwidmFyaWFudCIsImN1cnNvciIsIm1pblciLCJwYiJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./components/navbar.js\n");
+
+/***/ }),
+
+/***/ "./components/produtos.js":
+/*!********************************!*\
+  !*** ./components/produtos.js ***!
+  \********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ ProductAddToCart)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @chakra-ui/react */ \"@chakra-ui/react\");\n/* harmony import */ var _chakra_ui_react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _botao__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./botao */ \"./components/botao.js\");\n/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! sweetalert2 */ \"sweetalert2\");\n/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(sweetalert2__WEBPACK_IMPORTED_MODULE_3__);\n\n\n\n\nfunction ProductAddToCart(props) {\n    function handleShowClick(nome, descricao, imagem) {\n        sweetalert2__WEBPACK_IMPORTED_MODULE_3___default().fire({\n            title: nome,\n            text: descricao,\n            imageUrl: imagem,\n            imageWidth: 400,\n            imageHeight: 300,\n            imageAlt: \"Custom image\",\n            color: \"#ffffff\",\n            background: \"#f58634\",\n            confirmButtonText: \"Fazer Pedido!\",\n            confirmButtonColor: \"#f7180d\",\n            showCloseButton: true\n        });\n    }\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Flex, {\n        px: [\n            4,\n            10,\n            30,\n            50,\n            50\n        ],\n        w: \"full\",\n        alignItems: \"center\",\n        justifyContent: \"center\",\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Box, {\n            bg: (0,_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.useColorModeValue)(\"#825321\", \"gray.800\"),\n            maxW: \"650px\",\n            minW: \"300px\",\n            borderWidth: \"1px\",\n            rounded: \"lg\",\n            shadow: \"lg\",\n            position: \"relative\",\n            children: [\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Image, {\n                    src: \"http://painel.kallario.com.br\" + props.data.url_imagem,\n                    alt: `Picture of ${props.data.nome}`,\n                    roundedTop: \"lg\",\n                    onClick: ()=>handleShowClick(props.data.nome, props.data.descricao, \"http://painel.kallario.com.br\" + props.data.url_imagem)\n                }, void 0, false, {\n                    fileName: \"/var/www/html/comeuque.com/components/produtos.js\",\n                    lineNumber: 40,\n                    columnNumber: 11\n                }, this),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Box, {\n                    p: \"6\",\n                    children: [\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Flex, {\n                            mt: \"1\",\n                            justifyContent: \"center\",\n                            alignContent: \"center\",\n                            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Box, {\n                                fontSize: \"2xl\",\n                                fontWeight: \"semibold\",\n                                as: \"h4\",\n                                mb: 4,\n                                color: \"white\",\n                                lineHeight: \"tight\",\n                                children: props.data.nome\n                            }, void 0, false, {\n                                fileName: \"/var/www/html/comeuque.com/components/produtos.js\",\n                                lineNumber: 49,\n                                columnNumber: 15\n                            }, this)\n                        }, void 0, false, {\n                            fileName: \"/var/www/html/comeuque.com/components/produtos.js\",\n                            lineNumber: 48,\n                            columnNumber: 13\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Flex, {\n                            justifyContent: \"space-between\",\n                            alignContent: \"center\",\n                            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_botao__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {}, void 0, false, {\n                                fileName: \"/var/www/html/comeuque.com/components/produtos.js\",\n                                lineNumber: 61,\n                                columnNumber: 15\n                            }, this)\n                        }, void 0, false, {\n                            fileName: \"/var/www/html/comeuque.com/components/produtos.js\",\n                            lineNumber: 60,\n                            columnNumber: 13\n                        }, this)\n                    ]\n                }, void 0, true, {\n                    fileName: \"/var/www/html/comeuque.com/components/produtos.js\",\n                    lineNumber: 47,\n                    columnNumber: 11\n                }, this)\n            ]\n        }, void 0, true, {\n            fileName: \"/var/www/html/comeuque.com/components/produtos.js\",\n            lineNumber: 31,\n            columnNumber: 9\n        }, this)\n    }, void 0, false, {\n        fileName: \"/var/www/html/comeuque.com/components/produtos.js\",\n        lineNumber: 30,\n        columnNumber: 7\n    }, this);\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL3Byb2R1dG9zLmpzLmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7OztBQUs0QjtBQUVBO0FBQ0U7QUFFYixTQUFTTSxnQkFBZ0IsQ0FBQ0MsS0FBSyxFQUFFO0lBRTlDLFNBQVNDLGVBQWUsQ0FBQ0MsSUFBSSxFQUFFQyxTQUFTLEVBQUVDLE1BQU0sRUFBRTtRQUM5Q04sdURBQVMsQ0FBQztZQUNOUSxLQUFLLEVBQUVKLElBQUk7WUFDWEssSUFBSSxFQUFFSixTQUFTO1lBQ2ZLLFFBQVEsRUFBRUosTUFBTTtZQUNoQkssVUFBVSxFQUFFLEdBQUc7WUFDZkMsV0FBVyxFQUFFLEdBQUc7WUFDaEJDLFFBQVEsRUFBRSxjQUFjO1lBQ3hCQyxLQUFLLEVBQUUsU0FBUztZQUNoQkMsVUFBVSxFQUFFLFNBQVM7WUFDckJDLGlCQUFpQixFQUFFLGVBQWU7WUFDbENDLGtCQUFrQixFQUFFLFNBQVM7WUFDN0JDLGVBQWUsRUFBRSxJQUFJO1NBQ3RCLENBQUM7S0FDUDtJQUVELHFCQUNFLDhEQUFDdkIsa0RBQUk7UUFBQ3dCLEVBQUUsRUFBRTtBQUFDLGFBQUM7QUFBQyxjQUFFO0FBQUMsY0FBRTtBQUFDLGNBQUU7QUFBQyxjQUFFO1NBQUM7UUFBRUMsQ0FBQyxFQUFDLE1BQU07UUFBQ0MsVUFBVSxFQUFDLFFBQVE7UUFBQ0MsY0FBYyxFQUFDLFFBQVE7a0JBQzdFLDRFQUFDMUIsaURBQUc7WUFDRjJCLEVBQUUsRUFBRXpCLG1FQUFpQixDQUFDLFNBQVMsRUFBRSxVQUFVLENBQUM7WUFDNUMwQixJQUFJLEVBQUMsT0FBTztZQUNaQyxJQUFJLEVBQUMsT0FBTztZQUNaQyxXQUFXLEVBQUMsS0FBSztZQUNqQkMsT0FBTyxFQUFDLElBQUk7WUFDWkMsTUFBTSxFQUFDLElBQUk7WUFDWEMsUUFBUSxFQUFDLFVBQVU7OzhCQUVuQiw4REFBQ2hDLG1EQUFLO29CQUNKaUMsR0FBRyxFQUFFQywrQkFBc0IsR0FBRzdCLEtBQUssQ0FBQ2dDLElBQUksQ0FBQ0MsVUFBVTtvQkFDbkRDLEdBQUcsRUFBRSxDQUFDLFdBQVcsRUFBRWxDLEtBQUssQ0FBQ2dDLElBQUksQ0FBQzlCLElBQUksQ0FBQyxDQUFDO29CQUNwQ2lDLFVBQVUsRUFBQyxJQUFJO29CQUNmQyxPQUFPLEVBQUUsSUFBSW5DLGVBQWUsQ0FBQ0QsS0FBSyxDQUFDZ0MsSUFBSSxDQUFDOUIsSUFBSSxFQUFFRixLQUFLLENBQUNnQyxJQUFJLENBQUM3QixTQUFTLEVBQUUwQiwrQkFBc0IsR0FBRzdCLEtBQUssQ0FBQ2dDLElBQUksQ0FBQ0MsVUFBVSxDQUFDOzs7Ozt3QkFDbkg7OEJBRUYsOERBQUN2QyxpREFBRztvQkFBQzJDLENBQUMsRUFBQyxHQUFHOztzQ0FDUiw4REFBQzVDLGtEQUFJOzRCQUFDNkMsRUFBRSxFQUFDLEdBQUc7NEJBQUNsQixjQUFjLEVBQUMsUUFBUTs0QkFBQ21CLFlBQVksRUFBQyxRQUFRO3NDQUN4RCw0RUFBQzdDLGlEQUFHO2dDQUNGOEMsUUFBUSxFQUFDLEtBQUs7Z0NBQ2RDLFVBQVUsRUFBQyxVQUFVO2dDQUNyQkMsRUFBRSxFQUFDLElBQUk7Z0NBQ1BDLEVBQUUsRUFBRSxDQUFDO2dDQUNML0IsS0FBSyxFQUFFLE9BQU87Z0NBQ2RnQyxVQUFVLEVBQUMsT0FBTzswQ0FDakI1QyxLQUFLLENBQUNnQyxJQUFJLENBQUM5QixJQUFJOzs7OztvQ0FDWjs7Ozs7Z0NBQ0Q7c0NBRVAsOERBQUNULGtEQUFJOzRCQUFDMkIsY0FBYyxFQUFDLGVBQWU7NEJBQUNtQixZQUFZLEVBQUMsUUFBUTtzQ0FDeEQsNEVBQUMxQyw4Q0FBSzs7OztvQ0FBRzs7Ozs7Z0NBQ0o7Ozs7Ozt3QkFDSDs7Ozs7O2dCQUNGOzs7OztZQUNELENBQ1A7Q0FDSCIsInNvdXJjZXMiOlsid2VicGFjazovL21hcmNhY2FvLy4vY29tcG9uZW50cy9wcm9kdXRvcy5qcz83N2JkIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7XG4gICAgRmxleCxcbiAgICBCb3gsXG4gICAgSW1hZ2UsXG4gICAgdXNlQ29sb3JNb2RlVmFsdWVcbiAgfSBmcm9tICdAY2hha3JhLXVpL3JlYWN0JztcblxuaW1wb3J0IEJvdGFvIGZyb20gJy4vYm90YW8nO1xuaW1wb3J0IFN3YWwgZnJvbSAnc3dlZXRhbGVydDInXG5cbiAgZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gUHJvZHVjdEFkZFRvQ2FydChwcm9wcykge1xuXG4gICAgZnVuY3Rpb24gaGFuZGxlU2hvd0NsaWNrKG5vbWUsIGRlc2NyaWNhbywgaW1hZ2VtKSB7XG4gICAgICAgIFN3YWwuZmlyZSh7XG4gICAgICAgICAgICB0aXRsZTogbm9tZSxcbiAgICAgICAgICAgIHRleHQ6IGRlc2NyaWNhbyxcbiAgICAgICAgICAgIGltYWdlVXJsOiBpbWFnZW0sXG4gICAgICAgICAgICBpbWFnZVdpZHRoOiA0MDAsXG4gICAgICAgICAgICBpbWFnZUhlaWdodDogMzAwLFxuICAgICAgICAgICAgaW1hZ2VBbHQ6ICdDdXN0b20gaW1hZ2UnLFxuICAgICAgICAgICAgY29sb3I6ICcjZmZmZmZmJyxcbiAgICAgICAgICAgIGJhY2tncm91bmQ6ICcjZjU4NjM0JyxcbiAgICAgICAgICAgIGNvbmZpcm1CdXR0b25UZXh0OiAnRmF6ZXIgUGVkaWRvIScsXG4gICAgICAgICAgICBjb25maXJtQnV0dG9uQ29sb3I6ICcjZjcxODBkJywgXG4gICAgICAgICAgICBzaG93Q2xvc2VCdXR0b246IHRydWUsICAgICAgXG4gICAgICAgICAgfSlcbiAgICB9XG5cbiAgICByZXR1cm4gKFxuICAgICAgPEZsZXggcHg9e1s0LDEwLDMwLDUwLDUwXX0gdz0nZnVsbCcgYWxpZ25JdGVtcz1cImNlbnRlclwiIGp1c3RpZnlDb250ZW50PVwiY2VudGVyXCI+XG4gICAgICAgIDxCb3hcbiAgICAgICAgICBiZz17dXNlQ29sb3JNb2RlVmFsdWUoJyM4MjUzMjEnLCAnZ3JheS44MDAnKX1cbiAgICAgICAgICBtYXhXPVwiNjUwcHhcIlxuICAgICAgICAgIG1pblc9XCIzMDBweFwiXG4gICAgICAgICAgYm9yZGVyV2lkdGg9XCIxcHhcIlxuICAgICAgICAgIHJvdW5kZWQ9XCJsZ1wiXG4gICAgICAgICAgc2hhZG93PVwibGdcIlxuICAgICAgICAgIHBvc2l0aW9uPVwicmVsYXRpdmVcIj5cbiAgXG4gICAgICAgICAgPEltYWdlXG4gICAgICAgICAgICBzcmM9e3Byb2Nlc3MuZW52LklNQUdFTV9VUkwgKyBwcm9wcy5kYXRhLnVybF9pbWFnZW19XG4gICAgICAgICAgICBhbHQ9e2BQaWN0dXJlIG9mICR7cHJvcHMuZGF0YS5ub21lfWB9XG4gICAgICAgICAgICByb3VuZGVkVG9wPVwibGdcIlxuICAgICAgICAgICAgb25DbGljaz17KCk9PmhhbmRsZVNob3dDbGljayhwcm9wcy5kYXRhLm5vbWUsIHByb3BzLmRhdGEuZGVzY3JpY2FvLCBwcm9jZXNzLmVudi5JTUFHRU1fVVJMICsgcHJvcHMuZGF0YS51cmxfaW1hZ2VtKX1cbiAgICAgICAgICAvPlxuICBcbiAgICAgICAgICA8Qm94IHA9XCI2XCI+XG4gICAgICAgICAgICA8RmxleCBtdD1cIjFcIiBqdXN0aWZ5Q29udGVudD1cImNlbnRlclwiIGFsaWduQ29udGVudD1cImNlbnRlclwiPlxuICAgICAgICAgICAgICA8Qm94XG4gICAgICAgICAgICAgICAgZm9udFNpemU9XCIyeGxcIlxuICAgICAgICAgICAgICAgIGZvbnRXZWlnaHQ9XCJzZW1pYm9sZFwiXG4gICAgICAgICAgICAgICAgYXM9XCJoNFwiXG4gICAgICAgICAgICAgICAgbWI9ezR9XG4gICAgICAgICAgICAgICAgY29sb3I9eyd3aGl0ZSd9XG4gICAgICAgICAgICAgICAgbGluZUhlaWdodD1cInRpZ2h0XCI+XG4gICAgICAgICAgICAgICAge3Byb3BzLmRhdGEubm9tZX1cbiAgICAgICAgICAgICAgPC9Cb3g+XG4gICAgICAgICAgICA8L0ZsZXg+XG4gIFxuICAgICAgICAgICAgPEZsZXgganVzdGlmeUNvbnRlbnQ9XCJzcGFjZS1iZXR3ZWVuXCIgYWxpZ25Db250ZW50PVwiY2VudGVyXCI+XG4gICAgICAgICAgICAgIDxCb3RhbyAvPlxuICAgICAgICAgICAgPC9GbGV4PlxuICAgICAgICAgIDwvQm94PlxuICAgICAgICA8L0JveD5cbiAgICAgIDwvRmxleD5cbiAgICApO1xuICB9XG4iXSwibmFtZXMiOlsiRmxleCIsIkJveCIsIkltYWdlIiwidXNlQ29sb3JNb2RlVmFsdWUiLCJCb3RhbyIsIlN3YWwiLCJQcm9kdWN0QWRkVG9DYXJ0IiwicHJvcHMiLCJoYW5kbGVTaG93Q2xpY2siLCJub21lIiwiZGVzY3JpY2FvIiwiaW1hZ2VtIiwiZmlyZSIsInRpdGxlIiwidGV4dCIsImltYWdlVXJsIiwiaW1hZ2VXaWR0aCIsImltYWdlSGVpZ2h0IiwiaW1hZ2VBbHQiLCJjb2xvciIsImJhY2tncm91bmQiLCJjb25maXJtQnV0dG9uVGV4dCIsImNvbmZpcm1CdXR0b25Db2xvciIsInNob3dDbG9zZUJ1dHRvbiIsInB4IiwidyIsImFsaWduSXRlbXMiLCJqdXN0aWZ5Q29udGVudCIsImJnIiwibWF4VyIsIm1pblciLCJib3JkZXJXaWR0aCIsInJvdW5kZWQiLCJzaGFkb3ciLCJwb3NpdGlvbiIsInNyYyIsInByb2Nlc3MiLCJlbnYiLCJJTUFHRU1fVVJMIiwiZGF0YSIsInVybF9pbWFnZW0iLCJhbHQiLCJyb3VuZGVkVG9wIiwib25DbGljayIsInAiLCJtdCIsImFsaWduQ29udGVudCIsImZvbnRTaXplIiwiZm9udFdlaWdodCIsImFzIiwibWIiLCJsaW5lSGVpZ2h0Il0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./components/produtos.js\n");
+
+/***/ }),
+
+/***/ "./components/useWindowDimensions.js":
+/*!*******************************************!*\
+  !*** ./components/useWindowDimensions.js ***!
+  \*******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ useWindowDimensions)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n// useWindowDimensions.js\n\nfunction useWindowDimensions() {\n    const hasWindow = \"undefined\" !== \"undefined\";\n    function getWindowDimensions() {\n        const width = hasWindow ? window.innerWidth : null;\n        const height = hasWindow ? window.innerHeight : null;\n        return {\n            width,\n            height\n        };\n    }\n    const { 0: windowDimensions , 1: setWindowDimensions  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(getWindowDimensions());\n    (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(()=>{\n        if (hasWindow) {\n            function handleResize() {\n                setWindowDimensions(getWindowDimensions());\n            }\n            window.addEventListener(\"resize\", handleResize);\n            return ()=>window.removeEventListener(\"resize\", handleResize)\n            ;\n        }\n    }, [\n        hasWindow\n    ]);\n    return windowDimensions;\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL3VzZVdpbmRvd0RpbWVuc2lvbnMuanMuanMiLCJtYXBwaW5ncyI6Ijs7Ozs7O0FBQUEseUJBQXlCO0FBRW1CO0FBRTdCLFNBQVNFLG1CQUFtQixHQUFHO0lBRTVDLE1BQU1DLFNBQVMsR0FBRyxXQUFhLEtBQUssV0FBVztJQUUvQyxTQUFTQyxtQkFBbUIsR0FBRztRQUM3QixNQUFNQyxLQUFLLEdBQUdGLFNBQVMsR0FBR0csTUFBTSxDQUFDQyxVQUFVLEdBQUcsSUFBSTtRQUNsRCxNQUFNQyxNQUFNLEdBQUdMLFNBQVMsR0FBR0csTUFBTSxDQUFDRyxXQUFXLEdBQUcsSUFBSTtRQUNwRCxPQUFPO1lBQ0xKLEtBQUs7WUFDTEcsTUFBTTtTQUNQLENBQUM7S0FDSDtJQUVELE1BQU0sRUFqQlIsR0FpQlNFLGdCQUFnQixHQWpCekIsR0FpQjJCQyxtQkFBbUIsTUFBSVgsK0NBQVEsQ0FBQ0ksbUJBQW1CLEVBQUUsQ0FBQztJQUUvRUgsZ0RBQVMsQ0FBQyxJQUFNO1FBQ2QsSUFBSUUsU0FBUyxFQUFFO1lBQ2IsU0FBU1MsWUFBWSxHQUFHO2dCQUN0QkQsbUJBQW1CLENBQUNQLG1CQUFtQixFQUFFLENBQUMsQ0FBQzthQUM1QztZQUVERSxNQUFNLENBQUNPLGdCQUFnQixDQUFDLFFBQVEsRUFBRUQsWUFBWSxDQUFDLENBQUM7WUFDaEQsT0FBTyxJQUFNTixNQUFNLENBQUNRLG1CQUFtQixDQUFDLFFBQVEsRUFBRUYsWUFBWSxDQUFDO1lBQUEsQ0FBQztTQUNqRTtLQUNGLEVBQUU7UUFBQ1QsU0FBUztLQUFDLENBQUMsQ0FBQztJQUVoQixPQUFPTyxnQkFBZ0IsQ0FBQztDQUN6QiIsInNvdXJjZXMiOlsid2VicGFjazovL21hcmNhY2FvLy4vY29tcG9uZW50cy91c2VXaW5kb3dEaW1lbnNpb25zLmpzP2QyMTIiXSwic291cmNlc0NvbnRlbnQiOlsiLy8gdXNlV2luZG93RGltZW5zaW9ucy5qc1xuXG5pbXBvcnQgeyB1c2VTdGF0ZSwgdXNlRWZmZWN0IH0gZnJvbSAncmVhY3QnO1xuXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiB1c2VXaW5kb3dEaW1lbnNpb25zKCkge1xuXG4gIGNvbnN0IGhhc1dpbmRvdyA9IHR5cGVvZiB3aW5kb3cgIT09ICd1bmRlZmluZWQnO1xuXG4gIGZ1bmN0aW9uIGdldFdpbmRvd0RpbWVuc2lvbnMoKSB7XG4gICAgY29uc3Qgd2lkdGggPSBoYXNXaW5kb3cgPyB3aW5kb3cuaW5uZXJXaWR0aCA6IG51bGw7XG4gICAgY29uc3QgaGVpZ2h0ID0gaGFzV2luZG93ID8gd2luZG93LmlubmVySGVpZ2h0IDogbnVsbDtcbiAgICByZXR1cm4ge1xuICAgICAgd2lkdGgsXG4gICAgICBoZWlnaHQsXG4gICAgfTtcbiAgfVxuXG4gIGNvbnN0IFt3aW5kb3dEaW1lbnNpb25zLCBzZXRXaW5kb3dEaW1lbnNpb25zXSA9IHVzZVN0YXRlKGdldFdpbmRvd0RpbWVuc2lvbnMoKSk7XG5cbiAgdXNlRWZmZWN0KCgpID0+IHtcbiAgICBpZiAoaGFzV2luZG93KSB7XG4gICAgICBmdW5jdGlvbiBoYW5kbGVSZXNpemUoKSB7XG4gICAgICAgIHNldFdpbmRvd0RpbWVuc2lvbnMoZ2V0V2luZG93RGltZW5zaW9ucygpKTtcbiAgICAgIH1cblxuICAgICAgd2luZG93LmFkZEV2ZW50TGlzdGVuZXIoJ3Jlc2l6ZScsIGhhbmRsZVJlc2l6ZSk7XG4gICAgICByZXR1cm4gKCkgPT4gd2luZG93LnJlbW92ZUV2ZW50TGlzdGVuZXIoJ3Jlc2l6ZScsIGhhbmRsZVJlc2l6ZSk7XG4gICAgfVxuICB9LCBbaGFzV2luZG93XSk7XG5cbiAgcmV0dXJuIHdpbmRvd0RpbWVuc2lvbnM7XG59Il0sIm5hbWVzIjpbInVzZVN0YXRlIiwidXNlRWZmZWN0IiwidXNlV2luZG93RGltZW5zaW9ucyIsImhhc1dpbmRvdyIsImdldFdpbmRvd0RpbWVuc2lvbnMiLCJ3aWR0aCIsIndpbmRvdyIsImlubmVyV2lkdGgiLCJoZWlnaHQiLCJpbm5lckhlaWdodCIsIndpbmRvd0RpbWVuc2lvbnMiLCJzZXRXaW5kb3dEaW1lbnNpb25zIiwiaGFuZGxlUmVzaXplIiwiYWRkRXZlbnRMaXN0ZW5lciIsInJlbW92ZUV2ZW50TGlzdGVuZXIiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./components/useWindowDimensions.js\n");
+
+/***/ }),
+
+/***/ "./config/fetchDados.js":
+/*!******************************!*\
+  !*** ./config/fetchDados.js ***!
+  \******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"deleteDados\": () => (/* binding */ deleteDados),\n/* harmony export */   \"getDados\": () => (/* binding */ getDados),\n/* harmony export */   \"patchDados\": () => (/* binding */ patchDados),\n/* harmony export */   \"postDados\": () => (/* binding */ postDados),\n/* harmony export */   \"putDados\": () => (/* binding */ putDados)\n/* harmony export */ });\nconst baseUrl = \"http://painel.kallario.com.br/api\";\nconst getDados = async (url, token)=>{\n    try {\n        const res = await fetch(`${baseUrl}/${url}`, {\n            method: \"GET\",\n            headers: {\n                \"Authorization\": \"Bearer \" + \"eyJhbGciOiJIUzI1NiJ9.eyJ1c3VhcmlvX2lkIjoyfQ.12jVgTMmJvPrrdsM9yxmokUHzqxL4ZKmcaxzZeAa5VA\"\n            }\n        });\n        const data = await res.json();\n        return data;\n    } catch (error) {\n        console.log(error);\n        res.status(500).json(error);\n    }\n};\nconst postDados = async (url, post, token)=>{\n    return await fetch(`${baseUrl}/${url}`, {\n        method: \"POST\",\n        headers: {\n            \"Content-Type\": \"application/json\"\n        },\n        body: JSON.stringify({\n            post\n        })\n    }).then((response)=>response.json()\n    ).catch((error)=>{\n        console.log(\"Error: \", error);\n    });\n};\nconst putDados = async (url, post, token)=>{\n    const res = await fetch(`${baseUrl}/${url}`, {\n        method: \"PUT\",\n        headers: {\n            \"Content-Type\": \"application/json\",\n            \"Authorization\": token\n        },\n        body: JSON.stringify(post)\n    });\n    const data = await res.json();\n    return data;\n};\nconst patchDados = async (url, post, token)=>{\n    const res = await fetch(`${baseUrl}/${url}`, {\n        method: \"PATCH\",\n        headers: {\n            \"Content-Type\": \"application/json\",\n            \"Authorization\": token\n        },\n        body: JSON.stringify(post)\n    });\n    const data = await res.json();\n    return data;\n};\nconst deleteDados = async (url, token)=>{\n    const res = await fetch(`${baseUrl}/${url}`, {\n        method: \"DELETE\",\n        headers: {\n            \"Content-Type\": \"application/json\",\n            \"Authorization\": token\n        }\n    });\n    const data = await res.json();\n    return data;\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,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QUMsQ0FBQyxFQUFFUixPQUFPLENBQUMsQ0FBQyxFQUFFSyxHQUFHLENBQUMsQ0FBQyxFQUFFO1FBQ3pDSSxNQUFNLEVBQUUsUUFBUTtRQUNoQkMsT0FBTyxFQUFFO1lBQ0wsY0FBYyxFQUFFLGtCQUFrQjtZQUNsQyxlQUFlLEVBQUVKLEtBQUs7U0FDekI7S0FDSixDQUFDO0lBRUYsTUFBTU0sSUFBSSxHQUFHLE1BQU1MLEdBQUcsQ0FBQ00sSUFBSSxFQUFFO0lBQzdCLE9BQU9ELElBQUk7Q0FDZCIsInNvdXJjZXMiOlsid2VicGFjazovL21hcmNhY2FvLy4vY29uZmlnL2ZldGNoRGFkb3MuanM/ZWRmNSJdLCJzb3VyY2VzQ29udGVudCI6WyJjb25zdCBiYXNlVXJsID0gIHByb2Nlc3MuZW52Lk1ZU1FMX1VSTFxyXG5cclxuZXhwb3J0IGNvbnN0IGdldERhZG9zID0gYXN5bmMgKHVybCwgdG9rZW4pID0+IHtcclxuICAgIHRyeSB7ICAgIFxyXG4gICAgICAgIGNvbnN0IHJlcyA9IGF3YWl0IGZldGNoKGAke2Jhc2VVcmx9LyR7dXJsfWAsIHtcclxuICAgICAgICAgICAgbWV0aG9kOiAnR0VUJyxcclxuICAgICAgICAgICAgaGVhZGVyczoge1xyXG4gICAgICAgICAgICAgICAgJ0F1dGhvcml6YXRpb24nOiAnQmVhcmVyICcgKyBwcm9jZXNzLmVudi5UT0tFTlxyXG4gICAgICAgICAgICB9LCAgICAgICAgICAgIFxyXG4gICAgICAgIH0pXHJcbiAgICAgICAgY29uc3QgZGF0YSA9IGF3YWl0IHJlcy5qc29uKClcclxuICAgICAgICByZXR1cm4gZGF0YVxyXG4gICAgfSBjYXRjaCAoZXJyb3IpIHtcclxuICAgICAgICBjb25zb2xlLmxvZyhlcnJvcilcclxuICAgICAgICByZXMuc3RhdHVzKDUwMCkuanNvbihlcnJvcilcclxuICAgIH0gIFxyXG59XHJcblxyXG5leHBvcnQgY29uc3QgcG9zdERhZG9zID0gYXN5bmMgKHVybCwgcG9zdCwgdG9rZW4pID0+IHtcclxuICAgIHJldHVybiBhd2FpdCBmZXRjaChgJHtiYXNlVXJsfS8ke3VybH1gLCB7XHJcbiAgICAgICAgbWV0aG9kOiBcIlBPU1RcIixcclxuICAgICAgICBoZWFkZXJzOiB7XHJcbiAgICAgICAgICAgIFwiQ29udGVudC1UeXBlXCIgOiBcImFwcGxpY2F0aW9uL2pzb25cIixcclxuICAgICAgICB9LFxyXG4gICAgICAgIGJvZHk6IEpTT04uc3RyaW5naWZ5KHtcclxuICAgICAgICAgICAgcG9zdFxyXG4gICAgICAgIH0pXHJcbiAgICB9KS50aGVuKChyZXNwb25zZSkgPT4gcmVzcG9uc2UuanNvbigpKVxyXG4gICAgLmNhdGNoKChlcnJvcikgPT4ge1xyXG4gICAgICAgIGNvbnNvbGUubG9nKFwiRXJyb3I6IFwiLCBlcnJvcik7XHJcbiAgICB9KSAgICBcclxufVxyXG5cclxuXHJcblxyXG5leHBvcnQgY29uc3QgcHV0RGFkb3MgPSBhc3luYyAodXJsLCBwb3N0LCB0b2tlbikgPT4ge1xyXG4gICAgY29uc3QgcmVzID0gYXdhaXQgZmV0Y2goYCR7YmFzZVVybH0vJHt1cmx9YCwge1xyXG4gICAgICAgIG1ldGhvZDogJ1BVVCcsXHJcbiAgICAgICAgaGVhZGVyczoge1xyXG4gICAgICAgICAgICAnQ29udGVudC1UeXBlJzogJ2FwcGxpY2F0aW9uL2pzb24nLFxyXG4gICAgICAgICAgICAnQXV0aG9yaXphdGlvbic6IHRva2VuXHJcbiAgICAgICAgfSxcclxuICAgICAgICBib2R5OiBKU09OLnN0cmluZ2lmeShwb3N0KVxyXG4gICAgfSlcclxuXHJcbiAgICBjb25zdCBkYXRhID0gYXdhaXQgcmVzLmpzb24oKVxyXG4gICAgcmV0dXJuIGRhdGFcclxufVxyXG5cclxuZXhwb3J0IGNvbnN0IHBhdGNoRGFkb3MgPSBhc3luYyAodXJsLCBwb3N0LCB0b2tlbikgPT4ge1xyXG4gICAgY29uc3QgcmVzID0gYXdhaXQgZmV0Y2goYCR7YmFzZVVybH0vJHt1cmx9YCwge1xyXG4gICAgICAgIG1ldGhvZDogJ1BBVENIJyxcclxuICAgICAgICBoZWFkZXJzOiB7XHJcbiAgICAgICAgICAgICdDb250ZW50LVR5cGUnOiAnYXBwbGljYXRpb24vanNvbicsXHJcbiAgICAgICAgICAgICdBdXRob3JpemF0aW9uJzogdG9rZW5cclxuICAgICAgICB9LFxyXG4gICAgICAgIGJvZHk6IEpTT04uc3RyaW5naWZ5KHBvc3QpXHJcbiAgICB9KVxyXG5cclxuICAgIGNvbnN0IGRhdGEgPSBhd2FpdCByZXMuanNvbigpXHJcbiAgICByZXR1cm4gZGF0YVxyXG59XHJcblxyXG5cclxuZXhwb3J0IGNvbnN0IGRlbGV0ZURhZG9zID0gYXN5bmMgKHVybCwgdG9rZW4pID0+IHtcclxuICAgIGNvbnN0IHJlcyA9IGF3YWl0IGZldGNoKGAke2Jhc2VVcmx9LyR7dXJsfWAsIHtcclxuICAgICAgICBtZXRob2Q6ICdERUxFVEUnLFxyXG4gICAgICAgIGhlYWRlcnM6IHtcclxuICAgICAgICAgICAgJ0NvbnRlbnQtVHlwZSc6ICdhcHBsaWNhdGlvbi9qc29uJyxcclxuICAgICAgICAgICAgJ0F1dGhvcml6YXRpb24nOiB0b2tlblxyXG4gICAgICAgIH1cclxuICAgIH0pXHJcblxyXG4gICAgY29uc3QgZGF0YSA9IGF3YWl0IHJlcy5qc29uKClcclxuICAgIHJldHVybiBkYXRhXHJcbn0iXSwibmFtZXMiOlsiYmFzZVVybCIsInByb2Nlc3MiLCJlbnYiLCJNWVNRTF9VUkwiLCJnZXREYWRvcyIsInVybCIsInRva2VuIiwicmVzIiwiZmV0Y2giLCJtZXRob2QiLCJoZWFkZXJzIiwiVE9LRU4iLCJkYXRhIiwianNvbiIsImVycm9yIiwiY29uc29sZSIsImxvZyIsInN0YXR1cyIsInBvc3REYWRvcyIsInBvc3QiLCJib2R5IiwiSlNPTiIsInN0cmluZ2lmeSIsInRoZW4iLCJyZXNwb25zZSIsImNhdGNoIiwicHV0RGFkb3MiLCJwYXRjaERhZG9zIiwiZGVsZXRlRGFkb3MiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./config/fetchDados.js\n");
+
+/***/ }),
+
+/***/ "./lib/constant.js":
+/*!*************************!*\
+  !*** ./lib/constant.js ***!
+  \*************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"DARK_COLOR\": () => (/* binding */ DARK_COLOR),\n/* harmony export */   \"EMPRESA\": () => (/* binding */ EMPRESA),\n/* harmony export */   \"LIGHT_COLOR\": () => (/* binding */ LIGHT_COLOR),\n/* harmony export */   \"NAVITEMS\": () => (/* binding */ NAVITEMS),\n/* harmony export */   \"PRIMARY_COLOR\": () => (/* binding */ PRIMARY_COLOR)\n/* harmony export */ });\nconst EMPRESA = \"Kalla Rio Tecnologia\";\nconst PRIMARY_COLOR = \"#ffd817\";\nconst DARK_COLOR = \"#825221\";\nconst LIGHT_COLOR = \"gray.800\";\nconst NAVITEMS = [\n    {\n        label: \"Home\",\n        href: \"/\"\n    },\n    {\n        label: \"Nossa Hist\\xf3ria\",\n        href: \"/about\"\n    },\n    {\n        label: \"Card\\xe1pio\",\n        href: \"/contribuir\"\n    },\n    {\n        label: \"Fale Conosco\",\n        href: \"/contato\"\n    }, \n];\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9saWIvY29uc3RhbnQuanMuanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7QUFBTyxNQUFNQSxPQUFPLEdBQUMsc0JBQXNCO0FBRXBDLE1BQU1DLGFBQWEsR0FBSSxTQUFTO0FBRWhDLE1BQU1DLFVBQVUsR0FBRyxTQUFTO0FBRTVCLE1BQU1DLFdBQVcsR0FBRyxVQUFVO0FBRTlCLE1BQU1DLFFBQVEsR0FBRztJQUNwQjtRQUNJQyxLQUFLLEVBQUUsTUFBTTtRQUNiQyxJQUFJLEVBQUUsR0FBRztLQUNaO0lBQ0Q7UUFDSUQsS0FBSyxFQUFFLG1CQUFnQjtRQUN0QkMsSUFBRyxFQUFFLFFBQVE7S0FDakI7SUFDRDtRQUNJRCxLQUFLLEVBQUUsYUFBVTtRQUNqQkMsSUFBSSxFQUFFLGFBQWE7S0FDdEI7SUFDRDtRQUNJRCxLQUFLLEVBQUUsY0FBYztRQUNyQkMsSUFBSSxFQUFFLFVBQVU7S0FDbkI7Q0FDSiIsInNvdXJjZXMiOlsid2VicGFjazovL21hcmNhY2FvLy4vbGliL2NvbnN0YW50LmpzPzJiMmMiXSwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGNvbnN0IEVNUFJFU0E9XCJLYWxsYSBSaW8gVGVjbm9sb2dpYVwiXHJcblxyXG5leHBvcnQgY29uc3QgUFJJTUFSWV9DT0xPUiA9ICBcIiNmZmQ4MTdcIlxyXG5cclxuZXhwb3J0IGNvbnN0IERBUktfQ09MT1IgPSBcIiM4MjUyMjFcIlxyXG5cclxuZXhwb3J0IGNvbnN0IExJR0hUX0NPTE9SID0gXCJncmF5LjgwMFwiXHJcblxyXG5leHBvcnQgY29uc3QgTkFWSVRFTVMgPSBbXHJcbiAgICB7XHJcbiAgICAgICAgbGFiZWw6ICdIb21lJyxcclxuICAgICAgICBocmVmOiAnLycsXHJcbiAgICB9LFxyXG4gICAge1xyXG4gICAgICAgIGxhYmVsOiAnTm9zc2EgSGlzdMOzcmlhJyxcclxuICAgICAgICBocmVmOiAnL2Fib3V0JyxcclxuICAgIH0sICAgIFxyXG4gICAge1xyXG4gICAgICAgIGxhYmVsOiAnQ2FyZMOhcGlvJyxcclxuICAgICAgICBocmVmOiAnL2NvbnRyaWJ1aXInLFxyXG4gICAgfSxcclxuICAgIHtcclxuICAgICAgICBsYWJlbDogJ0ZhbGUgQ29ub3NjbycsXHJcbiAgICAgICAgaHJlZjogJy9jb250YXRvJyxcclxuICAgIH0sICAgICAgICBcclxuXSJdLCJuYW1lcyI6WyJFTVBSRVNBIiwiUFJJTUFSWV9DT0xPUiIsIkRBUktfQ09MT1IiLCJMSUdIVF9DT0xPUiIsIk5BVklURU1TIiwibGFiZWwiLCJocmVmIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./lib/constant.js\n");
+
+/***/ }),
+
+/***/ "./pages/index.js":
+/*!************************!*\
+  !*** ./pages/index.js ***!
+  \************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Home),\n/* harmony export */   \"getServerSideProps\": () => (/* binding */ getServerSideProps)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/layout */ \"./components/layout.js\");\n/* harmony import */ var _chakra_ui_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @chakra-ui/react */ \"@chakra-ui/react\");\n/* harmony import */ var _chakra_ui_react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _config_fetchDados__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../config/fetchDados */ \"./config/fetchDados.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _components_galeria__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/galeria */ \"./components/galeria.js\");\n/* harmony import */ var _components_useWindowDimensions__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/useWindowDimensions */ \"./components/useWindowDimensions.js\");\n/* harmony import */ var _components_hero__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/hero */ \"./components/hero.js\");\n/* harmony import */ var _components_mymap__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/mymap */ \"./components/mymap.js\");\n/* harmony import */ var _components_form_contato__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/form_contato */ \"./components/form_contato.js\");\n\n\n\n\n\n\n\n\n\n\nfunction Home(props) {\n    const { 0: slides , 1: setSlide  } = (0,react__WEBPACK_IMPORTED_MODULE_4__.useState)(props.slides);\n    const { height , width  } = (0,_components_useWindowDimensions__WEBPACK_IMPORTED_MODULE_6__[\"default\"])();\n    (0,react__WEBPACK_IMPORTED_MODULE_4__.useEffect)(()=>{\n        setSlide(props.slides);\n    }, [\n        props.slides\n    ]);\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_2__.Flex, {\n        direction: \"column\",\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_layout__WEBPACK_IMPORTED_MODULE_1__[\"default\"], {\n            empresa: props.empresa,\n            children: [\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_hero__WEBPACK_IMPORTED_MODULE_7__[\"default\"], {\n                    images: slides\n                }, void 0, false, {\n                    fileName: \"/var/www/html/comeuque.com/pages/index.js\",\n                    lineNumber: 24,\n                    columnNumber: 9\n                }, this),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_2__.Flex, {\n                    direction: \"column\",\n                    w: \"full\",\n                    px: [\n                        \"10px\",\n                        \"10px\",\n                        \"10px\",\n                        \"20px\"\n                    ],\n                    justifyContent: \"space-between\",\n                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_galeria__WEBPACK_IMPORTED_MODULE_5__[\"default\"], {\n                        width: width,\n                        produtos: props.produtos\n                    }, void 0, false, {\n                        fileName: \"/var/www/html/comeuque.com/pages/index.js\",\n                        lineNumber: 26,\n                        columnNumber: 9\n                    }, this)\n                }, void 0, false, {\n                    fileName: \"/var/www/html/comeuque.com/pages/index.js\",\n                    lineNumber: 25,\n                    columnNumber: 9\n                }, this),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_mymap__WEBPACK_IMPORTED_MODULE_8__[\"default\"], {\n                    empresa: props.empresa\n                }, void 0, false, {\n                    fileName: \"/var/www/html/comeuque.com/pages/index.js\",\n                    lineNumber: 28,\n                    columnNumber: 9\n                }, this),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_form_contato__WEBPACK_IMPORTED_MODULE_9__[\"default\"], {\n                    empresa: props.empresa\n                }, void 0, false, {\n                    fileName: \"/var/www/html/comeuque.com/pages/index.js\",\n                    lineNumber: 29,\n                    columnNumber: 9\n                }, this)\n            ]\n        }, void 0, true, {\n            fileName: \"/var/www/html/comeuque.com/pages/index.js\",\n            lineNumber: 23,\n            columnNumber: 7\n        }, this)\n    }, void 0, false, {\n        fileName: \"/var/www/html/comeuque.com/pages/index.js\",\n        lineNumber: 22,\n        columnNumber: 5\n    }, this);\n};\nasync function getServerSideProps() {\n    const p = await (0,_config_fetchDados__WEBPACK_IMPORTED_MODULE_3__.getDados)(`produtos`);\n    const s = await (0,_config_fetchDados__WEBPACK_IMPORTED_MODULE_3__.getDados)(`slides`);\n    const e = await (0,_config_fetchDados__WEBPACK_IMPORTED_MODULE_3__.getDados)(`empresas/1`);\n    return {\n        props: {\n            produtos: p,\n            slides: s,\n            empresa: e\n        }\n    };\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9pbmRleC5qcy5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFBQTtBQUF5QztBQUNJO0FBQ0U7QUFDSjtBQUNBO0FBQ3lCO0FBQy9CO0FBQ0U7QUFDYTtBQUVyQyxTQUFTVyxJQUFJLENBQUNDLEtBQUssRUFBRTtJQUVsQyxNQUFNLEVBWlIsR0FZVUMsTUFBTSxHQVpoQixHQVlrQkMsUUFBUSxNQUFLVCwrQ0FBUSxDQUFDTyxLQUFLLENBQUNDLE1BQU0sQ0FBQztJQUVuRCxNQUFNLEVBQUVFLE1BQU0sR0FBRUMsS0FBSyxHQUFFLEdBQUdULDJFQUFtQixFQUFFO0lBRS9DSCxnREFBUyxDQUFDLElBQU07UUFDZFUsUUFBUSxDQUFDRixLQUFLLENBQUNDLE1BQU0sQ0FBQztLQUN2QixFQUFDO1FBQUNELEtBQUssQ0FBQ0MsTUFBTTtLQUFDLENBQUM7SUFFakIscUJBQ0UsOERBQUNaLGtEQUFJO1FBQUNnQixTQUFTLEVBQUUsUUFBUTtrQkFDdkIsNEVBQUNqQiwwREFBTTtZQUFDa0IsT0FBTyxFQUFFTixLQUFLLENBQUNNLE9BQU87OzhCQUM1Qiw4REFBQ1Ysd0RBQUk7b0JBQUNXLE1BQU0sRUFBRU4sTUFBTTs7Ozs7d0JBQUk7OEJBQ3hCLDhEQUFDWixrREFBSTtvQkFBQ2dCLFNBQVMsRUFBQyxRQUFRO29CQUFDRyxDQUFDLEVBQUUsTUFBTTtvQkFBRUMsRUFBRSxFQUFFO3dCQUFDLE1BQU07d0JBQUUsTUFBTTt3QkFBRSxNQUFNO3dCQUFHLE1BQU07cUJBQUM7b0JBQUVDLGNBQWMsRUFBRSxlQUFlOzhCQUMxRyw0RUFBQ2hCLDJEQUFPO3dCQUFDVSxLQUFLLEVBQUVBLEtBQUs7d0JBQUVPLFFBQVEsRUFBRVgsS0FBSyxDQUFDVyxRQUFROzs7Ozs0QkFBSTs7Ozs7d0JBQzVDOzhCQUNQLDhEQUFDZCx5REFBSztvQkFBQ1MsT0FBTyxFQUFFTixLQUFLLENBQUNNLE9BQU87Ozs7O3dCQUFHOzhCQUNoQyw4REFBQ1IsZ0VBQVc7b0JBQUNRLE9BQU8sRUFBRU4sS0FBSyxDQUFDTSxPQUFPOzs7Ozt3QkFBSTs7Ozs7O2dCQUNoQzs7Ozs7WUFDSixDQUNSO0NBQ0Y7QUFFTSxlQUFlTSxrQkFBa0IsR0FBRztJQUN2QyxNQUFNQyxDQUFDLEdBQUcsTUFBTXRCLDREQUFRLENBQUMsQ0FBQyxRQUFRLENBQUMsQ0FBQztJQUNwQyxNQUFNdUIsQ0FBQyxHQUFHLE1BQU12Qiw0REFBUSxDQUFDLENBQUMsTUFBTSxDQUFDLENBQUM7SUFDbEMsTUFBTXdCLENBQUMsR0FBRyxNQUFNeEIsNERBQVEsQ0FBQyxDQUFDLFVBQVUsQ0FBQyxDQUFDO0lBQ3RDLE9BQU87UUFDSFMsS0FBSyxFQUFFO1lBQ0xXLFFBQVEsRUFBRUUsQ0FBQztZQUNYWixNQUFNLEVBQUVhLENBQUM7WUFDVFIsT0FBTyxFQUFFUyxDQUFDO1NBQ1g7S0FDSjtDQUNKIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vbWFyY2FjYW8vLi9wYWdlcy9pbmRleC5qcz9iZWU3Il0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBMYXlvdXQgZnJvbSAnLi4vY29tcG9uZW50cy9sYXlvdXQnXG5pbXBvcnQgeyBGbGV4LCBUZXh0IH0gZnJvbSAnQGNoYWtyYS11aS9yZWFjdCdcbmltcG9ydCB7IGdldERhZG9zIH0gZnJvbSAnLi4vY29uZmlnL2ZldGNoRGFkb3MnXG5pbXBvcnQgeyB1c2VFZmZlY3QsIHVzZVN0YXRlIH0gZnJvbSAncmVhY3QnXG5pbXBvcnQgR2FsZXJpYSBmcm9tICcuLi9jb21wb25lbnRzL2dhbGVyaWEnXG5pbXBvcnQgdXNlV2luZG93RGltZW5zaW9ucyBmcm9tICcuLi9jb21wb25lbnRzL3VzZVdpbmRvd0RpbWVuc2lvbnMnO1xuaW1wb3J0IEhlcm8gZnJvbSAnLi4vY29tcG9uZW50cy9oZXJvJ1xuaW1wb3J0IE15TWFwIGZyb20gJy4uL2NvbXBvbmVudHMvbXltYXAnXG5pbXBvcnQgRmFsZUNvbm9zY28gZnJvbSAnLi4vY29tcG9uZW50cy9mb3JtX2NvbnRhdG8nXG5cbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIEhvbWUocHJvcHMpIHsgXG5cbiAgY29uc3QgWyBzbGlkZXMsIHNldFNsaWRlIF0gPSB1c2VTdGF0ZShwcm9wcy5zbGlkZXMpXG5cbiAgY29uc3QgeyBoZWlnaHQsIHdpZHRoIH0gPSB1c2VXaW5kb3dEaW1lbnNpb25zKCk7XG5cbiAgdXNlRWZmZWN0KCgpID0+IHtcbiAgICBzZXRTbGlkZShwcm9wcy5zbGlkZXMpXG4gIH0sW3Byb3BzLnNsaWRlc10pXG5cbiAgcmV0dXJuIChcbiAgICA8RmxleCBkaXJlY3Rpb249eydjb2x1bW4nfT5cbiAgICAgIDxMYXlvdXQgZW1wcmVzYT17cHJvcHMuZW1wcmVzYX0+XG4gICAgICAgIDxIZXJvIGltYWdlcz17c2xpZGVzfSAvPlxuICAgICAgICA8RmxleCBkaXJlY3Rpb249J2NvbHVtbicgdz17J2Z1bGwnfSBweD17WycxMHB4JywgJzEwcHgnLCAnMTBweCcgLCAnMjBweCddfSBqdXN0aWZ5Q29udGVudD17J3NwYWNlLWJldHdlZW4nfT5cbiAgICAgICAgPEdhbGVyaWEgd2lkdGg9e3dpZHRofSBwcm9kdXRvcz17cHJvcHMucHJvZHV0b3N9IC8+XG4gICAgICAgIDwvRmxleD5cbiAgICAgICAgPE15TWFwIGVtcHJlc2E9e3Byb3BzLmVtcHJlc2F9Lz5cbiAgICAgICAgPEZhbGVDb25vc2NvIGVtcHJlc2E9e3Byb3BzLmVtcHJlc2F9IC8+ICAgICAgICBcbiAgICAgIDwvTGF5b3V0PlxuICAgIDwvRmxleD5cbiAgKVxufVxuXG5leHBvcnQgYXN5bmMgZnVuY3Rpb24gZ2V0U2VydmVyU2lkZVByb3BzKCkge1xuICAgIGNvbnN0IHAgPSBhd2FpdCBnZXREYWRvcyhgcHJvZHV0b3NgKVxuICAgIGNvbnN0IHMgPSBhd2FpdCBnZXREYWRvcyhgc2xpZGVzYClcbiAgICBjb25zdCBlID0gYXdhaXQgZ2V0RGFkb3MoYGVtcHJlc2FzLzFgKVxuICAgIHJldHVybiB7XG4gICAgICAgIHByb3BzOiB7XG4gICAgICAgICAgcHJvZHV0b3M6IHAsXG4gICAgICAgICAgc2xpZGVzOiBzLFxuICAgICAgICAgIGVtcHJlc2E6IGVcbiAgICAgICAgfSxcbiAgICB9XG59XG4iXSwibmFtZXMiOlsiTGF5b3V0IiwiRmxleCIsIlRleHQiLCJnZXREYWRvcyIsInVzZUVmZmVjdCIsInVzZVN0YXRlIiwiR2FsZXJpYSIsInVzZVdpbmRvd0RpbWVuc2lvbnMiLCJIZXJvIiwiTXlNYXAiLCJGYWxlQ29ub3NjbyIsIkhvbWUiLCJwcm9wcyIsInNsaWRlcyIsInNldFNsaWRlIiwiaGVpZ2h0Iiwid2lkdGgiLCJkaXJlY3Rpb24iLCJlbXByZXNhIiwiaW1hZ2VzIiwidyIsInB4IiwianVzdGlmeUNvbnRlbnQiLCJwcm9kdXRvcyIsImdldFNlcnZlclNpZGVQcm9wcyIsInAiLCJzIiwiZSJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./pages/index.js\n");
+
+/***/ }),
+
+/***/ "./node_modules/mapbox-gl/dist/mapbox-gl.css":
+/*!***************************************************!*\
+  !*** ./node_modules/mapbox-gl/dist/mapbox-gl.css ***!
+  \***************************************************/
+/***/ (() => {
+
 
 
 /***/ }),
 
-/***/ 16:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ "./node_modules/slick-carousel/slick/slick-theme.css":
+/*!***********************************************************!*\
+  !*** ./node_modules/slick-carousel/slick/slick-theme.css ***!
+  \***********************************************************/
+/***/ (() => {
 
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
-
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  "default": () => (/* binding */ Home),
-  "getServerSideProps": () => (/* binding */ getServerSideProps)
-});
-
-// EXTERNAL MODULE: external "react/jsx-runtime"
-var jsx_runtime_ = __webpack_require__(997);
-// EXTERNAL MODULE: ./components/layout.js + 2 modules
-var layout = __webpack_require__(235);
-// EXTERNAL MODULE: external "@chakra-ui/react"
-var react_ = __webpack_require__(8930);
-;// CONCATENATED MODULE: ./config/fetchDados.js
-const baseUrl = "http://painel.kallario.com.br/api";
-const getDados = async (url, token)=>{
-    try {
-        const res = await fetch(`${baseUrl}/${url}`, {
-            method: "GET",
-            headers: {
-                "Authorization": "Bearer " + "eyJhbGciOiJIUzI1NiJ9.eyJ1c3VhcmlvX2lkIjoyfQ.12jVgTMmJvPrrdsM9yxmokUHzqxL4ZKmcaxzZeAa5VA"
-            }
-        });
-        const data = await res.json();
-        return data;
-    } catch (error) {
-        console.log(error);
-        res.status(500).json(error);
-    }
-};
-const postDados = async (url, post, token)=>{
-    return await fetch(`${baseUrl}/${url}`, {
-        method: "POST",
-        headers: {
-            "Content-Type": "application/json"
-        },
-        body: JSON.stringify({
-            post
-        })
-    }).then((response)=>response.json()
-    ).catch((error)=>{
-        console.log("Error: ", error);
-    });
-};
-const putDados = async (url, post, token)=>{
-    const res = await fetch(`${baseUrl}/${url}`, {
-        method: "PUT",
-        headers: {
-            "Content-Type": "application/json",
-            "Authorization": token
-        },
-        body: JSON.stringify(post)
-    });
-    const data = await res.json();
-    return data;
-};
-const patchDados = async (url, post, token)=>{
-    const res = await fetch(`${baseUrl}/${url}`, {
-        method: "PATCH",
-        headers: {
-            "Content-Type": "application/json",
-            "Authorization": token
-        },
-        body: JSON.stringify(post)
-    });
-    const data = await res.json();
-    return data;
-};
-const deleteDados = async (url, token)=>{
-    const res = await fetch(`${baseUrl}/${url}`, {
-        method: "DELETE",
-        headers: {
-            "Content-Type": "application/json",
-            "Authorization": token
-        }
-    });
-    const data = await res.json();
-    return data;
-};
-
-// EXTERNAL MODULE: external "react"
-var external_react_ = __webpack_require__(6689);
-;// CONCATENATED MODULE: external "react-slick"
-const external_react_slick_namespaceObject = require("react-slick");
-var external_react_slick_default = /*#__PURE__*/__webpack_require__.n(external_react_slick_namespaceObject);
-// EXTERNAL MODULE: ./components/botao.js + 1 modules
-var botao = __webpack_require__(6198);
-;// CONCATENATED MODULE: external "sweetalert2"
-const external_sweetalert2_namespaceObject = require("sweetalert2");
-var external_sweetalert2_default = /*#__PURE__*/__webpack_require__.n(external_sweetalert2_namespaceObject);
-;// CONCATENATED MODULE: ./components/produtos.js
-
-
-
-
-function ProductAddToCart(props) {
-    function handleShowClick(nome, descricao, imagem) {
-        external_sweetalert2_default().fire({
-            title: nome,
-            text: descricao,
-            imageUrl: imagem,
-            imageWidth: 400,
-            imageHeight: 300,
-            imageAlt: "Custom image",
-            color: "#ffffff",
-            background: "#f58634",
-            confirmButtonText: "Fazer Pedido!",
-            confirmButtonColor: "#f7180d",
-            showCloseButton: true
-        });
-    }
-    return /*#__PURE__*/ jsx_runtime_.jsx(react_.Flex, {
-        px: [
-            4,
-            10,
-            30,
-            50,
-            50
-        ],
-        w: "full",
-        alignItems: "center",
-        justifyContent: "center",
-        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)(react_.Box, {
-            bg: (0,react_.useColorModeValue)("#825321", "gray.800"),
-            maxW: "650px",
-            minW: "300px",
-            borderWidth: "1px",
-            rounded: "lg",
-            shadow: "lg",
-            position: "relative",
-            children: [
-                /*#__PURE__*/ jsx_runtime_.jsx(react_.Image, {
-                    src: "http://painel.kallario.com.br" + props.data.url_imagem,
-                    alt: `Picture of ${props.data.nome}`,
-                    roundedTop: "lg",
-                    onClick: ()=>handleShowClick(props.data.nome, props.data.descricao, "http://painel.kallario.com.br" + props.data.url_imagem)
-                }),
-                /*#__PURE__*/ (0,jsx_runtime_.jsxs)(react_.Box, {
-                    p: "6",
-                    children: [
-                        /*#__PURE__*/ jsx_runtime_.jsx(react_.Flex, {
-                            mt: "1",
-                            justifyContent: "center",
-                            alignContent: "center",
-                            children: /*#__PURE__*/ jsx_runtime_.jsx(react_.Box, {
-                                fontSize: "2xl",
-                                fontWeight: "semibold",
-                                as: "h4",
-                                mb: 4,
-                                color: "white",
-                                lineHeight: "tight",
-                                children: props.data.nome
-                            })
-                        }),
-                        /*#__PURE__*/ jsx_runtime_.jsx(react_.Flex, {
-                            justifyContent: "space-between",
-                            alignContent: "center",
-                            children: /*#__PURE__*/ jsx_runtime_.jsx(botao/* default */.Z, {})
-                        })
-                    ]
-                })
-            ]
-        })
-    });
-};
-
-;// CONCATENATED MODULE: ./components/galeria.js
-
-
-
-
-
-class Galeria extends external_react_.Component {
-    render() {
-        const width = this.props.width;
-        const data = this.props.produtos;
-        var settings = {
-            dots: true,
-            infinite: true,
-            slidesToShow: Math.floor(width / 300),
-            slidesToScroll: 1,
-            //autoplay: true,
-            //speed: 2000,
-            autoplaySpeed: 3000,
-            cssEase: "linear"
-        };
-        return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("section", {
-            id: "cardapio",
-            children: [
-                /*#__PURE__*/ jsx_runtime_.jsx(react_.Flex, {
-                    w: "full",
-                    justify: "center",
-                    align: "center",
-                    alignItems: "center",
-                    h: [
-                        20,
-                        20,
-                        20,
-                        40
-                    ],
-                    children: /*#__PURE__*/ jsx_runtime_.jsx(react_.Heading, {
-                        color: "#825221",
-                        children: "Destaques"
-                    })
-                }),
-                /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                    children: /*#__PURE__*/ jsx_runtime_.jsx((external_react_slick_default()), {
-                        ...settings,
-                        children: data.map((d)=>/*#__PURE__*/ jsx_runtime_.jsx(react_.Flex, {
-                                children: /*#__PURE__*/ jsx_runtime_.jsx(ProductAddToCart, {
-                                    data: d
-                                })
-                            }, d.id)
-                        )
-                    })
-                })
-            ]
-        });
-    }
-};
-
-// EXTERNAL MODULE: ./components/useWindowDimensions.js
-var useWindowDimensions = __webpack_require__(9643);
-;// CONCATENATED MODULE: ./components/hero.js
-
-
-
-
-
-class Hero extends external_react_.Component {
-    render() {
-        const images = this.props.images;
-        var settings = {
-            dots: true,
-            infinite: true,
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            autoplay: true,
-            speed: 1200,
-            autoplaySpeed: 3600,
-            cssEase: "linear"
-        };
-        return /*#__PURE__*/ jsx_runtime_.jsx("div", {
-            children: /*#__PURE__*/ jsx_runtime_.jsx((external_react_slick_default()), {
-                ...settings,
-                children: images.map((d)=>/*#__PURE__*/ jsx_runtime_.jsx(react_.Flex, {
-                        children: /*#__PURE__*/ jsx_runtime_.jsx(react_.Image, {
-                            src: "http://painel.kallario.com.br" + d.url_imagem,
-                            alt: `Picture of ${d.titulo}`,
-                            w: "full",
-                            marginTop: "95px"
-                        })
-                    }, d.id)
-                )
-            })
-        });
-    }
-};
-
-;// CONCATENATED MODULE: external "react-map-gl"
-const external_react_map_gl_namespaceObject = require("react-map-gl");
-var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_react_map_gl_namespaceObject);
-;// CONCATENATED MODULE: ./components/mymap.js
-
-
-
-
-
-function MyMap(props) {
-    const lat = props.empresa.latitude;
-    const lgt = props.empresa.longitude;
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
-        children: [
-            /*#__PURE__*/ jsx_runtime_.jsx(react_.Flex, {
-                w: "full",
-                justify: "center",
-                align: "center",
-                alignItems: "center",
-                h: [
-                    20,
-                    20,
-                    20,
-                    40
-                ],
-                children: /*#__PURE__*/ jsx_runtime_.jsx(react_.Heading, {
-                    color: "#825221",
-                    children: "Onde estamos?"
-                })
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)((external_react_map_gl_default()), {
-                    mapboxAccessToken: "pk.eyJ1Ijoia2FsbGFyaW8iLCJhIjoiY2w2YXBoc291MXFpMzNvbjM1bzB6em55MiJ9.Cyi-lwLrpwX5mx9SZFOTDA",
-                    style: {
-                        height: "500px",
-                        width: "100%"
-                    },
-                    initialViewState: {
-                        longitude: lgt,
-                        latitude: lat,
-                        zoom: 17.0
-                    },
-                    mapStyle: "mapbox://styles/mapbox/streets-v11",
-                    children: [
-                        /*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_namespaceObject.GeolocateControl, {
-                            positionOptions: {
-                                enableHighAccuracy: true
-                            },
-                            trackUserLocation: true
-                        }),
-                        /*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_namespaceObject.Marker, {
-                            longitude: lgt,
-                            latitude: lat
-                        }),
-                        /*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_namespaceObject.FullscreenControl, {}),
-                        /*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_namespaceObject.NavigationControl, {})
-                    ]
-                })
-            })
-        ]
-    });
-}
-/* harmony default export */ const mymap = (MyMap);
-
-;// CONCATENATED MODULE: external "react-icons/md"
-const md_namespaceObject = require("react-icons/md");
-;// CONCATENATED MODULE: external "react-icons/bs"
-const bs_namespaceObject = require("react-icons/bs");
-;// CONCATENATED MODULE: external "emailjs-com"
-const external_emailjs_com_namespaceObject = require("emailjs-com");
-var external_emailjs_com_default = /*#__PURE__*/__webpack_require__.n(external_emailjs_com_namespaceObject);
-// EXTERNAL MODULE: ./lib/constant.js
-var constant = __webpack_require__(1173);
-;// CONCATENATED MODULE: ./components/form_contato.js
-
-
-
-
-
-
-
-function FaleConosco(props1) {
-    function sendEmail(e) {
-        e.preventDefault(); //This is important, i'm not sure why, but the email won't send without it
-        external_emailjs_com_default().sendForm("template_c7eep5s", "template_c7eep5s", e.target, "YQsqvFEGr6f5vFWum").then((result)=>{
-            window.location.reload() //This is if you still want the page to reload (since e.preventDefault() cancelled that behavior) 
-            ;
-        }, (error)=>{
-            console.log(error.text);
-        });
-    }
-    const Logo = (props)=>{
-        return /*#__PURE__*/ jsx_runtime_.jsx(react_.Flex, {
-            justify: "center",
-            py: 8,
-            children: /*#__PURE__*/ jsx_runtime_.jsx(react_.Image, {
-                src: "http://painel.kallario.com.br" + props.imagem,
-                h: "120px",
-                alt: "Logotipo",
-                paddingTop: 2
-            })
-        });
-    };
-    const Details = ()=>{
-        const colSpan = (0,react_.useBreakpointValue)({
-            base: 2,
-            md: 1
-        });
-        return /*#__PURE__*/ jsx_runtime_.jsx("form", {
-            onSubmit: sendEmail,
-            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)(react_.VStack, {
-                w: "full",
-                h: "full",
-                p: 10,
-                spacing: 10,
-                alignItems: "flex-start",
-                children: [
-                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)(react_.VStack, {
-                        spacing: 3,
-                        alignItems: "flex-start",
-                        children: [
-                            /*#__PURE__*/ jsx_runtime_.jsx(react_.Heading, {
-                                color: constant/* DARK_COLOR */.cu,
-                                children: "Contato"
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx(react_.Text, {
-                                children: "Tem alguma d\xfavida? Algum problema? Quer apenas conversar? Esse aqui \xe9 o seu espa\xe7o."
-                            })
-                        ]
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)(react_.SimpleGrid, {
-                        columns: 2,
-                        columnGap: 3,
-                        rowGap: 6,
-                        w: "full",
-                        children: [
-                            /*#__PURE__*/ jsx_runtime_.jsx(react_.GridItem, {
-                                colSpan: 2,
-                                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)(react_.FormControl, {
-                                    children: [
-                                        /*#__PURE__*/ jsx_runtime_.jsx(react_.FormLabel, {
-                                            htmlFor: "nome",
-                                            color: constant/* DARK_COLOR */.cu,
-                                            children: "Seu nome"
-                                        }),
-                                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)(react_.InputGroup, {
-                                            borderColor: "gray.800",
-                                            children: [
-                                                /*#__PURE__*/ jsx_runtime_.jsx(react_.InputLeftElement, {
-                                                    pointerEvents: "none",
-                                                    children: /*#__PURE__*/ jsx_runtime_.jsx(bs_namespaceObject.BsPerson, {
-                                                        color: "gray.800"
-                                                    })
-                                                }),
-                                                /*#__PURE__*/ jsx_runtime_.jsx(react_.Input, {
-                                                    name: "nome",
-                                                    type: "string",
-                                                    placeholder: "Nome",
-                                                    bg: "white",
-                                                    color: "gray.800",
-                                                    _placeholder: {
-                                                        color: "gray.500"
-                                                    }
-                                                })
-                                            ]
-                                        })
-                                    ]
-                                })
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx(react_.GridItem, {
-                                colSpan: 2,
-                                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)(react_.FormControl, {
-                                    children: [
-                                        /*#__PURE__*/ jsx_runtime_.jsx(react_.FormLabel, {
-                                            htmlFor: "email",
-                                            color: constant/* DARK_COLOR */.cu,
-                                            children: "Seu Email"
-                                        }),
-                                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)(react_.InputGroup, {
-                                            borderColor: "gray.800",
-                                            children: [
-                                                /*#__PURE__*/ jsx_runtime_.jsx(react_.InputLeftElement, {
-                                                    pointerEvents: "none",
-                                                    children: /*#__PURE__*/ jsx_runtime_.jsx(md_namespaceObject.MdOutlineEmail, {
-                                                        color: "gray.800"
-                                                    })
-                                                }),
-                                                /*#__PURE__*/ jsx_runtime_.jsx(react_.Input, {
-                                                    name: "email",
-                                                    type: "string",
-                                                    placeholder: "Email",
-                                                    bg: "white",
-                                                    color: "gray.800",
-                                                    _placeholder: {
-                                                        color: "gray.500"
-                                                    }
-                                                })
-                                            ]
-                                        })
-                                    ]
-                                })
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx(react_.GridItem, {
-                                colSpan: 2,
-                                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)(react_.FormControl, {
-                                    children: [
-                                        /*#__PURE__*/ jsx_runtime_.jsx(react_.FormLabel, {
-                                            htmlFor: "observacoes",
-                                            color: constant/* DARK_COLOR */.cu,
-                                            children: "Mensagem"
-                                        }),
-                                        /*#__PURE__*/ jsx_runtime_.jsx(react_.InputGroup, {
-                                            borderColor: "gray.800",
-                                            children: /*#__PURE__*/ jsx_runtime_.jsx(react_.Textarea, {
-                                                name: "observacoes",
-                                                placeholder: "Mensagem",
-                                                bg: "white",
-                                                color: "gray.800",
-                                                _placeholder: {
-                                                    color: "gray.500"
-                                                }
-                                            })
-                                        })
-                                    ]
-                                })
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx(react_.GridItem, {
-                                colSpan: 2,
-                                children: /*#__PURE__*/ jsx_runtime_.jsx(react_.Button, {
-                                    bg: constant/* DARK_COLOR */.cu,
-                                    color: "white",
-                                    size: "lg",
-                                    w: "full",
-                                    _hover: {
-                                        bg: "#916601"
-                                    },
-                                    children: "Enviar Mensagem"
-                                })
-                            })
-                        ]
-                    })
-                ]
-            })
-        });
-    };
-    const Social = ()=>{
-        return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(react_.VStack, {
-            w: "full",
-            h: "full",
-            p: 10,
-            spacing: 10,
-            alignItems: "flex-start",
-            children: [
-                /*#__PURE__*/ (0,jsx_runtime_.jsxs)(react_.VStack, {
-                    spacing: 3,
-                    alignItems: "flex-start",
-                    children: [
-                        /*#__PURE__*/ jsx_runtime_.jsx(react_.Heading, {
-                            color: constant/* DARK_COLOR */.cu,
-                            children: "Redes Sociais"
-                        }),
-                        /*#__PURE__*/ jsx_runtime_.jsx(react_.Text, {
-                            children: "Nos Acompanhe nas Redes Sociais e Fique por dentro das Novidades e Promo\xe7\xf5es!"
-                        })
-                    ]
-                }),
-                /*#__PURE__*/ jsx_runtime_.jsx(react_.SimpleGrid, {
-                    rowGap: 6,
-                    w: "full",
-                    children: /*#__PURE__*/ jsx_runtime_.jsx(react_.GridItem, {
-                        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)(react_.HStack, {
-                            w: "full",
-                            mt: {
-                                lg: 10,
-                                md: 10
-                            },
-                            spacing: 5,
-                            px: 5,
-                            justify: "center",
-                            alignItems: "center",
-                            children: [
-                                /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                    href: `https://facebook.com/${props1.empresa.facebook}`,
-                                    children: /*#__PURE__*/ jsx_runtime_.jsx(react_.IconButton, {
-                                        "aria-label": "facebook",
-                                        variant: "ghost",
-                                        size: "lg",
-                                        isRound: true,
-                                        _hover: {
-                                            bg: "#0D74FF"
-                                        },
-                                        icon: /*#__PURE__*/ jsx_runtime_.jsx(md_namespaceObject.MdFacebook, {
-                                            size: "28px"
-                                        })
-                                    })
-                                }),
-                                /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                    href: `https://instagram.com/${props1.empresa.instagram}`,
-                                    children: /*#__PURE__*/ jsx_runtime_.jsx(react_.IconButton, {
-                                        "aria-label": "instagram",
-                                        variant: "ghost",
-                                        size: "lg",
-                                        isRound: true,
-                                        _hover: {
-                                            bg: "#0D74FF"
-                                        },
-                                        icon: /*#__PURE__*/ jsx_runtime_.jsx(bs_namespaceObject.BsInstagram, {
-                                            size: "28px"
-                                        })
-                                    })
-                                }),
-                                /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                    href: `https://youtube.com/${props1.empresa.youtube}`,
-                                    children: /*#__PURE__*/ jsx_runtime_.jsx(react_.IconButton, {
-                                        "aria-label": "youtube",
-                                        variant: "ghost",
-                                        size: "lg",
-                                        isRound: true,
-                                        _hover: {
-                                            bg: "#0D74FF"
-                                        },
-                                        icon: /*#__PURE__*/ jsx_runtime_.jsx(bs_namespaceObject.BsYoutube, {
-                                            size: "28px"
-                                        })
-                                    })
-                                })
-                            ]
-                        })
-                    })
-                })
-            ]
-        });
-    };
-    const Pedidos = ()=>{
-        return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(react_.VStack, {
-            w: "full",
-            h: "full",
-            p: 10,
-            spacing: 6,
-            alignItems: "flex-start",
-            children: [
-                /*#__PURE__*/ jsx_runtime_.jsx(react_.VStack, {
-                    w: "full",
-                    alignItems: "center",
-                    children: /*#__PURE__*/ jsx_runtime_.jsx(Logo, {
-                        imagem: props1.empresa.url_imagem
-                    })
-                }),
-                /*#__PURE__*/ (0,jsx_runtime_.jsxs)(react_.VStack, {
-                    alignItems: "flex-start",
-                    w: "full",
-                    children: [
-                        /*#__PURE__*/ jsx_runtime_.jsx(react_.Text, {
-                            children: props1.empresa.endereco
-                        }),
-                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)(react_.Text, {
-                            children: [
-                                props1.empresa.bairro,
-                                ", ",
-                                props1.empresa.cidade,
-                                "/",
-                                props1.empresa.estado
-                            ]
-                        }),
-                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)(react_.Flex, {
-                            direction: "row",
-                            justify: "center",
-                            alignItems: "center",
-                            w: "full",
-                            mb: 4,
-                            children: [
-                                /*#__PURE__*/ jsx_runtime_.jsx(react_.IconButton, {
-                                    "aria-label": "youtube",
-                                    variant: "ghost",
-                                    size: "lg",
-                                    isRound: true,
-                                    color: constant/* DARK_COLOR */.cu,
-                                    _hover: {
-                                        bg: "#0D74FF"
-                                    },
-                                    icon: /*#__PURE__*/ jsx_runtime_.jsx(bs_namespaceObject.BsWhatsapp, {
-                                        size: "28px"
-                                    })
-                                }),
-                                /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                    href: `https://wa.me/55${props1.empresa.whatsapp.replace(/[^\d.]/g, "")}?text=Ol%C3%A1%2C%20voc%C3%AAs%20podem%20me%20ajudar%3F`,
-                                    children: /*#__PURE__*/ jsx_runtime_.jsx(react_.Text, {
-                                        fontFamily: "Mont-Heavy",
-                                        color: constant/* DARK_COLOR */.cu,
-                                        fontSize: 24,
-                                        children: props1.empresa.whatsapp
-                                    })
-                                })
-                            ]
-                        }),
-                        /*#__PURE__*/ jsx_runtime_.jsx(botao/* default */.Z, {
-                            paddingY: 6,
-                            mt: 4
-                        })
-                    ]
-                })
-            ]
-        });
-    };
-    return /*#__PURE__*/ jsx_runtime_.jsx(react_.Box, {
-        bg: "#fdc319",
-        id: "contato",
-        children: /*#__PURE__*/ jsx_runtime_.jsx(react_.Container, {
-            maxW: "container.xl",
-            p: 0,
-            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)(react_.Flex, {
-                h: {
-                    base: "auto",
-                    md: "fit-content"
-                },
-                py: [
-                    0,
-                    10,
-                    20
-                ],
-                direction: {
-                    base: "column-reverse",
-                    md: "row"
-                },
-                justify: "space-evenly",
-                children: [
-                    /*#__PURE__*/ jsx_runtime_.jsx(Details, {}),
-                    /*#__PURE__*/ jsx_runtime_.jsx(Social, {}),
-                    /*#__PURE__*/ jsx_runtime_.jsx(Pedidos, {})
-                ]
-            })
-        })
-    });
-};
-
-;// CONCATENATED MODULE: ./pages/index.js
-
-
-
-
-
-
-
-
-
-
-function Home(props) {
-    const { 0: slides , 1: setSlide  } = (0,external_react_.useState)(props.slides);
-    const { height , width  } = (0,useWindowDimensions/* default */.Z)();
-    (0,external_react_.useEffect)(()=>{
-        setSlide(props.slides);
-    }, [
-        props.slides
-    ]);
-    return /*#__PURE__*/ jsx_runtime_.jsx(react_.Flex, {
-        direction: "column",
-        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)(layout/* default */.Z, {
-            empresa: props.empresa,
-            children: [
-                /*#__PURE__*/ jsx_runtime_.jsx(Hero, {
-                    images: slides
-                }),
-                /*#__PURE__*/ jsx_runtime_.jsx(react_.Flex, {
-                    direction: "column",
-                    w: "full",
-                    px: [
-                        "10px",
-                        "10px",
-                        "10px",
-                        "20px"
-                    ],
-                    justifyContent: "space-between",
-                    children: /*#__PURE__*/ jsx_runtime_.jsx(Galeria, {
-                        width: width,
-                        produtos: props.produtos
-                    })
-                }),
-                /*#__PURE__*/ jsx_runtime_.jsx(mymap, {
-                    empresa: props.empresa
-                }),
-                /*#__PURE__*/ jsx_runtime_.jsx(FaleConosco, {
-                    empresa: props.empresa
-                })
-            ]
-        })
-    });
-};
-async function getServerSideProps() {
-    const p = await getDados(`produtos`);
-    const s = await getDados(`slides`);
-    const e = await getDados(`empresas/1`);
-    return {
-        props: {
-            produtos: p,
-            slides: s,
-            empresa: e
-        }
-    };
-}
 
 
 /***/ }),
 
-/***/ 4513:
+/***/ "@chakra-ui/icons":
+/*!***********************************!*\
+  !*** external "@chakra-ui/icons" ***!
+  \***********************************/
 /***/ ((module) => {
 
+"use strict";
 module.exports = require("@chakra-ui/icons");
 
 /***/ }),
 
-/***/ 8930:
+/***/ "@chakra-ui/react":
+/*!***********************************!*\
+  !*** external "@chakra-ui/react" ***!
+  \***********************************/
 /***/ ((module) => {
 
+"use strict";
 module.exports = require("@chakra-ui/react");
 
 /***/ }),
 
-/***/ 6689:
+/***/ "emailjs-com":
+/*!******************************!*\
+  !*** external "emailjs-com" ***!
+  \******************************/
 /***/ ((module) => {
 
+"use strict";
+module.exports = require("emailjs-com");
+
+/***/ }),
+
+/***/ "react":
+/*!************************!*\
+  !*** external "react" ***!
+  \************************/
+/***/ ((module) => {
+
+"use strict";
 module.exports = require("react");
 
 /***/ }),
 
-/***/ 6290:
+/***/ "react-icons/bs":
+/*!*********************************!*\
+  !*** external "react-icons/bs" ***!
+  \*********************************/
 /***/ ((module) => {
 
+"use strict";
+module.exports = require("react-icons/bs");
+
+/***/ }),
+
+/***/ "react-icons/fa":
+/*!*********************************!*\
+  !*** external "react-icons/fa" ***!
+  \*********************************/
+/***/ ((module) => {
+
+"use strict";
 module.exports = require("react-icons/fa");
 
 /***/ }),
 
-/***/ 2750:
+/***/ "react-icons/fi":
+/*!*********************************!*\
+  !*** external "react-icons/fi" ***!
+  \*********************************/
 /***/ ((module) => {
 
+"use strict";
 module.exports = require("react-icons/fi");
 
 /***/ }),
 
-/***/ 997:
+/***/ "react-icons/md":
+/*!*********************************!*\
+  !*** external "react-icons/md" ***!
+  \*********************************/
 /***/ ((module) => {
 
-module.exports = require("react/jsx-runtime");
+"use strict";
+module.exports = require("react-icons/md");
+
+/***/ }),
+
+/***/ "react-map-gl":
+/*!*******************************!*\
+  !*** external "react-map-gl" ***!
+  \*******************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("react-map-gl");
+
+/***/ }),
+
+/***/ "react-slick":
+/*!******************************!*\
+  !*** external "react-slick" ***!
+  \******************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("react-slick");
+
+/***/ }),
+
+/***/ "react/jsx-dev-runtime":
+/*!****************************************!*\
+  !*** external "react/jsx-dev-runtime" ***!
+  \****************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("react/jsx-dev-runtime");
+
+/***/ }),
+
+/***/ "sweetalert2":
+/*!******************************!*\
+  !*** external "sweetalert2" ***!
+  \******************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("sweetalert2");
 
 /***/ })
 
@@ -860,7 +336,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [235], () => (__webpack_exec__(16)));
+var __webpack_exports__ = (__webpack_exec__("./pages/index.js"));
 module.exports = __webpack_exports__;
 
 })();
