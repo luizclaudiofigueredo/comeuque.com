@@ -148,7 +148,13 @@ var external_sweetalert2_default = /*#__PURE__*/__webpack_require__.n(external_s
 function ProductAddToCart(props) {
     const nome = (0,external_react_.useState)(props.data.nome);
     const descricao = (0,external_react_.useState)(props.data.descricao);
-    const imagem = (0,external_react_.useState)("http://painel.kallario.com.br" + props.data.url_imagem);
+    const { 0: imagem , 1: setImagem  } = (0,external_react_.useState)();
+    (0,external_react_.useEffect)(()=>{
+        setTimeout(()=>setImagem("http://painel.kallario.com.br" + props.data.url_imagem)
+        , 1000);
+    }, [
+        imagem
+    ]);
     function handleShowClick() {
         external_sweetalert2_default().fire({
             title: nome,

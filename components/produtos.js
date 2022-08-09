@@ -13,7 +13,11 @@ import {
 
     const nome = useState(props.data.nome)
     const descricao = useState(props.data.descricao)
-    const imagem = useState(process.env.IMAGEM_URL + props.data.url_imagem)
+    const [imagem, setImagem] = useState()
+
+    useEffect(()=> {
+      setTimeout(() => setImagem(process.env.IMAGEM_URL + props.data.url_imagem), 1000)
+    },[imagem])
 
     function handleShowClick() {
         Swal.fire({
