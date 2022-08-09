@@ -25,10 +25,10 @@ export default class Galeria extends Component {
       </Flex>
       <div>
         <Slider {...settings}>
-          { data.map((d) => (
-            <Flex key={d.id}>
-              <ProductAddToCart data={d}/>
-            </Flex>
+          { data.map((d, index) => (
+            <div key={index}>
+              <ProductAddToCart data={d} />
+            </div>
           ))}
         </Slider>
       </div>

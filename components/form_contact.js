@@ -40,7 +40,7 @@ export const ContactUs = () => {
       <Heading color={DARK_COLOR}>Contato</Heading>
       <Text>Tem alguma dúvida? Algum problema? Quer apenas conversar? Esse aqui é o seu espaço.</Text>
     </VStack>    
-    <form ref={form} onSubmit={handleSubmit}>
+    <form ref={form} onSubmit={handleSubmit} className="w-full max-w-md">
         <FormControl>
             <FormLabel htmlFor='nome' color={DARK_COLOR}>Seu nome</FormLabel>
                 <InputGroup borderColor="gray.800">

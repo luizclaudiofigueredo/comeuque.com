@@ -5,12 +5,25 @@ import {
     useColorModeValue
   } from '@chakra-ui/react';
 
-import Botao from './botao';
-import Swal from 'sweetalert2'
+  import Botao from './botao';
+  import Swal from 'sweetalert2'
+  import { useEffect, useState } from 'react';
 
   export default function ProductAddToCart(props) {
 
-    function handleShowClick(nome, descricao, imagem) {
+    const nome = useState(props.data.nome)
+    const descricao = useState(props.data.descricao)
+    const [imagem, setImagem] = useState('')
+    const [ spinner, setSpinner ] = useState(true);
+
+    useEffect(() => {
+      setTimeout(() => {
+        setSpinner(false)
+        setImagem(process.env.IMAGEM_URL + props.data.url_imagem)
+      }, 1000)
+    }, []);
+
+    function handleShowClick() {
         Swal.fire({
             title: nome,
             text: descricao,
@@ -26,9 +39,9 @@ import Swal from 'sweetalert2'
           })
     }
 
-    return (
+    return ( !spinner && 
       <Flex px={[4,10,30,50,50]} w='full' alignItems="center" justifyContent="center">
-        <Box
+         <Box
           bg={useColorModeValue('#825321', 'gray.800')}
           maxW="650px"
           minW="300px"
@@ -36,15 +49,16 @@ import Swal from 'sweetalert2'
           rounded="lg"
           shadow="lg"
           position="relative">
-  
+
           <Image
-            src={process.env.IMAGEM_URL + props.data.url_imagem}
-            alt={`Picture of ${props.data.nome}`}
+            src={imagem}
+            alt={nome}
             roundedTop="lg"
-            onClick={()=>handleShowClick(props.data.nome, props.data.descricao, process.env.IMAGEM_URL + props.data.url_imagem)}
-          />
-  
+            onClick={()=>handleShowClick()}
+          /> 
+
           <Box p="6">
+          
             <Flex mt="1" justifyContent="center" alignContent="center">
               <Box
                 fontSize="2xl"
@@ -53,9 +67,9 @@ import Swal from 'sweetalert2'
                 mb={4}
                 color={'white'}
                 lineHeight="tight">
-                {props.data.nome}
+                {nome}
               </Box>
-            </Flex>
+            </Flex>       
   
             <Flex justifyContent="space-between" alignContent="center">
               <Botao />
