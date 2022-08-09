@@ -32,15 +32,16 @@ export const ContactUs = () => {
       }, (error) => {
           console.log(error.text);
       });
-  }
+  }  
 
   return (
-<VStack w="full" h="full" p={10} spacing={10} alignItems="flex-start">
+<VStack w="full" h="full" p={10} spacing={10} alignItems="flex-start" >
     <VStack spacing={3} alignItems="flex-start">
       <Heading color={DARK_COLOR}>Contato</Heading>
       <Text>Tem alguma dúvida? Algum problema? Quer apenas conversar? Esse aqui é o seu espaço.</Text>
     </VStack>    
-    <form ref={form} onSubmit={handleSubmit} className="w-full max-w-md">
+    <VStack spacing={3} justify="center" w='full'>
+        <form ref={form} onSubmit={handleSubmit} className="w-full max-w-md">
         <FormControl>
             <FormLabel htmlFor='nome' color={DARK_COLOR}>Seu nome</FormLabel>
                 <InputGroup borderColor="gray.800">
@@ -94,10 +95,11 @@ export const ContactUs = () => {
                       </InputGroup>
             </FormControl>
 
-        <Button type="submit" bg={DARK_COLOR} color={"white"} my={4} size="lg" w="full" _hover={{ bg: '#916601' }}>
-            Enviar Mensagem
-        </Button>
-    </form>
-</VStack>
+            <Button type="submit" bg={DARK_COLOR} color={"white"} my={4} size="lg" w="full" _hover={{ bg: '#916601' }}>
+                Enviar Mensagem
+            </Button>
+          </form>
+      </VStack>
+    </VStack>
   );
 };
