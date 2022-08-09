@@ -13,15 +13,7 @@ import {
 
     const nome = useState(props.data.nome)
     const descricao = useState(props.data.descricao)
-    const [imagem, setImagem] = useState('')
-    const [ spinner, setSpinner ] = useState(true);
-
-    useEffect(() => {
-      setTimeout(() => {
-        setSpinner(false)
-        setImagem(process.env.IMAGEM_URL + props.data.url_imagem)
-      }, 1000)
-    }, []);
+    const imagem = useState(process.env.IMAGEM_URL + props.data.url_imagem)
 
     function handleShowClick() {
         Swal.fire({
@@ -39,7 +31,7 @@ import {
           })
     }
 
-    return ( !spinner && 
+    return ( 
       <Flex px={[4,10,30,50,50]} w='full' alignItems="center" justifyContent="center">
          <Box
           bg={useColorModeValue('#825321', 'gray.800')}
