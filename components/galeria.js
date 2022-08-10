@@ -35,9 +35,8 @@ export default class Galeria extends Component {
         dots: true,
         infinite: true,
         slidesToShow: Math.floor(width/300),
-        slidesToScroll: 1,      
+        slidesToScroll: 1,       
         autoplaySpeed: 3000,
-        cssEase: "linear",
       };
 
     return (
