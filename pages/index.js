@@ -9,6 +9,7 @@ import MyMap from '../components/mymap'
 import FaleConosco from '../components/form_contato'
 import { useDispatch } from 'react-redux'
 import { setEmpresa } from '../redux/empresaSlice'
+import BlogList from '../components/blog'
 
 export default function Home(props) { 
 
@@ -31,6 +32,7 @@ export default function Home(props) {
         <Flex direction='column' w={'full'} px={['10px', '10px', '10px' , '20px']} justifyContent={'space-between'}>
         <Galeria width={width} produtos={props.produtos} />
         </Flex>
+        <BlogList blogs={props.blogs} />
         <MyMap empresa={props.empresa}/>
         <FaleConosco empresa={props.empresa} />        
       </Layout>
@@ -42,11 +44,13 @@ export async function getServerSideProps() {
     const p = await getDados(`produtos`)
     const s = await getDados(`slides`)
     const e = await getDados(`empresas/1`)
+    const b = await getDados(`blogs`)
     return {
         props: {
           produtos: p,
           slides: s,
-          empresa: e
+          empresa: e,
+          blogs: b,
         },
     }
 }

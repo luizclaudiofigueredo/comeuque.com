@@ -9,10 +9,11 @@ import Botao from './botao';
 import Swal from 'sweetalert2'
 import { useEffect, useState } from 'react';
 import { useSelector } from 'react-redux';
+import { selectDelivery } from '../redux/empresaSlice';
 
 export default function ProductAddToCart(props) {
 
-    const {delivery} = useSelector(state => state.empresa)
+    const {delivery} = useSelector(selectDelivery)
 
     const nome = useState(props.data.nome)
     const descricao = useState(props.data.descricao)
@@ -41,7 +42,7 @@ export default function ProductAddToCart(props) {
             }
           })
     }
-
+    
     return ( 
       <Flex px={[4,10,30,50,50]} w='full' alignItems="center" justifyContent="center">
          <Box

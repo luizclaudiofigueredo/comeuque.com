@@ -14,6 +14,6 @@ export const slice = createSlice({
 
 export const { setEmpresa } = slice.actions
 
-export const selectEmpresa = state => state.empresa
+export const selectDelivery = state => state.empresa
 
 export default slice.reducer

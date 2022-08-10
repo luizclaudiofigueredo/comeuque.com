@@ -6,10 +6,11 @@ import Modal from './modal';
 import { LIGHT_COLOR } from '../lib/constant';
 import Link from 'next/link';
 import { useSelector } from 'react-redux';
+import { selectDelivery } from '../redux/empresaSlice';
 
 function Botao(props) {
 
-  const {delivery} = useSelector(state => state.empresa)
+  const {delivery} = useSelector(selectDelivery)
 
   return (
     <Link href={delivery}>
