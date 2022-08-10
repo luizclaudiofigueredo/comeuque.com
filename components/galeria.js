@@ -1,7 +1,31 @@
+import { ArrowLeftIcon } from "@chakra-ui/icons";
 import { Flex, Heading, Text } from "@chakra-ui/react";
 import React, { Component } from "react";
 import Slider from "react-slick";
+import { DARK_COLOR } from "../lib/constant";
 import ProductAddToCart from "./produtos";
+
+function SampleNextArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{ ...style, display: "block", background: DARK_COLOR }}
+      onClick={onClick}
+    />
+  );
+}
+
+function SamplePrevArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{ ...style, display: "block", background: DARK_COLOR }}
+      onClick={onClick}
+    />
+  );
+}
 
 export default class Galeria extends Component {
   render() {    
@@ -10,10 +34,10 @@ export default class Galeria extends Component {
        var settings = {
         dots: true,
         infinite: true,
-        slidesToShow: Math.floor(width/300),
+        slidesToShow: Math.floor(width/320),
         slidesToScroll: 1,
-        //autoplay: true,
-        //speed: 2000,
+        nextArrow: <SampleNextArrow />,
+        prevArrow: <SamplePrevArrow />,        
         autoplaySpeed: 3000,
         cssEase: "linear",
       };
@@ -23,7 +47,7 @@ export default class Galeria extends Component {
       <Flex w={'full'} justify={'center'} align={'center'} alignItems={'center'} h={[20,20,20,40]}> 
         <Heading color={'#825221'}>Destaques</Heading>
       </Flex>
-      <div>
+      <div style={{ display: "block", margin: '20px' }}>
         <Slider {...settings}>
           { data.map((d, index) => (
             <div key={index}>
