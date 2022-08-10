@@ -34,7 +34,7 @@ export default class Galeria extends Component {
        var settings = {
         dots: true,
         infinite: true,
-        slidesToShow: Math.floor(width/320),
+        slidesToShow: Math.floor(width/300),
         slidesToScroll: 1,
         nextArrow: <SampleNextArrow />,
         prevArrow: <SamplePrevArrow />,        
@@ -47,7 +47,7 @@ export default class Galeria extends Component {
       <Flex w={'full'} justify={'center'} align={'center'} alignItems={'center'} h={[20,20,20,40]}> 
         <Heading color={'#825221'}>Destaques</Heading>
       </Flex>
-      <div style={{ display: "block", margin: '20px' }}>
+      <div style={{ margin: '20px' }}>
         <Slider {...settings}>
           { data.map((d, index) => (
             <div key={index}>

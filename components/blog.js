@@ -18,7 +18,6 @@ export default class BlogList extends Component {
        const data = this.props.blogs;
 
        const BlogTags = (props) => {
-        console.log(props.tags)
         return (
           <HStack spacing={2} marginTop={props.marginTop}>
             {props.tags.map((tag) => {
