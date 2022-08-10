@@ -7,6 +7,8 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { extendTheme } from "@chakra-ui/react";
 import Fonts from '../components/global'
+import store from '../redux/store'
+import { Provider } from 'react-redux'
 
 const theme = extendTheme({
   fonts: {
@@ -18,6 +20,7 @@ const theme = extendTheme({
 
 function MyApp({ Component, pageProps }) {
   return (
+    <Provider store={store}>
       <ChakraProvider theme={theme}>
         <Fonts />     
         <Head>
@@ -50,6 +53,7 @@ function MyApp({ Component, pageProps }) {
           <Component {...pageProps} />
         </AuthContextProvider>
       </ChakraProvider>
+    </Provider>
   )
 }
 

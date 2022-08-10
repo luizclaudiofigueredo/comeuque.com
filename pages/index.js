@@ -7,8 +7,14 @@ import useWindowDimensions from '../components/useWindowDimensions';
 import Hero from '../components/hero'
 import MyMap from '../components/mymap'
 import FaleConosco from '../components/form_contato'
+import { useDispatch } from 'react-redux'
+import { setEmpresa } from '../redux/empresaSlice'
 
 export default function Home(props) { 
+
+  const dispatch = useDispatch()
+
+  dispatch(setEmpresa(props.empresa.link_delivery))
 
   const [ slides, setSlide ] = useState(props.slides)
 

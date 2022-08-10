@@ -5,11 +5,14 @@ import {
     useColorModeValue
   } from '@chakra-ui/react';
 
-  import Botao from './botao';
-  import Swal from 'sweetalert2'
-  import { useEffect, useState } from 'react';
+import Botao from './botao';
+import Swal from 'sweetalert2'
+import { useEffect, useState } from 'react';
+import { useSelector } from 'react-redux';
 
-  export default function ProductAddToCart(props) {
+export default function ProductAddToCart(props) {
+
+    const {delivery} = useSelector(state => state.empresa)
 
     const nome = useState(props.data.nome)
     const descricao = useState(props.data.descricao)
@@ -19,19 +22,23 @@ import {
       setTimeout(() => setImagem(process.env.IMAGEM_URL + props.data.url_imagem), 1000)
     },[imagem])
 
-    function handleShowClick(nome_produto, descricao_produto) {
+    function handleShowClick(nome_produto, descricao_produto, delivery_link) {
         Swal.fire({
             title: nome_produto,
             html: descricao_produto,
             imageUrl: imagem,
-            imageWidth: 250,
-            imageHeight: 250,
+            imageWidth: 300,
+            imageHeight: 300,
             imageAlt: 'Custom image',
             color: '#ffffff',
             background: '#f58634',
             confirmButtonText: 'Fazer Pedido!',
             confirmButtonColor: '#f7180d', 
             showCloseButton: true,      
+          }).then((result) => {
+            if (result.value) {
+              window.location.href = delivery_link
+            }
           })
     }
 
@@ -50,7 +57,8 @@ import {
             src={imagem}
             alt={nome}
             roundedTop="lg"
-            onClick={()=>handleShowClick(props.data.nome, props.data.descricao)}
+            onClick={()=>handleShowClick(props.data.nome, props.data.descricao,delivery)}
+            cursor={'pointer'}
           /> 
 
           <Box p="6">
