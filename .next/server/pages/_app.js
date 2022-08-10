@@ -1,341 +1,218 @@
-"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
 (() => {
 var exports = {};
-exports.id = 888;
-exports.ids = [888];
+exports.id = "pages/_app";
+exports.ids = ["pages/_app"];
 exports.modules = {
 
-/***/ 0:
+/***/ "./components/global.js":
+/*!******************************!*\
+  !*** ./components/global.js ***!
+  \******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  "Z": () => (/* binding */ global)
-});
-
-// EXTERNAL MODULE: external "react/jsx-runtime"
-var jsx_runtime_ = __webpack_require__(997);
-;// CONCATENATED MODULE: external "@emotion/react"
-const react_namespaceObject = require("@emotion/react");
-;// CONCATENATED MODULE: ./components/global.js
-
-
-const Fonts = ()=>/*#__PURE__*/ jsx_runtime_.jsx(react_namespaceObject.Global, {
-        styles: `
-      /* latin */
-      @font-face {
-        font-family: 'Mont-Heavy';
-        font-style: normal;
-        font-weight: 700;
-        font-display: swap;
-        src: url('fonts/Mont-Heavy.woff') format('woff');
-        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-      }
-
-      @font-face {
-        font-family: 'Ubuntu';
-        font-style: normal;
-        font-weight: 700;
-        font-display: swap;
-        src: url('fonts/ubuntu-regular.woff') format('woff');
-        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-      }
-
-      `
-    })
-;
-/* harmony default export */ const global = (Fonts);
-
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _emotion_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @emotion/react */ \"@emotion/react\");\n/* harmony import */ var _emotion_react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_emotion_react__WEBPACK_IMPORTED_MODULE_1__);\n\n\nconst Fonts = ()=>/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_emotion_react__WEBPACK_IMPORTED_MODULE_1__.Global, {\n        styles: `\n      /* latin */\n      @font-face {\n        font-family: 'Mont-Heavy';\n        font-style: normal;\n        font-weight: 700;\n        font-display: swap;\n        src: url('fonts/Mont-Heavy.woff') format('woff');\n        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;\n      }\n\n      @font-face {\n        font-family: 'Ubuntu';\n        font-style: normal;\n        font-weight: 700;\n        font-display: swap;\n        src: url('fonts/ubuntu-regular.woff') format('woff');\n        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;\n      }\n\n      `\n    }, void 0, false, {\n        fileName: \"/var/www/html/comeuque.com/components/global.js\",\n        lineNumber: 4,\n        columnNumber: 3\n    }, undefined)\n;\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Fonts);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL2dsb2JhbC5qcy5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7OztBQUFBO0FBQXVDO0FBRXZDLE1BQU1DLEtBQUssR0FBRyxrQkFDWiw4REFBQ0Qsa0RBQU07UUFDTEUsTUFBTSxFQUFFLENBQUM7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O01Bb0JQLENBQUM7Ozs7O2lCQUNIO0FBQ0g7QUFFRCxpRUFBZUQsS0FBSyIsInNvdXJjZXMiOlsid2VicGFjazovL21hcmNhY2FvLy4vY29tcG9uZW50cy9nbG9iYWwuanM/MDc5NyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBHbG9iYWwgfSBmcm9tICdAZW1vdGlvbi9yZWFjdCdcblxuY29uc3QgRm9udHMgPSAoKSA9PiAoXG4gIDxHbG9iYWxcbiAgICBzdHlsZXM9e2BcbiAgICAgIC8qIGxhdGluICovXG4gICAgICBAZm9udC1mYWNlIHtcbiAgICAgICAgZm9udC1mYW1pbHk6ICdNb250LUhlYXZ5JztcbiAgICAgICAgZm9udC1zdHlsZTogbm9ybWFsO1xuICAgICAgICBmb250LXdlaWdodDogNzAwO1xuICAgICAgICBmb250LWRpc3BsYXk6IHN3YXA7XG4gICAgICAgIHNyYzogdXJsKCdmb250cy9Nb250LUhlYXZ5LndvZmYnKSBmb3JtYXQoJ3dvZmYnKTtcbiAgICAgICAgdW5pY29kZS1yYW5nZTogVSswMDAwLTAwRkYsIFUrMDEzMSwgVSswMTUyLTAxNTMsIFUrMDJCQi0wMkJDLCBVKzAyQzYsIFUrMDJEQSwgVSswMkRDLCBVKzIwMDAtMjA2RiwgVSsyMDc0LCBVKzIwQUMsIFUrMjEyMiwgVSsyMTkxLCBVKzIxOTMsIFUrMjIxMiwgVSsyMjE1LCBVK0ZFRkYsIFUrRkZGRDtcbiAgICAgIH1cblxuICAgICAgQGZvbnQtZmFjZSB7XG4gICAgICAgIGZvbnQtZmFtaWx5OiAnVWJ1bnR1JztcbiAgICAgICAgZm9udC1zdHlsZTogbm9ybWFsO1xuICAgICAgICBmb250LXdlaWdodDogNzAwO1xuICAgICAgICBmb250LWRpc3BsYXk6IHN3YXA7XG4gICAgICAgIHNyYzogdXJsKCdmb250cy91YnVudHUtcmVndWxhci53b2ZmJykgZm9ybWF0KCd3b2ZmJyk7XG4gICAgICAgIHVuaWNvZGUtcmFuZ2U6IFUrMDAwMC0wMEZGLCBVKzAxMzEsIFUrMDE1Mi0wMTUzLCBVKzAyQkItMDJCQywgVSswMkM2LCBVKzAyREEsIFUrMDJEQywgVSsyMDAwLTIwNkYsIFUrMjA3NCwgVSsyMEFDLCBVKzIxMjIsIFUrMjE5MSwgVSsyMTkzLCBVKzIyMTIsIFUrMjIxNSwgVStGRUZGLCBVK0ZGRkQ7XG4gICAgICB9XG5cbiAgICAgIGB9XG4gIC8+XG4pXG5cbmV4cG9ydCBkZWZhdWx0IEZvbnRzIl0sIm5hbWVzIjpbIkdsb2JhbCIsIkZvbnRzIiwic3R5bGVzIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./components/global.js\n");
 
 /***/ }),
 
-/***/ 8484:
+/***/ "./contexts/AuthContext.js":
+/*!*********************************!*\
+  !*** ./contexts/AuthContext.js ***!
+  \*********************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(8930);
-/* harmony import */ var _chakra_ui_react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(968);
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _contexts_AuthContext__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(9238);
-/* harmony import */ var _components_global__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(0);
-/* harmony import */ var _redux_store__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(5858);
-/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(6022);
-/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_redux__WEBPACK_IMPORTED_MODULE_6__);
-var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_contexts_AuthContext__WEBPACK_IMPORTED_MODULE_3__]);
-_contexts_AuthContext__WEBPACK_IMPORTED_MODULE_3__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
-
-
-
-
-
-
-
-
-
-
-
-
-const theme = (0,_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.extendTheme)({
-    fonts: {
-        heading: "Mont-Heavy",
-        subHeading: "Ubuntu",
-        body: "Ubuntu"
-    }
-});
-function MyApp({ Component , pageProps  }) {
-    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_redux__WEBPACK_IMPORTED_MODULE_6__.Provider, {
-        store: _redux_store__WEBPACK_IMPORTED_MODULE_5__/* ["default"] */ .Z,
-        children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.ChakraProvider, {
-            theme: theme,
-            children: [
-                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_global__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z, {}),
-                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)((next_head__WEBPACK_IMPORTED_MODULE_2___default()), {
-                    children: [
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("title", {
-                            children: "Com\xea Uque?"
-                        }),
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("link", {
-                            rel: "icon",
-                            type: "image/x-icon",
-                            href: "/icons/favicon.ico"
-                        }),
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("link", {
-                            rel: "canonical",
-                            href: "https://www.comeuque.com.br/"
-                        }),
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
-                            name: "title",
-                            content: "comeuque.com.br - Pizzaria e Restaurante"
-                        }),
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
-                            name: "description",
-                            content: "comeuque.com.br - Pizzaria e Restaurante"
-                        }),
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
-                            name: "robots",
-                            content: "index, follow"
-                        }),
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("link", {
-                            rel: "apple-touch-icon",
-                            sizes: "57x57",
-                            href: "/icons/apple-icon-57x57.png"
-                        }),
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("link", {
-                            rel: "apple-touch-icon",
-                            sizes: "60x60",
-                            href: "/icons/apple-icon-60x60.png"
-                        }),
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("link", {
-                            rel: "apple-touch-icon",
-                            sizes: "72x72",
-                            href: "/icons/apple-icon-72x72.png"
-                        }),
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("link", {
-                            rel: "apple-touch-icon",
-                            sizes: "76x76",
-                            href: "/icons/apple-icon-76x76.png"
-                        }),
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("link", {
-                            rel: "apple-touch-icon",
-                            sizes: "114x114",
-                            href: "/icons/apple-icon-114x114.png"
-                        }),
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("link", {
-                            rel: "apple-touch-icon",
-                            sizes: "120x120",
-                            href: "/icons/apple-icon-120x120.png"
-                        }),
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("link", {
-                            rel: "apple-touch-icon",
-                            sizes: "144x144",
-                            href: "/icons/apple-icon-144x144.png"
-                        }),
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("link", {
-                            rel: "apple-touch-icon",
-                            sizes: "152x152",
-                            href: "/icons/apple-icon-152x152.png"
-                        }),
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("link", {
-                            rel: "apple-touch-icon",
-                            sizes: "180x180",
-                            href: "/icons/apple-icon-180x180.png"
-                        }),
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("link", {
-                            rel: "icon",
-                            type: "image/png",
-                            sizes: "192x192",
-                            href: "/icons/android-icon-192x192.png"
-                        }),
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("link", {
-                            rel: "icon",
-                            type: "image/png",
-                            sizes: "32x32",
-                            href: "/icons/favicon-32x32.png"
-                        }),
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("link", {
-                            rel: "icon",
-                            type: "image/png",
-                            sizes: "96x96",
-                            href: "/icons/favicon-96x96.png"
-                        }),
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("link", {
-                            rel: "icon",
-                            type: "image/png",
-                            sizes: "16x16",
-                            href: "/icons/favicon-16x16.png"
-                        }),
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("link", {
-                            rel: "manifest",
-                            href: "/icons/manifest.json"
-                        }),
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
-                            name: "msapplication-TileColor",
-                            content: "#ffffff"
-                        }),
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
-                            name: "msapplication-TileImage",
-                            content: "/icons/ms-icon-144x144.png"
-                        }),
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
-                            name: "theme-color",
-                            content: "#ffffff"
-                        }),
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
-                            name: "viewport",
-                            content: "width=device-width, initial-scale=1"
-                        })
-                    ]
-                }),
-                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_contexts_AuthContext__WEBPACK_IMPORTED_MODULE_3__/* .AuthContextProvider */ .HD, {
-                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(Component, {
-                        ...pageProps
-                    })
-                })
-            ]
-        })
-    });
-}
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (MyApp);
-
-__webpack_async_result__();
-} catch(e) { __webpack_async_result__(e); } });
+"use strict";
+eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {\n__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"AuthContext\": () => (/* binding */ AuthContext),\n/* harmony export */   \"AuthContextProvider\": () => (/* binding */ AuthContextProvider),\n/* harmony export */   \"useAuth\": () => (/* binding */ useAuth)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var firebase_auth__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! firebase/auth */ \"firebase/auth\");\n/* harmony import */ var _lib_firebase__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../lib/firebase */ \"./lib/firebase.js\");\nvar __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([firebase_auth__WEBPACK_IMPORTED_MODULE_2__, _lib_firebase__WEBPACK_IMPORTED_MODULE_3__]);\n([firebase_auth__WEBPACK_IMPORTED_MODULE_2__, _lib_firebase__WEBPACK_IMPORTED_MODULE_3__] = __webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__);\n\n\n\n\nconst AuthContext = /*#__PURE__*/ (0,react__WEBPACK_IMPORTED_MODULE_1__.createContext)();\nconst AuthContextProvider = ({ children ,  })=>{\n    const { 0: user1 , 1: setUser  } = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(null);\n    const { 0: isLoggedIn , 1: setisLoggedIn  } = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)();\n    (0,react__WEBPACK_IMPORTED_MODULE_1__.useEffect)(()=>{\n        const unsubscribe = (0,firebase_auth__WEBPACK_IMPORTED_MODULE_2__.onAuthStateChanged)(_lib_firebase__WEBPACK_IMPORTED_MODULE_3__.auth, (user)=>{\n            if (user) {\n                setisLoggedIn(true);\n                setUser({\n                    uid: user.uid,\n                    email: user.email,\n                    displayName: user.displayName,\n                    photoURL: user.photoURL\n                });\n            } else {\n                setisLoggedIn(false);\n                setUser(null);\n            }\n        });\n        return ()=>unsubscribe()\n        ;\n    }, []);\n    const login = ()=>{\n        const provider = new firebase_auth__WEBPACK_IMPORTED_MODULE_2__.GoogleAuthProvider();\n        (0,firebase_auth__WEBPACK_IMPORTED_MODULE_2__.signInWithPopup)(_lib_firebase__WEBPACK_IMPORTED_MODULE_3__.auth, provider).then((re)=>{\n            setisLoggedIn(true);\n            setUser({\n                uid: re.user.uid,\n                email: re.user.email,\n                displayName: re.user.displayName,\n                photoURL: re.user.photoURL\n            });\n        }).catch((err)=>{\n            console.log(err);\n        });\n    };\n    const logout = async ()=>{\n        try {\n            await (0,firebase_auth__WEBPACK_IMPORTED_MODULE_2__.signOut)(_lib_firebase__WEBPACK_IMPORTED_MODULE_3__.auth);\n            setisLoggedIn(false);\n        } catch (err) {\n            console.log(err);\n        }\n    };\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(AuthContext.Provider, {\n        value: {\n            user: user1,\n            login,\n            logout,\n            isLoggedIn\n        },\n        children: children\n    }, void 0, false, {\n        fileName: \"/var/www/html/comeuque.com/contexts/AuthContext.js\",\n        lineNumber: 60,\n        columnNumber: 5\n    }, undefined);\n};\nconst useAuth = ()=>(0,react__WEBPACK_IMPORTED_MODULE_1__.useContext)(AuthContext)\n;\n\n\n__webpack_async_result__();\n} catch(e) { __webpack_async_result__(e); } });//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb250ZXh0cy9BdXRoQ29udGV4dC5qcy5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7QUFBQTtBQUFzRTtBQUMwQjtBQUMxRDtBQUV0QyxNQUFNUyxXQUFXLGlCQUFHVCxvREFBYSxFQUFFO0FBRTVCLE1BQU1VLG1CQUFtQixHQUFHLENBQUMsRUFDbENDLFFBQVEsS0FDVCxHQUFLO0lBRUosTUFBTSxFQVZSLEdBVVNDLEtBQUksR0FWYixHQVVlQyxPQUFPLE1BQUlWLCtDQUFRLENBQUMsSUFBSSxDQUFDO0lBQ3RDLE1BQU0sRUFYUixHQVdTVyxVQUFVLEdBWG5CLEdBV3FCQyxhQUFhLE1BQUlaLCtDQUFRLEVBQUU7SUFFOUNELGdEQUFTLENBQUMsSUFBTTtRQUNkLE1BQU1jLFdBQVcsR0FBR1YsaUVBQWtCLENBQUNFLCtDQUFJLEVBQUUsQ0FBQ0ksSUFBSSxHQUFLO1lBQ3JELElBQUlBLElBQUksRUFBRTtnQkFDUkcsYUFBYSxDQUFDLElBQUksQ0FBQztnQkFDbkJGLE9BQU8sQ0FBQztvQkFDTkksR0FBRyxFQUFFTCxJQUFJLENBQUNLLEdBQUc7b0JBQ2JDLEtBQUssRUFBRU4sSUFBSSxDQUFDTSxLQUFLO29CQUNqQkMsV0FBVyxFQUFFUCxJQUFJLENBQUNPLFdBQVc7b0JBQzdCQyxRQUFRLEVBQUVSLElBQUksQ0FBQ1EsUUFBUTtpQkFDeEIsQ0FBQzthQUNILE1BQU07Z0JBQ0xMLGFBQWEsQ0FBQyxLQUFLLENBQUM7Z0JBQ3BCRixPQUFPLENBQUMsSUFBSSxDQUFDO2FBQ2Q7U0FDRixDQUFDO1FBRUYsT0FBTyxJQUFNRyxXQUFXLEVBQUU7UUFBQTtLQUMzQixFQUFFLEVBQUUsQ0FBQztJQUVOLE1BQU1LLEtBQUssR0FBRyxJQUFNO1FBQ2xCLE1BQU1DLFFBQVEsR0FBRyxJQUFJbEIsNkRBQWtCLEVBQUU7UUFDekNDLDhEQUFlLENBQUNHLCtDQUFJLEVBQUVjLFFBQVEsQ0FBQyxDQUM5QkMsSUFBSSxDQUFDLENBQUNDLEVBQUUsR0FBSztZQUNaVCxhQUFhLENBQUMsSUFBSSxDQUFDO1lBQ25CRixPQUFPLENBQUM7Z0JBQ05JLEdBQUcsRUFBRU8sRUFBRSxDQUFDWixJQUFJLENBQUNLLEdBQUc7Z0JBQ2hCQyxLQUFLLEVBQUVNLEVBQUUsQ0FBQ1osSUFBSSxDQUFDTSxLQUFLO2dCQUNwQkMsV0FBVyxFQUFFSyxFQUFFLENBQUNaLElBQUksQ0FBQ08sV0FBVztnQkFDaENDLFFBQVEsRUFBRUksRUFBRSxDQUFDWixJQUFJLENBQUNRLFFBQVE7YUFDM0IsQ0FBQztTQUNILENBQUMsQ0FDREssS0FBSyxDQUFDLENBQUNDLEdBQUcsR0FBSztZQUNkQyxPQUFPLENBQUNDLEdBQUcsQ0FBQ0YsR0FBRyxDQUFDO1NBQ2pCLENBQUM7S0FDSDtJQUVELE1BQU1HLE1BQU0sR0FBRyxVQUFZO1FBQ3pCLElBQUk7WUFDRixNQUFNdEIsc0RBQU8sQ0FBQ0MsK0NBQUksQ0FBQztZQUNuQk8sYUFBYSxDQUFDLEtBQUssQ0FBQztTQUNyQixDQUFDLE9BQU1XLEdBQUcsRUFBRTtZQUNYQyxPQUFPLENBQUNDLEdBQUcsQ0FBQ0YsR0FBRyxDQUFDO1NBQ2pCO0tBQ0Y7SUFFRCxxQkFDRSw4REFBQ2pCLFdBQVcsQ0FBQ3FCLFFBQVE7UUFBQ0MsS0FBSyxFQUFFO1lBQUVuQixJQUFJLEVBQUpBLEtBQUk7WUFBR1MsS0FBSztZQUFFUSxNQUFNO1lBQUVmLFVBQVU7U0FBRTtrQkFDOURILFFBQVE7Ozs7O2lCQUNZLENBQ3hCO0NBQ0Y7QUFFRCxNQUFNcUIsT0FBTyxHQUFHLElBQU0vQixpREFBVSxDQUFDUSxXQUFXLENBQUM7QUFBQTtBQUVmIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vbWFyY2FjYW8vLi9jb250ZXh0cy9BdXRoQ29udGV4dC5qcz81OWNlIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IGNyZWF0ZUNvbnRleHQsIHVzZUNvbnRleHQsIHVzZUVmZmVjdCwgdXNlU3RhdGUgfSBmcm9tICdyZWFjdCdcclxuaW1wb3J0IHsgR29vZ2xlQXV0aFByb3ZpZGVyLCBzaWduSW5XaXRoUG9wdXAsIG9uQXV0aFN0YXRlQ2hhbmdlZCwgc2lnbk91dCB9IGZyb20gJ2ZpcmViYXNlL2F1dGgnXHJcbmltcG9ydCB7IGF1dGggfSBmcm9tICcuLi9saWIvZmlyZWJhc2UnXHJcblxyXG5jb25zdCBBdXRoQ29udGV4dCA9IGNyZWF0ZUNvbnRleHQoKVxyXG5cclxuZXhwb3J0IGNvbnN0IEF1dGhDb250ZXh0UHJvdmlkZXIgPSAoe1xyXG4gIGNoaWxkcmVuLFxyXG59KSA9PiB7XHJcblxyXG4gIGNvbnN0IFt1c2VyLCBzZXRVc2VyXSA9IHVzZVN0YXRlKG51bGwpXHJcbiAgY29uc3QgW2lzTG9nZ2VkSW4sIHNldGlzTG9nZ2VkSW5dID0gdXNlU3RhdGUoKVxyXG5cclxuICB1c2VFZmZlY3QoKCkgPT4ge1xyXG4gICAgY29uc3QgdW5zdWJzY3JpYmUgPSBvbkF1dGhTdGF0ZUNoYW5nZWQoYXV0aCwgKHVzZXIpID0+IHtcclxuICAgICAgaWYgKHVzZXIpIHtcclxuICAgICAgICBzZXRpc0xvZ2dlZEluKHRydWUpXHJcbiAgICAgICAgc2V0VXNlcih7XHJcbiAgICAgICAgICB1aWQ6IHVzZXIudWlkLFxyXG4gICAgICAgICAgZW1haWw6IHVzZXIuZW1haWwsXHJcbiAgICAgICAgICBkaXNwbGF5TmFtZTogdXNlci5kaXNwbGF5TmFtZSxcclxuICAgICAgICAgIHBob3RvVVJMOiB1c2VyLnBob3RvVVJMLFxyXG4gICAgICAgIH0pICAgICAgICBcclxuICAgICAgfSBlbHNlIHtcclxuICAgICAgICBzZXRpc0xvZ2dlZEluKGZhbHNlKVxyXG4gICAgICAgIHNldFVzZXIobnVsbClcclxuICAgICAgfVxyXG4gICAgfSlcclxuXHJcbiAgICByZXR1cm4gKCkgPT4gdW5zdWJzY3JpYmUoKVxyXG4gIH0sIFtdKVxyXG5cclxuICBjb25zdCBsb2dpbiA9ICgpID0+IHtcclxuICAgIGNvbnN0IHByb3ZpZGVyID0gbmV3IEdvb2dsZUF1dGhQcm92aWRlcigpXHJcbiAgICBzaWduSW5XaXRoUG9wdXAoYXV0aCwgcHJvdmlkZXIpXHJcbiAgICAudGhlbigocmUpID0+IHtcclxuICAgICAgc2V0aXNMb2dnZWRJbih0cnVlKVxyXG4gICAgICBzZXRVc2VyKHtcclxuICAgICAgICB1aWQ6IHJlLnVzZXIudWlkLFxyXG4gICAgICAgIGVtYWlsOiByZS51c2VyLmVtYWlsLFxyXG4gICAgICAgIGRpc3BsYXlOYW1lOiByZS51c2VyLmRpc3BsYXlOYW1lLFxyXG4gICAgICAgIHBob3RvVVJMOiByZS51c2VyLnBob3RvVVJMLFxyXG4gICAgICB9KVxyXG4gICAgfSlcclxuICAgIC5jYXRjaCgoZXJyKSA9PiB7XHJcbiAgICAgIGNvbnNvbGUubG9nKGVycilcclxuICAgIH0pXHJcbiAgfSBcclxuICBcclxuICBjb25zdCBsb2dvdXQgPSBhc3luYyAoKSA9PiB7XHJcbiAgICB0cnkge1xyXG4gICAgICBhd2FpdCBzaWduT3V0KGF1dGgpXHJcbiAgICAgIHNldGlzTG9nZ2VkSW4oZmFsc2UpXHJcbiAgICB9IGNhdGNoKGVycikge1xyXG4gICAgICBjb25zb2xlLmxvZyhlcnIpXHJcbiAgICB9XHJcbiAgfSAgIFxyXG5cclxuICByZXR1cm4gKFxyXG4gICAgPEF1dGhDb250ZXh0LlByb3ZpZGVyIHZhbHVlPXt7IHVzZXIgLCBsb2dpbiwgbG9nb3V0LCBpc0xvZ2dlZEluIH19PlxyXG4gICAgICB7Y2hpbGRyZW59XHJcbiAgICA8L0F1dGhDb250ZXh0LlByb3ZpZGVyPlxyXG4gIClcclxufVxyXG5cclxuY29uc3QgdXNlQXV0aCA9ICgpID0+IHVzZUNvbnRleHQoQXV0aENvbnRleHQpXHJcblxyXG5leHBvcnQgeyBBdXRoQ29udGV4dCwgdXNlQXV0aH0iXSwibmFtZXMiOlsiY3JlYXRlQ29udGV4dCIsInVzZUNvbnRleHQiLCJ1c2VFZmZlY3QiLCJ1c2VTdGF0ZSIsIkdvb2dsZUF1dGhQcm92aWRlciIsInNpZ25JbldpdGhQb3B1cCIsIm9uQXV0aFN0YXRlQ2hhbmdlZCIsInNpZ25PdXQiLCJhdXRoIiwiQXV0aENvbnRleHQiLCJBdXRoQ29udGV4dFByb3ZpZGVyIiwiY2hpbGRyZW4iLCJ1c2VyIiwic2V0VXNlciIsImlzTG9nZ2VkSW4iLCJzZXRpc0xvZ2dlZEluIiwidW5zdWJzY3JpYmUiLCJ1aWQiLCJlbWFpbCIsImRpc3BsYXlOYW1lIiwicGhvdG9VUkwiLCJsb2dpbiIsInByb3ZpZGVyIiwidGhlbiIsInJlIiwiY2F0Y2giLCJlcnIiLCJjb25zb2xlIiwibG9nIiwibG9nb3V0IiwiUHJvdmlkZXIiLCJ2YWx1ZSIsInVzZUF1dGgiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./contexts/AuthContext.js\n");
 
 /***/ }),
 
-/***/ 6868:
+/***/ "./lib/firebase.js":
+/*!*************************!*\
+  !*** ./lib/firebase.js ***!
+  \*************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {\n__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"auth\": () => (/* binding */ auth)\n/* harmony export */ });\n/* harmony import */ var firebase_app__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! firebase/app */ \"firebase/app\");\n/* harmony import */ var firebase_auth__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! firebase/auth */ \"firebase/auth\");\nvar __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([firebase_app__WEBPACK_IMPORTED_MODULE_0__, firebase_auth__WEBPACK_IMPORTED_MODULE_1__]);\n([firebase_app__WEBPACK_IMPORTED_MODULE_0__, firebase_auth__WEBPACK_IMPORTED_MODULE_1__] = __webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__);\n\n\nconst firebaseConfig = {\n    apiKey: \"AIzaSyAUP4gIDZZQBd5OGI4Gf4KMKYj1t1EBrcI\",\n    authDomain: \"projetovidamendes-469b7.firebaseapp.com\",\n    projectId: \"projetovidamendes-469b7\",\n    storageBucket: \"projetovidamendes-469b7.appspot.com\",\n    messagingSenderId: \"746849240192\",\n    appId: \"1:746849240192:web:7ef2c6d51e02cbb2885265\"\n};\nlet app = firebase_app__WEBPACK_IMPORTED_MODULE_0__.FirebaseApp;\nif (firebase_app__WEBPACK_IMPORTED_MODULE_0__.getApps.length) {\n    app = (0,firebase_app__WEBPACK_IMPORTED_MODULE_0__.getApp)();\n} else {\n    app = (0,firebase_app__WEBPACK_IMPORTED_MODULE_0__.initializeApp)(firebaseConfig);\n}\nconst auth = (0,firebase_auth__WEBPACK_IMPORTED_MODULE_1__.getAuth)(app);\n\n__webpack_async_result__();\n} catch(e) { __webpack_async_result__(e); } });//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9saWIvZmlyZWJhc2UuanMuanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7O0FBQTBFO0FBQ25DO0FBRXZDLE1BQU1LLGNBQWMsR0FBRztJQUNyQkMsTUFBTSxFQUFFLHlDQUF5QztJQUNqREMsVUFBVSxFQUFFLHlDQUF5QztJQUNyREMsU0FBUyxFQUFFLHlCQUF5QjtJQUNwQ0MsYUFBYSxFQUFFLHFDQUFxQztJQUNwREMsaUJBQWlCLEVBQUUsY0FBYztJQUNqQ0MsS0FBSyxFQUFFLDJDQUEyQztDQUNuRDtBQUVELElBQUlDLEdBQUcsR0FBR1QscURBQVc7QUFFckIsSUFBS0Qsd0RBQWMsRUFBRztJQUNwQlUsR0FBRyxHQUFHWCxvREFBTSxFQUFFO0NBQ2YsTUFBTTtJQUNMVyxHQUFHLEdBQUdaLDJEQUFhLENBQUNLLGNBQWMsQ0FBQztDQUNwQztBQUVNLE1BQU1TLElBQUksR0FBR1Ysc0RBQU8sQ0FBQ1EsR0FBRyxDQUFDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vbWFyY2FjYW8vLi9saWIvZmlyZWJhc2UuanM/YWI0NCJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBpbml0aWFsaXplQXBwLCBnZXRBcHAsIGdldEFwcHMsIEZpcmViYXNlQXBwIH0gZnJvbSAnZmlyZWJhc2UvYXBwJ1xyXG5pbXBvcnQgeyBnZXRBdXRoIH0gZnJvbSBcImZpcmViYXNlL2F1dGhcIlxyXG5cclxuY29uc3QgZmlyZWJhc2VDb25maWcgPSB7XHJcbiAgYXBpS2V5OiBcIkFJemFTeUFVUDRnSURaWlFCZDVPR0k0R2Y0S01LWWoxdDFFQnJjSVwiLFxyXG4gIGF1dGhEb21haW46IFwicHJvamV0b3ZpZGFtZW5kZXMtNDY5YjcuZmlyZWJhc2VhcHAuY29tXCIsXHJcbiAgcHJvamVjdElkOiBcInByb2pldG92aWRhbWVuZGVzLTQ2OWI3XCIsXHJcbiAgc3RvcmFnZUJ1Y2tldDogXCJwcm9qZXRvdmlkYW1lbmRlcy00NjliNy5hcHBzcG90LmNvbVwiLFxyXG4gIG1lc3NhZ2luZ1NlbmRlcklkOiBcIjc0Njg0OTI0MDE5MlwiLFxyXG4gIGFwcElkOiBcIjE6NzQ2ODQ5MjQwMTkyOndlYjo3ZWYyYzZkNTFlMDJjYmIyODg1MjY1XCIsXHJcbn1cclxuXHJcbmxldCBhcHAgPSBGaXJlYmFzZUFwcFxyXG5cclxuaWYgKCBnZXRBcHBzLmxlbmd0aCApIHtcclxuICBhcHAgPSBnZXRBcHAoKVxyXG59IGVsc2Uge1xyXG4gIGFwcCA9IGluaXRpYWxpemVBcHAoZmlyZWJhc2VDb25maWcpXHJcbn1cclxuXHJcbmV4cG9ydCBjb25zdCBhdXRoID0gZ2V0QXV0aChhcHApIl0sIm5hbWVzIjpbImluaXRpYWxpemVBcHAiLCJnZXRBcHAiLCJnZXRBcHBzIiwiRmlyZWJhc2VBcHAiLCJnZXRBdXRoIiwiZmlyZWJhc2VDb25maWciLCJhcGlLZXkiLCJhdXRoRG9tYWluIiwicHJvamVjdElkIiwic3RvcmFnZUJ1Y2tldCIsIm1lc3NhZ2luZ1NlbmRlcklkIiwiYXBwSWQiLCJhcHAiLCJsZW5ndGgiLCJhdXRoIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./lib/firebase.js\n");
+
+/***/ }),
+
+/***/ "./pages/_app.js":
+/*!***********************!*\
+  !*** ./pages/_app.js ***!
+  \***********************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {\n__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @chakra-ui/react */ \"@chakra-ui/react\");\n/* harmony import */ var _chakra_ui_react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _styles_global_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../styles/global.css */ \"./styles/global.css\");\n/* harmony import */ var _styles_global_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_global_css__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _styles_index_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../styles/index.css */ \"./styles/index.css\");\n/* harmony import */ var _styles_index_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_index_css__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! next/head */ \"next/head\");\n/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _contexts_AuthContext__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../contexts/AuthContext */ \"./contexts/AuthContext.js\");\n/* harmony import */ var slick_carousel_slick_slick_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! slick-carousel/slick/slick.css */ \"./node_modules/slick-carousel/slick/slick.css\");\n/* harmony import */ var slick_carousel_slick_slick_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(slick_carousel_slick_slick_css__WEBPACK_IMPORTED_MODULE_6__);\n/* harmony import */ var slick_carousel_slick_slick_theme_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! slick-carousel/slick/slick-theme.css */ \"./node_modules/slick-carousel/slick/slick-theme.css\");\n/* harmony import */ var slick_carousel_slick_slick_theme_css__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(slick_carousel_slick_slick_theme_css__WEBPACK_IMPORTED_MODULE_7__);\n/* harmony import */ var _components_global__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/global */ \"./components/global.js\");\n/* harmony import */ var _redux_store__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../redux/store */ \"./redux/store.js\");\n/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! react-redux */ \"react-redux\");\n/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(react_redux__WEBPACK_IMPORTED_MODULE_10__);\nvar __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_contexts_AuthContext__WEBPACK_IMPORTED_MODULE_5__]);\n_contexts_AuthContext__WEBPACK_IMPORTED_MODULE_5__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];\n\n\n\n\n\n\n\n\n\n\n\n\nconst theme = (0,_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.extendTheme)({\n    fonts: {\n        heading: \"Mont-Heavy\",\n        subHeading: \"Ubuntu\",\n        body: \"Ubuntu\"\n    }\n});\nfunction MyApp({ Component , pageProps  }) {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_redux__WEBPACK_IMPORTED_MODULE_10__.Provider, {\n        store: _redux_store__WEBPACK_IMPORTED_MODULE_9__[\"default\"],\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.ChakraProvider, {\n            theme: theme,\n            children: [\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_global__WEBPACK_IMPORTED_MODULE_8__[\"default\"], {}, void 0, false, {\n                    fileName: \"/var/www/html/comeuque.com/pages/_app.js\",\n                    lineNumber: 25,\n                    columnNumber: 9\n                }, this),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_head__WEBPACK_IMPORTED_MODULE_4___default()), {\n                    children: [\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"title\", {\n                            children: \"Com\\xea Uque?\"\n                        }, void 0, false, {\n                            fileName: \"/var/www/html/comeuque.com/pages/_app.js\",\n                            lineNumber: 27,\n                            columnNumber: 9\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                            rel: \"icon\",\n                            type: \"image/x-icon\",\n                            href: \"/icons/favicon.ico\"\n                        }, void 0, false, {\n                            fileName: \"/var/www/html/comeuque.com/pages/_app.js\",\n                            lineNumber: 28,\n                            columnNumber: 9\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                            rel: \"canonical\",\n                            href: \"https://www.comeuque.com.br/\"\n                        }, void 0, false, {\n                            fileName: \"/var/www/html/comeuque.com/pages/_app.js\",\n                            lineNumber: 29,\n                            columnNumber: 9\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                            name: \"title\",\n                            content: \"comeuque.com.br - Pizzaria e Restaurante\"\n                        }, void 0, false, {\n                            fileName: \"/var/www/html/comeuque.com/pages/_app.js\",\n                            lineNumber: 30,\n                            columnNumber: 9\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                            name: \"description\",\n                            content: \"comeuque.com.br - Pizzaria e Restaurante\"\n                        }, void 0, false, {\n                            fileName: \"/var/www/html/comeuque.com/pages/_app.js\",\n                            lineNumber: 31,\n                            columnNumber: 9\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                            name: \"robots\",\n                            content: \"index, follow\"\n                        }, void 0, false, {\n                            fileName: \"/var/www/html/comeuque.com/pages/_app.js\",\n                            lineNumber: 32,\n                            columnNumber: 9\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                            rel: \"apple-touch-icon\",\n                            sizes: \"57x57\",\n                            href: \"/icons/apple-icon-57x57.png\"\n                        }, void 0, false, {\n                            fileName: \"/var/www/html/comeuque.com/pages/_app.js\",\n                            lineNumber: 33,\n                            columnNumber: 9\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                            rel: \"apple-touch-icon\",\n                            sizes: \"60x60\",\n                            href: \"/icons/apple-icon-60x60.png\"\n                        }, void 0, false, {\n                            fileName: \"/var/www/html/comeuque.com/pages/_app.js\",\n                            lineNumber: 34,\n                            columnNumber: 9\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                            rel: \"apple-touch-icon\",\n                            sizes: \"72x72\",\n                            href: \"/icons/apple-icon-72x72.png\"\n                        }, void 0, false, {\n                            fileName: \"/var/www/html/comeuque.com/pages/_app.js\",\n                            lineNumber: 35,\n                            columnNumber: 9\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                            rel: \"apple-touch-icon\",\n                            sizes: \"76x76\",\n                            href: \"/icons/apple-icon-76x76.png\"\n                        }, void 0, false, {\n                            fileName: \"/var/www/html/comeuque.com/pages/_app.js\",\n                            lineNumber: 36,\n                            columnNumber: 9\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                            rel: \"apple-touch-icon\",\n                            sizes: \"114x114\",\n                            href: \"/icons/apple-icon-114x114.png\"\n                        }, void 0, false, {\n                            fileName: \"/var/www/html/comeuque.com/pages/_app.js\",\n                            lineNumber: 37,\n                            columnNumber: 9\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                            rel: \"apple-touch-icon\",\n                            sizes: \"120x120\",\n                            href: \"/icons/apple-icon-120x120.png\"\n                        }, void 0, false, {\n                            fileName: \"/var/www/html/comeuque.com/pages/_app.js\",\n                            lineNumber: 38,\n                            columnNumber: 9\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                            rel: \"apple-touch-icon\",\n                            sizes: \"144x144\",\n                            href: \"/icons/apple-icon-144x144.png\"\n                        }, void 0, false, {\n                            fileName: \"/var/www/html/comeuque.com/pages/_app.js\",\n                            lineNumber: 39,\n                            columnNumber: 9\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                            rel: \"apple-touch-icon\",\n                            sizes: \"152x152\",\n                            href: \"/icons/apple-icon-152x152.png\"\n                        }, void 0, false, {\n                            fileName: \"/var/www/html/comeuque.com/pages/_app.js\",\n                            lineNumber: 40,\n                            columnNumber: 9\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                            rel: \"apple-touch-icon\",\n                            sizes: \"180x180\",\n                            href: \"/icons/apple-icon-180x180.png\"\n                        }, void 0, false, {\n                            fileName: \"/var/www/html/comeuque.com/pages/_app.js\",\n                            lineNumber: 41,\n                            columnNumber: 9\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                            rel: \"icon\",\n                            type: \"image/png\",\n                            sizes: \"192x192\",\n                            href: \"/icons/android-icon-192x192.png\"\n                        }, void 0, false, {\n                            fileName: \"/var/www/html/comeuque.com/pages/_app.js\",\n                            lineNumber: 42,\n                            columnNumber: 9\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                            rel: \"icon\",\n                            type: \"image/png\",\n                            sizes: \"32x32\",\n                            href: \"/icons/favicon-32x32.png\"\n                        }, void 0, false, {\n                            fileName: \"/var/www/html/comeuque.com/pages/_app.js\",\n                            lineNumber: 43,\n                            columnNumber: 9\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                            rel: \"icon\",\n                            type: \"image/png\",\n                            sizes: \"96x96\",\n                            href: \"/icons/favicon-96x96.png\"\n                        }, void 0, false, {\n                            fileName: \"/var/www/html/comeuque.com/pages/_app.js\",\n                            lineNumber: 44,\n                            columnNumber: 9\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                            rel: \"icon\",\n                            type: \"image/png\",\n                            sizes: \"16x16\",\n                            href: \"/icons/favicon-16x16.png\"\n                        }, void 0, false, {\n                            fileName: \"/var/www/html/comeuque.com/pages/_app.js\",\n                            lineNumber: 45,\n                            columnNumber: 9\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                            rel: \"manifest\",\n                            href: \"/icons/manifest.json\"\n                        }, void 0, false, {\n                            fileName: \"/var/www/html/comeuque.com/pages/_app.js\",\n                            lineNumber: 46,\n                            columnNumber: 9\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                            name: \"msapplication-TileColor\",\n                            content: \"#ffffff\"\n                        }, void 0, false, {\n                            fileName: \"/var/www/html/comeuque.com/pages/_app.js\",\n                            lineNumber: 47,\n                            columnNumber: 9\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                            name: \"msapplication-TileImage\",\n                            content: \"/icons/ms-icon-144x144.png\"\n                        }, void 0, false, {\n                            fileName: \"/var/www/html/comeuque.com/pages/_app.js\",\n                            lineNumber: 48,\n                            columnNumber: 9\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                            name: \"theme-color\",\n                            content: \"#ffffff\"\n                        }, void 0, false, {\n                            fileName: \"/var/www/html/comeuque.com/pages/_app.js\",\n                            lineNumber: 49,\n                            columnNumber: 9\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                            name: \"viewport\",\n                            content: \"width=device-width, initial-scale=1\"\n                        }, void 0, false, {\n                            fileName: \"/var/www/html/comeuque.com/pages/_app.js\",\n                            lineNumber: 50,\n                            columnNumber: 9\n                        }, this)\n                    ]\n                }, void 0, true, {\n                    fileName: \"/var/www/html/comeuque.com/pages/_app.js\",\n                    lineNumber: 26,\n                    columnNumber: 9\n                }, this),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_contexts_AuthContext__WEBPACK_IMPORTED_MODULE_5__.AuthContextProvider, {\n                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(Component, {\n                        ...pageProps\n                    }, void 0, false, {\n                        fileName: \"/var/www/html/comeuque.com/pages/_app.js\",\n                        lineNumber: 53,\n                        columnNumber: 11\n                    }, this)\n                }, void 0, false, {\n                    fileName: \"/var/www/html/comeuque.com/pages/_app.js\",\n                    lineNumber: 52,\n                    columnNumber: 9\n                }, this)\n            ]\n        }, void 0, true, {\n            fileName: \"/var/www/html/comeuque.com/pages/_app.js\",\n            lineNumber: 24,\n            columnNumber: 7\n        }, this)\n    }, void 0, false, {\n        fileName: \"/var/www/html/comeuque.com/pages/_app.js\",\n        lineNumber: 23,\n        columnNumber: 5\n    }, this);\n}\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (MyApp);\n\n__webpack_async_result__();\n} catch(e) { __webpack_async_result__(e); } });//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,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LEdBQUdDLFNBQVM7Ozs7OzRCQUFJOzs7Ozt3QkFDUjs7Ozs7O2dCQUNQOzs7OztZQUNSLENBQ1o7Q0FDRjtBQUVELGlFQUFlRixLQUFLIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vbWFyY2FjYW8vLi9wYWdlcy9fYXBwLmpzP2UwYWQiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgQ2hha3JhUHJvdmlkZXIgfSBmcm9tICdAY2hha3JhLXVpL3JlYWN0J1xuaW1wb3J0ICcuLi9zdHlsZXMvZ2xvYmFsLmNzcydcbmltcG9ydCAnLi4vc3R5bGVzL2luZGV4LmNzcydcbmltcG9ydCBIZWFkIGZyb20gJ25leHQvaGVhZCdcbmltcG9ydCB7IEF1dGhDb250ZXh0UHJvdmlkZXIgfSBmcm9tICcuLi9jb250ZXh0cy9BdXRoQ29udGV4dCdcbmltcG9ydCBcInNsaWNrLWNhcm91c2VsL3NsaWNrL3NsaWNrLmNzc1wiOyBcbmltcG9ydCBcInNsaWNrLWNhcm91c2VsL3NsaWNrL3NsaWNrLXRoZW1lLmNzc1wiO1xuaW1wb3J0IHsgZXh0ZW5kVGhlbWUgfSBmcm9tIFwiQGNoYWtyYS11aS9yZWFjdFwiO1xuaW1wb3J0IEZvbnRzIGZyb20gJy4uL2NvbXBvbmVudHMvZ2xvYmFsJ1xuaW1wb3J0IHN0b3JlIGZyb20gJy4uL3JlZHV4L3N0b3JlJ1xuaW1wb3J0IHsgUHJvdmlkZXIgfSBmcm9tICdyZWFjdC1yZWR1eCdcblxuY29uc3QgdGhlbWUgPSBleHRlbmRUaGVtZSh7XG4gIGZvbnRzOiB7XG4gICAgaGVhZGluZzogXCJNb250LUhlYXZ5XCIsXG4gICAgc3ViSGVhZGluZzogXCJVYnVudHVcIixcbiAgICBib2R5OiBcIlVidW50dVwiLFxuICB9XG59KTtcblxuZnVuY3Rpb24gTXlBcHAoeyBDb21wb25lbnQsIHBhZ2VQcm9wcyB9KSB7XG4gIHJldHVybiAoXG4gICAgPFByb3ZpZGVyIHN0b3JlPXtzdG9yZX0+XG4gICAgICA8Q2hha3JhUHJvdmlkZXIgdGhlbWU9e3RoZW1lfT5cbiAgICAgICAgPEZvbnRzIC8+ICAgICBcbiAgICAgICAgPEhlYWQ+XG4gICAgICAgIDx0aXRsZT5Db23DqiBVcXVlPzwvdGl0bGU+XG4gICAgICAgIDxsaW5rIHJlbD1cImljb25cIiB0eXBlPVwiaW1hZ2UveC1pY29uXCIgaHJlZj1cIi9pY29ucy9mYXZpY29uLmljb1wiIC8+XG4gICAgICAgIDxsaW5rIHJlbD1cImNhbm9uaWNhbFwiIGhyZWY9XCJodHRwczovL3d3dy5jb21ldXF1ZS5jb20uYnIvXCIgLz5cbiAgICAgICAgPG1ldGEgbmFtZT1cInRpdGxlXCIgY29udGVudD1cImNvbWV1cXVlLmNvbS5iciAtIFBpenphcmlhIGUgUmVzdGF1cmFudGVcIiAvPlxuICAgICAgICA8bWV0YSBuYW1lPVwiZGVzY3JpcHRpb25cIiBjb250ZW50PVwiY29tZXVxdWUuY29tLmJyIC0gUGl6emFyaWEgZSBSZXN0YXVyYW50ZVwiIC8+XG4gICAgICAgIDxtZXRhIG5hbWU9XCJyb2JvdHNcIiBjb250ZW50PVwiaW5kZXgsIGZvbGxvd1wiIC8+XG4gICAgICAgIDxsaW5rIHJlbD1cImFwcGxlLXRvdWNoLWljb25cIiBzaXplcz1cIjU3eDU3XCIgaHJlZj1cIi9pY29ucy9hcHBsZS1pY29uLTU3eDU3LnBuZ1wiIC8+XG4gICAgICAgIDxsaW5rIHJlbD1cImFwcGxlLXRvdWNoLWljb25cIiBzaXplcz1cIjYweDYwXCIgaHJlZj1cIi9pY29ucy9hcHBsZS1pY29uLTYweDYwLnBuZ1wiIC8+XG4gICAgICAgIDxsaW5rIHJlbD1cImFwcGxlLXRvdWNoLWljb25cIiBzaXplcz1cIjcyeDcyXCIgaHJlZj1cIi9pY29ucy9hcHBsZS1pY29uLTcyeDcyLnBuZ1wiIC8+XG4gICAgICAgIDxsaW5rIHJlbD1cImFwcGxlLXRvdWNoLWljb25cIiBzaXplcz1cIjc2eDc2XCIgaHJlZj1cIi9pY29ucy9hcHBsZS1pY29uLTc2eDc2LnBuZ1wiIC8+XG4gICAgICAgIDxsaW5rIHJlbD1cImFwcGxlLXRvdWNoLWljb25cIiBzaXplcz1cIjExNHgxMTRcIiBocmVmPVwiL2ljb25zL2FwcGxlLWljb24tMTE0eDExNC5wbmdcIiAvPlxuICAgICAgICA8bGluayByZWw9XCJhcHBsZS10b3VjaC1pY29uXCIgc2l6ZXM9XCIxMjB4MTIwXCIgaHJlZj1cIi9pY29ucy9hcHBsZS1pY29uLTEyMHgxMjAucG5nXCIgLz5cbiAgICAgICAgPGxpbmsgcmVsPVwiYXBwbGUtdG91Y2gtaWNvblwiIHNpemVzPVwiMTQ0eDE0NFwiIGhyZWY9XCIvaWNvbnMvYXBwbGUtaWNvbi0xNDR4MTQ0LnBuZ1wiIC8+XG4gICAgICAgIDxsaW5rIHJlbD1cImFwcGxlLXRvdWNoLWljb25cIiBzaXplcz1cIjE1MngxNTJcIiBocmVmPVwiL2ljb25zL2FwcGxlLWljb24tMTUyeDE1Mi5wbmdcIiAvPlxuICAgICAgICA8bGluayByZWw9XCJhcHBsZS10b3VjaC1pY29uXCIgc2l6ZXM9XCIxODB4MTgwXCIgaHJlZj1cIi9pY29ucy9hcHBsZS1pY29uLTE4MHgxODAucG5nXCIgLz5cbiAgICAgICAgPGxpbmsgcmVsPVwiaWNvblwiIHR5cGU9XCJpbWFnZS9wbmdcIiBzaXplcz1cIjE5MngxOTJcIiAgaHJlZj1cIi9pY29ucy9hbmRyb2lkLWljb24tMTkyeDE5Mi5wbmdcIiAvPlxuICAgICAgICA8bGluayByZWw9XCJpY29uXCIgdHlwZT1cImltYWdlL3BuZ1wiIHNpemVzPVwiMzJ4MzJcIiBocmVmPVwiL2ljb25zL2Zhdmljb24tMzJ4MzIucG5nXCIgLz5cbiAgICAgICAgPGxpbmsgcmVsPVwiaWNvblwiIHR5cGU9XCJpbWFnZS9wbmdcIiBzaXplcz1cIjk2eDk2XCIgaHJlZj1cIi9pY29ucy9mYXZpY29uLTk2eDk2LnBuZ1wiIC8+XG4gICAgICAgIDxsaW5rIHJlbD1cImljb25cIiB0eXBlPVwiaW1hZ2UvcG5nXCIgc2l6ZXM9XCIxNngxNlwiIGhyZWY9XCIvaWNvbnMvZmF2aWNvbi0xNngxNi5wbmdcIiAvPlxuICAgICAgICA8bGluayByZWw9XCJtYW5pZmVzdFwiIGhyZWY9XCIvaWNvbnMvbWFuaWZlc3QuanNvblwiIC8+XG4gICAgICAgIDxtZXRhIG5hbWU9XCJtc2FwcGxpY2F0aW9uLVRpbGVDb2xvclwiIGNvbnRlbnQ9XCIjZmZmZmZmXCIgLz5cbiAgICAgICAgPG1ldGEgbmFtZT1cIm1zYXBwbGljYXRpb24tVGlsZUltYWdlXCIgY29udGVudD1cIi9pY29ucy9tcy1pY29uLTE0NHgxNDQucG5nXCIgLz5cbiAgICAgICAgPG1ldGEgbmFtZT1cInRoZW1lLWNvbG9yXCIgY29udGVudD1cIiNmZmZmZmZcIiAvPlxuICAgICAgICA8bWV0YSBuYW1lPVwidmlld3BvcnRcIiBjb250ZW50PVwid2lkdGg9ZGV2aWNlLXdpZHRoLCBpbml0aWFsLXNjYWxlPTFcIiAvPlxuICAgICAgICA8L0hlYWQ+XG4gICAgICAgIDxBdXRoQ29udGV4dFByb3ZpZGVyPlxuICAgICAgICAgIDxDb21wb25lbnQgey4uLnBhZ2VQcm9wc30gLz5cbiAgICAgICAgPC9BdXRoQ29udGV4dFByb3ZpZGVyPlxuICAgICAgPC9DaGFrcmFQcm92aWRlcj5cbiAgICA8L1Byb3ZpZGVyPlxuICApXG59XG5cbmV4cG9ydCBkZWZhdWx0IE15QXBwXG4iXSwibmFtZXMiOlsiQ2hha3JhUHJvdmlkZXIiLCJIZWFkIiwiQXV0aENvbnRleHRQcm92aWRlciIsImV4dGVuZFRoZW1lIiwiRm9udHMiLCJzdG9yZSIsIlByb3ZpZGVyIiwidGhlbWUiLCJmb250cyIsImhlYWRpbmciLCJzdWJIZWFkaW5nIiwiYm9keSIsIk15QXBwIiwiQ29tcG9uZW50IiwicGFnZVByb3BzIiwidGl0bGUiLCJsaW5rIiwicmVsIiwidHlwZSIsImhyZWYiLCJtZXRhIiwibmFtZSIsImNvbnRlbnQiLCJzaXplcyJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./pages/_app.js\n");
+
+/***/ }),
+
+/***/ "./redux/empresaSlice.js":
+/*!*******************************!*\
+  !*** ./redux/empresaSlice.js ***!
+  \*******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Bu": () => (/* binding */ selectDelivery),
-/* harmony export */   "ZP": () => (__WEBPACK_DEFAULT_EXPORT__),
-/* harmony export */   "_q": () => (/* binding */ setEmpresa)
-/* harmony export */ });
-/* unused harmony export slice */
-/* harmony import */ var _reduxjs_toolkit__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5184);
-/* harmony import */ var _reduxjs_toolkit__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_reduxjs_toolkit__WEBPACK_IMPORTED_MODULE_0__);
-
-const slice = (0,_reduxjs_toolkit__WEBPACK_IMPORTED_MODULE_0__.createSlice)({
-    name: "empresa",
-    initialState: {
-        delivery: ""
-    },
-    reducers: {
-        setEmpresa (state, { payload  }) {
-            return {
-                ...state,
-                delivery: payload
-            };
-        }
-    }
-});
-const { setEmpresa  } = slice.actions;
-const selectDelivery = (state)=>state.empresa
-;
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (slice.reducer);
-
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__),\n/* harmony export */   \"selectDelivery\": () => (/* binding */ selectDelivery),\n/* harmony export */   \"setEmpresa\": () => (/* binding */ setEmpresa),\n/* harmony export */   \"slice\": () => (/* binding */ slice)\n/* harmony export */ });\n/* harmony import */ var _reduxjs_toolkit__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @reduxjs/toolkit */ \"@reduxjs/toolkit\");\n/* harmony import */ var _reduxjs_toolkit__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_reduxjs_toolkit__WEBPACK_IMPORTED_MODULE_0__);\n\nconst slice = (0,_reduxjs_toolkit__WEBPACK_IMPORTED_MODULE_0__.createSlice)({\n    name: \"empresa\",\n    initialState: {\n        delivery: \"\"\n    },\n    reducers: {\n        setEmpresa (state, { payload  }) {\n            return {\n                ...state,\n                delivery: payload\n            };\n        }\n    }\n});\nconst { setEmpresa  } = slice.actions;\nconst selectDelivery = (state)=>state.empresa\n;\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (slice.reducer);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9yZWR1eC9lbXByZXNhU2xpY2UuanMuanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7O0FBQThDO0FBRXZDLE1BQU1DLEtBQUssR0FBR0QsNkRBQVcsQ0FBQztJQUM3QkUsSUFBSSxFQUFFLFNBQVM7SUFDZkMsWUFBWSxFQUFFO1FBQ1ZDLFFBQVEsRUFBRSxFQUFFO0tBQ2Y7SUFDREMsUUFBUSxFQUFFO1FBQ05DLFVBQVUsRUFBQ0MsS0FBSyxFQUFFLEVBQUNDLE9BQU8sR0FBQyxFQUFFO1lBQ3pCLE9BQU87Z0JBQUUsR0FBSUQsS0FBSztnQkFBRUgsUUFBUSxFQUFFSSxPQUFPO2FBQUU7U0FDMUM7S0FDSjtDQUNKLENBQUM7QUFFSyxNQUFNLEVBQUVGLFVBQVUsR0FBRSxHQUFHTCxLQUFLLENBQUNRLE9BQU87QUFFcEMsTUFBTUMsY0FBYyxHQUFHSCxDQUFBQSxLQUFLLEdBQUlBLEtBQUssQ0FBQ0ksT0FBTztBQUFBO0FBRXBELGlFQUFlVixLQUFLLENBQUNXLE9BQU8iLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9tYXJjYWNhby8uL3JlZHV4L2VtcHJlc2FTbGljZS5qcz9mODJiIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IGNyZWF0ZVNsaWNlIH0gZnJvbSBcIkByZWR1eGpzL3Rvb2xraXRcIlxuXG5leHBvcnQgY29uc3Qgc2xpY2UgPSBjcmVhdGVTbGljZSh7XG4gICAgbmFtZTogJ2VtcHJlc2EnLFxuICAgIGluaXRpYWxTdGF0ZToge1xuICAgICAgICBkZWxpdmVyeTogJycsXG4gICAgfSxcbiAgICByZWR1Y2Vyczoge1xuICAgICAgICBzZXRFbXByZXNhKHN0YXRlLCB7cGF5bG9hZH0pIHtcbiAgICAgICAgICAgIHJldHVybiB7IC4uLiBzdGF0ZSwgZGVsaXZlcnk6IHBheWxvYWQgfVxuICAgICAgICB9XG4gICAgfVxufSlcblxuZXhwb3J0IGNvbnN0IHsgc2V0RW1wcmVzYSB9ID0gc2xpY2UuYWN0aW9uc1xuXG5leHBvcnQgY29uc3Qgc2VsZWN0RGVsaXZlcnkgPSBzdGF0ZSA9PiBzdGF0ZS5lbXByZXNhXG5cbmV4cG9ydCBkZWZhdWx0IHNsaWNlLnJlZHVjZXIiXSwibmFtZXMiOlsiY3JlYXRlU2xpY2UiLCJzbGljZSIsIm5hbWUiLCJpbml0aWFsU3RhdGUiLCJkZWxpdmVyeSIsInJlZHVjZXJzIiwic2V0RW1wcmVzYSIsInN0YXRlIiwicGF5bG9hZCIsImFjdGlvbnMiLCJzZWxlY3REZWxpdmVyeSIsImVtcHJlc2EiLCJyZWR1Y2VyIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./redux/empresaSlice.js\n");
 
 /***/ }),
 
-/***/ 5858:
+/***/ "./redux/store.js":
+/*!************************!*\
+  !*** ./redux/store.js ***!
+  \************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _reduxjs_toolkit__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5184);
-/* harmony import */ var _reduxjs_toolkit__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_reduxjs_toolkit__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _empresaSlice__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6868);
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _reduxjs_toolkit__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @reduxjs/toolkit */ \"@reduxjs/toolkit\");\n/* harmony import */ var _reduxjs_toolkit__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_reduxjs_toolkit__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _empresaSlice__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./empresaSlice */ \"./redux/empresaSlice.js\");\n\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,_reduxjs_toolkit__WEBPACK_IMPORTED_MODULE_0__.configureStore)({\n    reducer: {\n        empresa: _empresaSlice__WEBPACK_IMPORTED_MODULE_1__[\"default\"]\n    }\n}));\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9yZWR1eC9zdG9yZS5qcy5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7O0FBQWtEO0FBRVA7QUFFM0MsaUVBQWVBLGdFQUFjLENBQUM7SUFDMUJFLE9BQU8sRUFBRTtRQUNMQyxPQUFPLEVBQUVGLHFEQUFjO0tBQzFCO0NBQ0osQ0FBQyIsInNvdXJjZXMiOlsid2VicGFjazovL21hcmNhY2FvLy4vcmVkdXgvc3RvcmUuanM/MzU0OSJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBjb25maWd1cmVTdG9yZSB9IGZyb20gXCJAcmVkdXhqcy90b29sa2l0XCI7XG5cbmltcG9ydCBlbXByZXNhUmVkdWNlciBmcm9tICcuL2VtcHJlc2FTbGljZSdcblxuZXhwb3J0IGRlZmF1bHQgY29uZmlndXJlU3RvcmUoe1xuICAgIHJlZHVjZXI6IHtcbiAgICAgICAgZW1wcmVzYTogZW1wcmVzYVJlZHVjZXIsXG4gICAgfVxufSkiXSwibmFtZXMiOlsiY29uZmlndXJlU3RvcmUiLCJlbXByZXNhUmVkdWNlciIsInJlZHVjZXIiLCJlbXByZXNhIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./redux/store.js\n");
 
+/***/ }),
 
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,_reduxjs_toolkit__WEBPACK_IMPORTED_MODULE_0__.configureStore)({
-    reducer: {
-        empresa: _empresaSlice__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .ZP
-    }
-}));
+/***/ "./node_modules/slick-carousel/slick/slick-theme.css":
+/*!***********************************************************!*\
+  !*** ./node_modules/slick-carousel/slick/slick-theme.css ***!
+  \***********************************************************/
+/***/ (() => {
+
 
 
 /***/ }),
 
-/***/ 8930:
+/***/ "./node_modules/slick-carousel/slick/slick.css":
+/*!*****************************************************!*\
+  !*** ./node_modules/slick-carousel/slick/slick.css ***!
+  \*****************************************************/
+/***/ (() => {
+
+
+
+/***/ }),
+
+/***/ "./styles/global.css":
+/*!***************************!*\
+  !*** ./styles/global.css ***!
+  \***************************/
+/***/ (() => {
+
+
+
+/***/ }),
+
+/***/ "./styles/index.css":
+/*!**************************!*\
+  !*** ./styles/index.css ***!
+  \**************************/
+/***/ (() => {
+
+
+
+/***/ }),
+
+/***/ "@chakra-ui/react":
+/*!***********************************!*\
+  !*** external "@chakra-ui/react" ***!
+  \***********************************/
 /***/ ((module) => {
 
+"use strict";
 module.exports = require("@chakra-ui/react");
 
 /***/ }),
 
-/***/ 5184:
+/***/ "@emotion/react":
+/*!*********************************!*\
+  !*** external "@emotion/react" ***!
+  \*********************************/
 /***/ ((module) => {
 
+"use strict";
+module.exports = require("@emotion/react");
+
+/***/ }),
+
+/***/ "@reduxjs/toolkit":
+/*!***********************************!*\
+  !*** external "@reduxjs/toolkit" ***!
+  \***********************************/
+/***/ ((module) => {
+
+"use strict";
 module.exports = require("@reduxjs/toolkit");
 
 /***/ }),
 
-/***/ 968:
+/***/ "next/head":
+/*!****************************!*\
+  !*** external "next/head" ***!
+  \****************************/
 /***/ ((module) => {
 
+"use strict";
 module.exports = require("next/head");
 
 /***/ }),
 
-/***/ 6689:
+/***/ "react":
+/*!************************!*\
+  !*** external "react" ***!
+  \************************/
 /***/ ((module) => {
 
+"use strict";
 module.exports = require("react");
 
 /***/ }),
 
-/***/ 6022:
+/***/ "react-redux":
+/*!******************************!*\
+  !*** external "react-redux" ***!
+  \******************************/
 /***/ ((module) => {
 
+"use strict";
 module.exports = require("react-redux");
 
 /***/ }),
 
-/***/ 997:
+/***/ "react/jsx-dev-runtime":
+/*!****************************************!*\
+  !*** external "react/jsx-dev-runtime" ***!
+  \****************************************/
 /***/ ((module) => {
 
-module.exports = require("react/jsx-runtime");
+"use strict";
+module.exports = require("react/jsx-dev-runtime");
 
 /***/ }),
 
-/***/ 3745:
+/***/ "firebase/app":
+/*!*******************************!*\
+  !*** external "firebase/app" ***!
+  \*******************************/
 /***/ ((module) => {
 
+"use strict";
 module.exports = import("firebase/app");;
 
 /***/ }),
 
-/***/ 401:
+/***/ "firebase/auth":
+/*!********************************!*\
+  !*** external "firebase/auth" ***!
+  \********************************/
 /***/ ((module) => {
 
+"use strict";
 module.exports = import("firebase/auth");;
 
 /***/ })
@@ -347,7 +224,7 @@ module.exports = import("firebase/auth");;
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [238], () => (__webpack_exec__(8484)));
+var __webpack_exports__ = (__webpack_exec__("./pages/_app.js"));
 module.exports = __webpack_exports__;
 
 })();
