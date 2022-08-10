@@ -7,8 +7,8 @@ import {
   Text,
   HStack,
   Tag,
-  useColorModeValue,
   Container,
+  Divider,
 } from '@chakra-ui/react';
 import HtmlParser from 'react-html-parser';
 import { DARK_COLOR, PRIMARY_COLOR } from '../lib/constant';
@@ -18,11 +18,12 @@ export default class BlogList extends Component {
        const data = this.props.blogs;
 
        const BlogTags = (props) => {
+        console.log(props.tags)
         return (
           <HStack spacing={2} marginTop={props.marginTop}>
             {props.tags.map((tag) => {
               return (
-                <Tag size={'md'} variant="solid" colorScheme="orange" key={tag}>
+                <Tag size={'sm'} borderRadius='full' variant="solid" colorScheme="orange" key={tag}>
                   {tag}
                 </Tag>
               );
@@ -83,7 +84,8 @@ export default class BlogList extends Component {
           borderRadius="lg"
           p={10}
           >
-          <BlogTags tags={['ComêUquê', 'História']} />
+          <BlogTags tags={d.tag.split(/[ ,]+/)} />
+          <Divider mt={2} />
           <Heading marginTop="1" color={DARK_COLOR}>
               {d.titulo}
           </Heading>
