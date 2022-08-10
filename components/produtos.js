@@ -19,13 +19,13 @@ import {
       setTimeout(() => setImagem(process.env.IMAGEM_URL + props.data.url_imagem), 1000)
     },[imagem])
 
-    function handleShowClick() {
+    function handleShowClick(nome_produto, descricao_produto) {
         Swal.fire({
-            title: nome,
-            text: descricao,
+            title: nome_produto,
+            html: descricao_produto,
             imageUrl: imagem,
-            imageWidth: 400,
-            imageHeight: 300,
+            imageWidth: 250,
+            imageHeight: 250,
             imageAlt: 'Custom image',
             color: '#ffffff',
             background: '#f58634',
@@ -50,7 +50,7 @@ import {
             src={imagem}
             alt={nome}
             roundedTop="lg"
-            onClick={()=>handleShowClick()}
+            onClick={()=>handleShowClick(props.data.nome, props.data.descricao)}
           /> 
 
           <Box p="6">

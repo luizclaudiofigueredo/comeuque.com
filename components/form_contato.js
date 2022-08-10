@@ -80,7 +80,7 @@ export default function FaleConosco(props) {
             </SimpleGrid>
           </VStack>
         );
-      };      
+      }; 
 
     const Pedidos = () => {
       return(
@@ -120,7 +120,6 @@ export default function FaleConosco(props) {
       h={{ base: 'auto', md: 'fit-content' }}
       py={[0, 10, 20]}
       direction={{ base: 'column-reverse', md: 'row' }}
-      justify={'space-evenly'}
       >
         <ContactUs />
         <Social />

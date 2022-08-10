@@ -1,117 +1,59 @@
-import React from 'react';
-import { Formik, Field, Form } from 'formik';
-import { Button, FormControl, FormLabel, Heading, Input, InputGroup, InputLeftElement, Text, Textarea, VStack } from '@chakra-ui/react';
-import { DARK_COLOR } from '../lib/constant';
-import { BsPerson } from 'react-icons/bs';
-import { MdOutlineEmail } from 'react-icons/md';
+import React from 'react'
+import { Flex, FormControl, FormLabel, Input, Center, Button, Textarea } from '@chakra-ui/react'
 import emailjs from 'emailjs-com'
 
-const Basic = () => {
+export default function Contato() {
+  
+  const [nome, setNome] = useState('')
+  const [email, setEmail] = useState('')
+  const [mensagem, setMensagem] = useState('')
+   
+  const handleSubmit = async(e) => {
+    e.preventDefault()
+    sendEmail(e)
+    Swal.fire('Mensagem enviada com sucesso!', '', 'success')
+    setNome('')
+    setEmail('')
+    setMensagem('')    
+  }  
+   
+  function sendEmail(e) {
+    e.preventDefault();    //This is important, i'm not sure why, but the email won't send without it
 
-return(
-<VStack w="full" h="full" p={10} spacing={10} alignItems="flex-start">
-    <VStack spacing={3} alignItems="flex-start">
-      <Heading color={DARK_COLOR}>Contato</Heading>
-      <Text>Tem alguma dúvida? Algum problema? Quer apenas conversar? Esse aqui é o seu espaço.</Text>
-    </VStack>
+    emailjs.sendForm('service_0zd9evo' , 'template_c7eep5s', e.target, 'YQsqvFEGr6f5vFWum')
+      .then((result) => {
+          console.log('Ok')
+      }, (error) => {
+          console.log(error.text);
+      });
+  } 
 
-    <Formik
-      initialValues={{
-        nome: '',
-        email: '',
-        mensagem: ''
-      }}
-      onSubmit={(values , {resetForm} ) => { 
-        emailjs.sendForm( 'service_0zd9evo' , 'template_c7eep5s', JSON.stringify(values))   
-        resetForm({ values: ''});
-     }}      
-      >     
-
-{({
-
-values,
-
-errors,
-
-touched,
-
-handleChange,
-
-handleBlur,
-
-handleSubmit,
-
-isSubmitting,
-
-/* and other goodies */
-
-}) => (
-
-      <Form>
-
-        <FormControl>
-            <FormLabel htmlFor='nome' color={DARK_COLOR}>Seu nome</FormLabel>
-                <InputGroup borderColor="gray.800">
-                <InputLeftElement pointerEvents="none">
-                    <BsPerson color="gray.800" />
-                </InputLeftElement>
-                <Input 
-                    name='nome' 
-                    type='string' 
-                    placeholder='Seu Nome' 
-                    bg='white' 
-                    color={'gray.800'} 
-                    _placeholder={{ color: 'gray.500' }} 
-                    onChange={handleChange}
-                    onBlur={handleBlur}          
-                    value={values.nome}                          
-                    />
-                </InputGroup>
+  return (
+    <>
+    <Flex direction='column'>
+        <form onSubmit={sendEmail} className="w-full max-w-sm">
+        <Center flexDirection={'column'}>
+            <FormControl w={'full'} mb={3}>
+                <FormLabel htmlFor='nome' color={'#FF7A08'}>Seu nome</FormLabel>
+                <Input name='nome' type='string' placeholder='Nome completo' color={'white'} />
             </FormControl>
+            <FormControl w={'full'} mb={3}>
+                <FormLabel htmlFor='email' color={'#FF7A08'}>Seu email</FormLabel>
+                <Input name='email' type='email' placeholder='Seu email válido' color={'white'} />
+            </FormControl>        
+            <FormControl w={'full'} mb={3}>
+                <FormLabel htmlFor='message' color={'#FF7A08'}>Mensagem / Pedido de Oração</FormLabel>
+                <Textarea name='mensagemm' placeholder='Escreva a sua mensagem' color={'white'} />
+            </FormControl>                                 
+        </Center>
 
-            <FormControl>
-                  <FormLabel htmlFor='email' color={DARK_COLOR}>Seu Email</FormLabel>
-                      <InputGroup borderColor="gray.800">
-                        <InputLeftElement pointerEvents="none">
-                          <MdOutlineEmail color="gray.800" />
-                        </InputLeftElement>
-                        <Input 
-                          name='email' 
-                          type='string' 
-                          placeholder='Seu Email' 
-                          bg='white' 
-                          color={'gray.800'} 
-                          _placeholder={{ color: 'gray.500' }}
-                          onChange={handleChange}
-                          onBlur={handleBlur}          
-                          value={values.email} 
-                        />
-                      </InputGroup>
-            </FormControl>
-
-            <FormControl>
-                <FormLabel htmlFor='observacoes' color={DARK_COLOR}>Mensagem</FormLabel>
-                      <InputGroup borderColor="gray.800">
-                        <Textarea 
-                          name='mensagem' 
-                          placeholder='Deixe sua mensagem' 
-                          bg='white' 
-                          color={'gray.800'} 
-                          _placeholder={{ color: 'gray.500' }} 
-                          onChange={handleChange}
-                          onBlur={handleBlur}          
-                          value={values.mensagem}                          
-                          />
-                      </InputGroup>
-            </FormControl>
-
-        <Button type="submit" disabled={isSubmitting} bg={DARK_COLOR} color={"white"} my={4} size="lg" w="full" _hover={{ bg: '#916601' }}>
-            Enviar Mensagem
-        </Button>
-      </Form>)}
-    </Formik>
-  </VStack>
-)
-};
-
-export default Basic
+        <Center flexDirection={'column'} mt={6}>
+            <Flex direction='row' w={'full'}>
+                <Button type="submit" bg='#FF7A08' color={'white'} w={'sm'} _hover={{bg: 'gray.300', color: 'black'}}>Enviar</Button>
+            </Flex>
+        </Center>
+        </form>
+    </Flex>
+    </>
+  )
+}
