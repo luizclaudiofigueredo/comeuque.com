@@ -1,34 +1,12 @@
 import { Flex, Heading, Text } from "@chakra-ui/react";
 import React, { Component } from "react";
 import Slider from "react-slick";
-import { DARK_COLOR } from "../lib/constant";
 import ProductAddToCart from "./produtos";
 import 'slick-carousel/slick/slick-theme.css';
+import { FaChevronLeft, FaChevronRight } from 'react-icons/fa'
 
 export default class Galeria extends Component {
   render() {
-
-    function SampleNextArrow(props) {
-      const { className, style, onClick } = props;
-      return (
-        <div
-          className={className}
-          style={{ ...style, display: "block", background: DARK_COLOR }}
-          onClick={onClick}
-        />
-      );
-    }
-    
-    function SamplePrevArrow(props) {
-      const { className, style, onClick } = props;
-      return (
-        <div
-          className={className}
-          style={{ ...style, display: "block", background: DARK_COLOR }}
-          onClick={onClick}
-        />
-      );
-    }
 
        const width = this.props.width;
        const data = this.props.produtos;
@@ -40,8 +18,12 @@ export default class Galeria extends Component {
         slidesToShow: 4,
         slidesToScroll: 1,
         initialSlide: 0,
-        nextArrow: <SampleNextArrow />,
-        prevArrow: <SamplePrevArrow />,        
+        prevArrow: (
+          <FaChevronLeft size={36} color={'#FF7A08'} />
+        ),
+        nextArrow: (
+          <FaChevronRight size={36} color={'#FF7A08'} />
+        ),        
         cssEase: "linear",
         responsive: [
           {
