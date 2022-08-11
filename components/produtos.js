@@ -48,7 +48,7 @@ export default function ProductAddToCart(props) {
          <Box
           bg={useColorModeValue('#825321', 'gray.800')}
           maxW="650px"
-          minW="300px"
+          minW="280px"
           borderWidth="1px"
           rounded="lg"
           shadow="lg"
