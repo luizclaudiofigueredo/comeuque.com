@@ -3,6 +3,7 @@ import React, { Component } from "react";
 import Slider from "react-slick";
 import { DARK_COLOR } from "../lib/constant";
 import ProductAddToCart from "./produtos";
+import 'slick-carousel/slick/slick-theme.css';
 
 export default class Galeria extends Component {
   render() {
@@ -31,13 +32,44 @@ export default class Galeria extends Component {
 
        const width = this.props.width;
        const data = this.props.produtos;
+
        var settings = {
-        dots: true,
+        arrows: true,
         infinite: true,
-        slidesToShow: Math.floor(width/300),
-        slidesToScroll: 1,       
-        autoplaySpeed: 3000,
-      };
+        speed: 500,
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        initialSlide: 0,
+        nextArrow: <SampleNextArrow />,
+        prevArrow: <SamplePrevArrow />,        
+        cssEase: "linear",
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 3,
+              infinite: true,
+              dots: true
+            }
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2,
+              initialSlide: 2
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
+      };       
 
     return (
       <section id="cardapio">
