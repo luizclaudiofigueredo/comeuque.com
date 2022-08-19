@@ -8,7 +8,7 @@ export const slice = createSlice({
     reducers: {
         setEmpresa(state, {payload}) {
             return { ... state, delivery: payload }
-        }
+        },        
     }
 })
 

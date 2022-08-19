@@ -101,7 +101,7 @@ export default function FaleConosco(props) {
                       _hover={{ bg: '#0D74FF' }}
                       icon={<BsWhatsapp size="28px" />}
                     />
-                  <a href={`https://wa.me/55${props.empresa.whatsapp.replace(/[^\d.]/g, '')}?text=Ol%C3%A1%2C%20voc%C3%AAs%20podem%20me%20ajudar%3F`}>
+                  <a href={`https://wa.me/55${props.empresa.whatsapp.replace(/[^\d.]/g, '')}?text=Ol%C3%A1%2C%20gostaria%20de%20ter%20uma%20experi%C3%AAncia%20deliciosa%20com%20voc%C3%AAs.%20Gostaria%20de%20fazer%20meu%20pedido.`}>
                     <Text fontFamily={'Mont-Heavy'} color={DARK_COLOR} fontSize={24}>
                       {props.empresa.whatsapp}
                     </Text>
