@@ -39,7 +39,7 @@ export const ContactUs = () => {
 
     <VStack spacing={3} alignItems="flex-start" w={'full'}>
       <Heading color={DARK_COLOR}>Contato</Heading>
-      <Text>Tem alguma dúvida? Algum problema? Quer apenas conversar? Esse aqui é o seu espaço.</Text>
+      <Text>Teve uma experiência com a gente? Fala pra gente como foi, dê sua sugestão e nos ajude a melhorar e fazer tudo ficar ainda mais gostoso.</Text>
     </VStack>    
     <VStack spacing={3} alignItems="center" w={'full'}>
         <form ref={form} onSubmit={handleSubmit}>
