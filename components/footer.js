@@ -52,7 +52,7 @@ import { PRIMARY_COLOR } from '../lib/constant';
           justify={{ base: 'center', md: 'space-between' }}
           align={{ base: 'center', md: 'center' }}>
           <Text>© 2022 - Todos os direitos reservados - Comê Uquê</Text>
-          <Text>Desenvolvido por: <a href="https://kallario.com.br">Luiz Cláudio Figueredo</a></Text>
+          <Text>Desenvolvido por: <a href="https://facebook.com/kallario">Luiz Cláudio Figueredo</a></Text>
         </Container>
       </Box>
     );

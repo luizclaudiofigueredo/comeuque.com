@@ -42,7 +42,7 @@ export default function NavBar() {
   const { isOpen, onOpen, onClose } = useDisclosure();
 
   return (
-      <Box bg={useColorModeValue(PRIMARY_COLOR, '#825221')} px={4} pos="fixed" w="100%" zIndex={2} boxShadow='md' >
+      <Box bg={useColorModeValue(PRIMARY_COLOR, '#825221')} px={4} pos="fixed" w="100%" zIndex={99} boxShadow='md' >
         <Flex h={24} alignItems={'center'} justifyContent={'space-between'}>
           <IconButton
             size={'md'}
